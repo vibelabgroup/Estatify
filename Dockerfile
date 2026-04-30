@@ -1,12 +1,16 @@
 # Stage 1: Build the application
-FROM node:22-alpine as builder
+FROM node:20-alpine as builder
 
 WORKDIR /app
 
-# Copy package files and install dependencies
-# We use npm install instead of ci in case package-lock is out of sync or missing
+# Install build dependencies for native modules
+RUN apk add --no-cache python3 make g++
+
+# Copy package files
 COPY package*.json ./
-RUN npm install
+
+# Use npm ci for reliable production builds
+RUN npm ci --only=production=false --no-audit --no-fund
 
 # Copy the rest of the application files
 COPY . .
