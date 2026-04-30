@@ -37,25 +37,25 @@ export function CTABanner() {
         >
           <div className="flex flex-col items-center">
             <div className="flex items-baseline gap-1 text-5xl sm:text-6xl font-bold text-white mb-3 tracking-tight">
-              15<span className="text-2xl sm:text-3xl text-blue-500 font-bold">min</span>
+              15<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.min')}</span>
             </div>
             <div className="text-sm text-slate-300 font-medium">{t('ctaBanner.stats.demo')}</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="flex items-baseline gap-1 text-5xl sm:text-6xl font-bold text-white mb-3 tracking-tight">
-              100<span className="text-2xl sm:text-3xl text-blue-500 font-bold">%</span>
+              100<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.percent')}</span>
             </div>
             <div className="text-sm text-slate-300 font-medium">{t('ctaBanner.stats.tailored')}</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="flex items-baseline gap-1 text-5xl sm:text-6xl font-bold text-white mb-3 tracking-tight">
-              0<span className="text-2xl sm:text-3xl text-blue-500 font-bold">cost</span>
+              0<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.cost')}</span>
             </div>
             <div className="text-sm text-slate-300 font-medium">{t('ctaBanner.stats.commitment')}</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="flex items-baseline gap-1 text-5xl sm:text-6xl font-bold text-white mb-3 tracking-tight">
-              1<span className="text-2xl sm:text-3xl text-blue-500 font-bold">day</span>
+              1<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.day')}</span>
             </div>
             <div className="text-sm text-slate-300 font-medium">{t('ctaBanner.stats.onboarding')}</div>
           </div>

@@ -339,6 +339,12 @@
       "tailored": "Adaptado a tus necesidades",
       "commitment": "Sin compromiso requerido",
       "onboarding": "Para estar totalmente integrado"
+    },
+    "units": {
+      "min": "min",
+      "percent": "%",
+      "cost": "coste",
+      "day": "día"
     }
   },
   "aiDemo": {
