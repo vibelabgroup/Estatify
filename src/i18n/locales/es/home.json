@@ -364,36 +364,40 @@
     }
   },
   "landingComparison": {
-    "title": "Deja de Perder Compradores por Mal Diseño",
-    "subtitle": "Un listado típico de portal se mezcla. Nuestras páginas de aterrizaje generadas por IA destacan, cargan instantáneamente y están diseñadas para capturar leads.",
+    "title": "Antes vs Después",
+    "subtitle": "Ve la diferencia entre un listado genérico de portal de propiedades y una página de aterrizaje de alta conversión de Estatify.",
     "before": {
-      "title": "Listado de Portal Estándar",
-      "subtitle": "Aburrido, estrecho e ignora las mejores prácticas de conversión."
+      "title": "Portal de Propiedades",
+      "subtitle": "Diseño genérico basado en plantillas"
     },
     "after": {
       "title": "Página de Aterrizaje Estatify",
-      "subtitle": "Hermosa, rápida y diseñada para captura máxima de leads.",
+      "subtitle": "Diseño personalizado y optimizado para conversión",
       "badge": "Selección Exclusiva",
       "propertyTitle": "Villa de Lujo Moderna",
       "location": "Marbella, Costa del Sol",
       "stats": {
-        "beds": "Dormitorios",
+        "beds": "Dorm",
         "baths": "Baños",
         "area": "m²"
       },
       "form": {
-        "description": "Habla directamente con un experto local. Sin centros de llamadas, solo consejos reales.",
-        "agentName": "Sarah Jenkins",
-        "agentTitle": "Agente Local",
+        "description": "Habla directamente con un experto local que conoce esta propiedad por dentro y por fuera.",
+        "agentName": "Agente Local",
+        "agentTitle": "Agente de Listado",
         "name": "Tu Nombre",
         "email": "Dirección de Email",
         "phone": "Número de Teléfono"
       }
     },
     "mockup": {
-      "beds": "3 Dormitorios",
+      "beds": "3 Dorm",
       "baths": "2 Baños",
       "submitButton": "Enviar Formulario de Consulta"
+    },
+    "alt": {
+      "luxuryProperty": "Propiedad de Lujo",
+      "agent": "Agente"
     }
   },
   "blog": {

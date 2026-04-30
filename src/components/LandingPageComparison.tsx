@@ -122,7 +122,7 @@ export function LandingPageComparison() {
                <div className="relative h-64 shrink-0 shadow-inner">
                   <img 
                     src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800" 
-                    alt="Luxury Property" 
+                    alt={t('landingComparison.alt.luxuryProperty')} 
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent" />
@@ -177,7 +177,7 @@ export function LandingPageComparison() {
                      
                      <div className="flex items-center gap-3 mb-4">
                         <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 bg-slate-100 border-2 border-white shadow-sm">
-                          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&backgroundColor=e2e8f0" alt="Agent" className="w-full h-full" />
+                          <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&backgroundColor=e2e8f0" alt={t('landingComparison.alt.agent')} className="w-full h-full" />
                         </div>
                         <div className="flex flex-col">
                            <span className="text-xs font-bold text-slate-800 leading-tight mb-0.5">{t('landingComparison.after.form.agentName')}</span>

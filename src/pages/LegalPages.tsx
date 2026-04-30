@@ -25,7 +25,7 @@ export function TermsPage() {
   const { t } = useTranslation('legal-full');
   
   return (
-    <LegalPage title={t('terms.title')} lastUpdated="April 24, 2026">
+    <LegalPage title={t('terms.title')} lastUpdated={t('lastUpdated')}>
       <p>{t('terms.introduction')}</p>
       
       <h2>{t('terms.acceptance')}</h2>
@@ -57,7 +57,7 @@ export function PrivacyPage() {
   const { t } = useTranslation('legal-full');
   
   return (
-    <LegalPage title={t('privacy.title')} lastUpdated="April 24, 2026">
+    <LegalPage title={t('privacy.title')} lastUpdated={t('lastUpdated')}>
       <p>{t('privacy.introduction')}</p>
       
       <h2>{t('privacy.informationCollection')}</h2>
@@ -82,7 +82,7 @@ export function CookiePage() {
   const { t } = useTranslation('legal-full');
   
   return (
-    <LegalPage title={t('cookies.title')} lastUpdated="April 24, 2026">
+    <LegalPage title={t('cookies.title')} lastUpdated={t('lastUpdated')}>
       <p>{t('cookies.introduction')}</p>
       
       <h2>{t('cookies.whatAreCookies')}</h2>

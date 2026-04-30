@@ -364,15 +364,15 @@
     }
   },
   "landingComparison": {
-    "title": "Stop Losing Buyers to Bad Design",
-    "subtitle": "A typical portal listing blends in. Our AI-generated landing pages stand out, load instantly, and are engineered to capture leads.",
+    "title": "Before vs After",
+    "subtitle": "See the difference between a generic property portal listing and a high-converting Estatify landing page.",
     "before": {
-      "title": "Standard Portal Listing",
-      "subtitle": "Boring, cramped, and ignores conversion best practices."
+      "title": "Property Portal",
+      "subtitle": "Generic, template-based design"
     },
     "after": {
       "title": "Estatify Landing Page",
-      "subtitle": "Beautiful, fast, and engineered for maximum lead capture.",
+      "subtitle": "Custom, conversion-optimized design",
       "badge": "Exclusive Selection",
       "propertyTitle": "Modern Luxury Villa",
       "location": "Marbella, Costa Del Sol",
@@ -382,9 +382,9 @@
         "area": "m²"
       },
       "form": {
-        "description": "Speak directly with a local expert. No call centers, just real advice.",
-        "agentName": "Sarah Jenkins",
-        "agentTitle": "Local Agent",
+        "description": "Speak directly with a local expert who knows this property inside and out.",
+        "agentName": "Local Agent",
+        "agentTitle": "Listing Agent",
         "name": "Your Name",
         "email": "Email Address",
         "phone": "Phone Number"
@@ -394,6 +394,10 @@
       "beds": "3 Beds",
       "baths": "2 Baths",
       "submitButton": "Submit Inquiry Form"
+    },
+    "alt": {
+      "luxuryProperty": "Luxury Property",
+      "agent": "Agent"
     }
   },
   "blog": {
