@@ -38,7 +38,7 @@ export function Navbar() {
             <button 
               onClick={toggleLanguage} 
               className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 transition-colors cursor-pointer"
-              title={i18n.language === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés'}
+              title={i18n.language === 'en' ? t('footer.language.switchToSpanish') : t('footer.language.switchToEnglish')}
             >
               <span className="text-sm font-bold text-slate-600">{i18n.language === 'en' ? 'EN' : 'ES'}</span>
             </button>
@@ -68,11 +68,11 @@ export function Navbar() {
             <button 
               onClick={toggleLanguage} 
               className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 transition-colors"
-              title={i18n.language === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés'}
+              title={i18n.language === 'en' ? t('footer.language.switchToSpanish') : t('footer.language.switchToEnglish')}
             >
               <span className="text-sm font-bold text-slate-600">{i18n.language === 'en' ? 'EN' : 'ES'}</span>
             </button>
-            <span className="text-sm text-slate-500">{i18n.language === 'en' ? 'English' : 'Español'}</span>
+            <span className="text-sm text-slate-500">{t(`footer.language.${i18n.language}`)}</span>
           </div>
           <button onClick={() => { setIsOpen(false); openModal(); }} className="block w-full px-3 py-2 mt-2 text-center text-base font-semibold text-white bg-slate-900 rounded-full shadow-lg shadow-slate-200">{t('nav.bookCall')}</button>
         </motion.div>

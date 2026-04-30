@@ -29,6 +29,12 @@
     "contact": "Contacto",
     "lastUpdated": "Última actualización: ",
     "breadcrumb": "Migas de pan",
+    "language": {
+      "en": "Inglés",
+      "es": "Español",
+      "switchToSpanish": "Cambiar a español",
+      "switchToEnglish": "Cambiar a inglés"
+    },
     "description": "La plataforma todo en uno ayudando a agencias inmobiliarias en Costa del Sol a convertir más visitantes del sitio web en negocios cerrados a través de IA, análisis y automatización inteligente.",
     "aiDescriptions": "Descripciones de Propiedades con IA",
     "smartLanding": "Páginas de Aterrizaje Inteligentes",
