@@ -11,7 +11,23 @@
     "subtitle": "Estatify puts your listings, leads, and marketing in one place. AI-powered automation that works 24/7 so you can focus on closing deals.",
     "cta": "Start for Free",
     "conversionRate": "3x More Leads",
-    "conversionSubtext": "Average conversion increase"
+    "conversionSubtext": "Average conversion increase",
+    "dashboardTitle": "AGENCY DASHBOARD",
+    "notifications": {
+      "villaTitle": "Villa in Marbella, Málaga",
+      "statusActive": "Status: Active",
+      "syncedWithResales": "Synced with Resales-Online",
+      "aiDescriptionGenerated": "AI Description Generated",
+      "aiDescriptionText": "\"Exclusive beachfront retreat with panoramic Mediterranean views and private infinity pool...\"",
+      "newLeadCaptured": "New Lead Captured",
+      "hotBadge": "Hot",
+      "newLeadDescription": "Chatbot answered: \"Let me book a follow-up call with one of our agents for you.\"",
+      "smartMatchingAlert": "Smart Matching Alert",
+      "highIntentBadge": "High Intent",
+      "smartMatchingDescription": "John viewed 7 × 3-bed properties in Marbella (<€500k). Sent 3 relevant matches.",
+      "translationComplete": "Translation Complete",
+      "translationDescription": "Listing \"Modern Apartment in Mijas\" translated to German, Swedish, and French."
+    }
   },
   "problem": {
     "title": "The old way of selling real estate is broken.",

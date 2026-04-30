@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const NOTIFICATIONS = [
+const getNotifications = (t: any) => [
   {
     id: 1,
     theme: 'light',
     iconBg: 'bg-white border-slate-100',
     icon: '🏠',
-    title: 'Villa in Marbella, Málaga',
+    title: t('hero.notifications.villaTitle'),
     badges: [
-      { text: 'Status: Active', className: 'text-emerald-600 bg-emerald-50' },
-      { text: 'Synced with Resales-Online', className: 'text-blue-600 bg-blue-50' }
+      { text: t('hero.notifications.statusActive'), className: 'text-emerald-600 bg-emerald-50' },
+      { text: t('hero.notifications.syncedWithResales'), className: 'text-blue-600 bg-blue-50' }
     ]
   },
   {
@@ -21,36 +21,36 @@ const NOTIFICATIONS = [
     theme: 'dark',
     iconBg: 'bg-blue-500/50',
     icon: '✨',
-    title: 'AI Description Generated',
-    description: '"Exclusive beachfront retreat with panoramic Mediterranean views and private infinity pool..."'
+    title: t('hero.notifications.aiDescriptionGenerated'),
+    description: t('hero.notifications.aiDescriptionText')
   },
   {
     id: 3,
     theme: 'light',
     iconBg: 'bg-emerald-50 border-emerald-100',
     icon: '💬',
-    title: 'New Lead Captured',
-    badge: { text: 'Hot', className: 'text-emerald-700 bg-emerald-100' },
-    description: 'Chatbot answered: "Let me book a follow-up call with one of our agents for you."'
+    title: t('hero.notifications.newLeadCaptured'),
+    badge: { text: t('hero.notifications.hotBadge'), className: 'text-emerald-700 bg-emerald-100' },
+    description: t('hero.notifications.newLeadDescription')
   },
   {
     id: 4,
     theme: 'light',
     iconBg: 'bg-amber-50 border-amber-100',
     icon: '📊',
-    title: 'Smart Matching Alert',
+    title: t('hero.notifications.smartMatchingAlert'),
     badges: [
-      { text: 'High Intent', className: 'text-amber-700 bg-amber-100' }
+      { text: t('hero.notifications.highIntentBadge'), className: 'text-amber-700 bg-amber-100' }
     ],
-    description: 'John viewed 7 × 3-bed properties in Marbella (<€500k). Sent 3 relevant matches.'
+    description: t('hero.notifications.smartMatchingDescription')
   },
   {
     id: 5,
     theme: 'light',
     iconBg: 'bg-indigo-50 border-indigo-100',
     icon: '🌍',
-    title: 'Translation Complete',
-    description: 'Listing "Modern Apartment in Mijas" translated to German, Swedish, and French.'
+    title: t('hero.notifications.translationComplete'),
+    description: t('hero.notifications.translationDescription')
   }
 ];
 
@@ -58,12 +58,14 @@ export function Hero() {
   const { t } = useTranslation('home');
   const [activeNotification, setActiveNotification] = useState(0);
 
+  const NOTIFICATIONS = getNotifications(t);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveNotification((prev) => (prev + 1) % NOTIFICATIONS.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [t]);
 
   const visibleIndices = [
     activeNotification,
@@ -139,7 +141,7 @@ export function Hero() {
                 <div className="w-2.5 h-2.5 rounded-full bg-slate-200"></div>
                 <div className="w-2.5 h-2.5 rounded-full bg-slate-200"></div>
               </div>
-              <div className="text-xs font-bold text-slate-400 tracking-wider">AGENCY DASHBOARD</div>
+              <div className="text-xs font-bold text-slate-400 tracking-wider">{t('hero.dashboardTitle')}</div>
             </div>
             
             <div className="space-y-4 sm:space-y-6 relative min-h-[300px]">

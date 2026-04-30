@@ -11,7 +11,23 @@
     "subtitle": "Estatify pone tus listados, leads y marketing en un solo lugar. Automatización con IA que funciona 24/7 para que puedas concentrarte en cerrar negocios.",
     "cta": "Comenzar Gratis",
     "conversionRate": "3x Más Leads",
-    "conversionSubtext": "Aumento promedio de conversión"
+    "conversionSubtext": "Aumento promedio de conversión",
+    "dashboardTitle": "PANEL DE AGENCIA",
+    "notifications": {
+      "villaTitle": "Villa en Marbella, Málaga",
+      "statusActive": "Estado: Activo",
+      "syncedWithResales": "Sincronizado con Resales-Online",
+      "aiDescriptionGenerated": "Descripción IA Generada",
+      "aiDescriptionText": "\"Retiro exclusivo frente a la playa con vistas panorámicas al Mediterráneo y piscina infinita privada...\"",
+      "newLeadCaptured": "Nuevo Cliente Capturado",
+      "hotBadge": "Caliente",
+      "newLeadDescription": "Chatbot respondió: \"Permíteme reservar una llamada de seguimiento con uno de nuestros agentes para ti.\"",
+      "smartMatchingAlert": "Alerta de Coincidencia Inteligente",
+      "highIntentBadge": "Alta Intención",
+      "smartMatchingDescription": "John vio 7 propiedades de 3 habitaciones en Marbella (<€500k). Enviadas 3 coincidencias relevantes.",
+      "translationComplete": "Traducción Completa",
+      "translationDescription": "Listado \"Apartamento Moderno en Mijas\" traducido a alemán, sueco y francés."
+    }
   },
   "problem": {
     "title": "La forma antigua de vender bienes raíces está rota.",
