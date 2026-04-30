@@ -55,10 +55,48 @@
     "titleHighlight": "Nada que no.",
     "subtitle": "Una plataforma perfectamente integrada diseñada específicamente para convertir tu agencia inmobiliaria en una máquina bien engrasada.",
     "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
-    "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más negocios y escalar sus operaciones sin esfuerzo.",
+    "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más tratos y escalar sus operaciones sin esfuerzo.",
     "ctaPrimary": "Reserva tu Demo",
-    "ctaSecondary": "Agendar Llamada",
-    "ctaDisclaimer": "Demo personalizada • Guía experta • Listo para crecer"
+    "ctaSecondary": "Programa una Llamada",
+    "ctaDisclaimer": "Demo personalizada • Guía experta • Listo para crecer",
+    "bento": {
+      "allProperties": {
+        "title": "Todas tus Propiedades",
+        "description": "Sincroniza todo tu portafolio de propiedades con un clic. Desde Resales Online hasta tu sitio web, todo se mantiene perfectamente sincronizado."
+      },
+      "leadProtection": {
+        "title": "Protección de Leads",
+        "description": "Enmascara números de referencia y captura leads directamente. Los compradores no pueden evitarte para contactar a los vendedores directamente."
+      },
+      "neverLoseLead": {
+        "title": "Nunca Pierdas un Lead",
+        "description": "Seguimientos automáticos, seguimiento de comportamiento y notificaciones inteligentes aseguran que ninguna oportunidad se escape."
+      },
+      "smartAssistant": {
+        "title": "Asistente Inteligente IA",
+        "description": "Genera descripciones de propiedades atractivas, traduce listados y crea materiales de marketing en segundos."
+      },
+      "resalesApi": {
+        "title": "API de Resales Online",
+        "description": "Integración profunda con Resales Online para sincronización de datos fluida y actualizaciones en tiempo real."
+      },
+      "highConvertingPages": {
+        "title": "Páginas de Alta Conversión",
+        "description": "Páginas de aterrizaje generadas por IA diseñadas para captura máxima de leads. Hasta 300% más tasas de conversión que los portales."
+      },
+      "socialMediaSync": {
+        "title": "Sincronización de Redes Sociales",
+        "description": "Publica automáticamente tus listados en redes sociales con descripciones y hashtags optimizados."
+      },
+      "dataDrivenClosing": {
+        "title": "Cierre Basado en Datos",
+        "description": "Las analíticas te dicen exactamente qué leads están calientes y cuándo llamar. Cierra tratos más rápido con inteligencia procesable."
+      },
+      "dominateSearch": {
+        "title": "Domina los Rankings de Búsqueda",
+        "description": "Contenido optimizado para SEO y datos estructurados ayudan a tus propiedades a clasificar más alto en los resultados de búsqueda."
+      }
+    }
   },
   "designCta": {
     "title": "¿Listo para transformar tus listados?",
@@ -357,5 +395,10 @@
       "baths": "2 Baños",
       "submitButton": "Enviar Formulario de Consulta"
     }
+  },
+  "blog": {
+    "title": "Lo Último del Blog",
+    "subtitle": "Información y estrategias para agencias inmobiliarias españolas.",
+    "viewAll": "Ver todos los artículos"
   }
 }

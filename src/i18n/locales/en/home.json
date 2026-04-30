@@ -58,7 +58,45 @@
     "ctaSubtitle": "Join thousands of successful agencies using Estatify to dominate their markets, close more deals, and scale their operations effortlessly.",
     "ctaPrimary": "Book Your Demo",
     "ctaSecondary": "Schedule a Call",
-    "ctaDisclaimer": "Personalized demo • Expert guidance • Ready to grow"
+    "ctaDisclaimer": "Personalized demo • Expert guidance • Ready to grow",
+    "bento": {
+      "allProperties": {
+        "title": "All Your Properties",
+        "description": "Sync your entire property portfolio with one click. From Resales Online to your website, everything stays perfectly synchronized."
+      },
+      "leadProtection": {
+        "title": "Lead Protection",
+        "description": "Mask reference numbers and capture leads directly. Buyers can't bypass you to contact sellers directly."
+      },
+      "neverLoseLead": {
+        "title": "Never Lose a Lead",
+        "description": "Automatic follow-ups, behavioral tracking, and smart notifications ensure no opportunity slips through the cracks."
+      },
+      "smartAssistant": {
+        "title": "AI Smart Assistant",
+        "description": "Generate compelling property descriptions, translate listings, and create marketing materials in seconds."
+      },
+      "resalesApi": {
+        "title": "Resales Online API",
+        "description": "Deep integration with Resales Online for seamless data sync and real-time updates."
+      },
+      "highConvertingPages": {
+        "title": "High-Converting Pages",
+        "description": "AI-generated landing pages designed for maximum lead capture. Up to 300% higher conversion rates than portals."
+      },
+      "socialMediaSync": {
+        "title": "Social Media Sync",
+        "description": "Automatically post your listings to social media with optimized descriptions and hashtags."
+      },
+      "dataDrivenClosing": {
+        "title": "Data-Driven Closing",
+        "description": "Analytics tell you exactly which leads are hot and when to call. Close deals faster with actionable intelligence."
+      },
+      "dominateSearch": {
+        "title": "Dominate Search Rankings",
+        "description": "SEO-optimized content and structured data help your properties rank higher in search results."
+      }
+    }
   },
   "designCta": {
     "title": "Ready to Transform Your Listings?",
@@ -357,5 +395,10 @@
       "baths": "2 Baths",
       "submitButton": "Submit Inquiry Form"
     }
+  },
+  "blog": {
+    "title": "Latest from the Blog",
+    "subtitle": "Insights and strategies for Spanish real estate agencies.",
+    "viewAll": "View all articles"
   }
 }

@@ -2,8 +2,10 @@ import { motion } from 'motion/react';
 import {ArrowRight, Clock, User} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
+import { useTranslation } from 'react-i18next';
 
 export function LatestPosts() {
+  const { t } = useTranslation('home');
   const latestPosts = blogPosts.slice(0, 3);
 
   return (
@@ -13,17 +15,17 @@ export function LatestPosts() {
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-12">
           <div className="max-w-2xl">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
-              Latest from the Blog
+              {t('blog.title')}
             </h2>
             <p className="text-lg text-slate-500 font-light">
-              Insights and strategies for Spanish real estate agencies.
+              {t('blog.subtitle')}
             </p>
           </div>
           <Link 
             to="/blog" 
             className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors shrink-0"
           >
-            View all articles
+            {t('blog.viewAll')}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
