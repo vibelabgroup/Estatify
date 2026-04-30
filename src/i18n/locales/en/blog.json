@@ -4,8 +4,11 @@
     "title": "Interested in Properties?",
     "subtitle": "Join our VIP list to get exclusive access to off-market properties and early listings on the Costa del Sol.",
     "name": "Full Name",
+    "namePlaceholder": "John Doe",
     "email": "Email Address",
+    "emailPlaceholder": "john@example.com",
     "phone": "Phone (Optional)",
+    "phonePlaceholder": "+34 600 000 000",
     "submit": "Get VIP Access",
     "privacy": "We respect your privacy. No spam."
   },

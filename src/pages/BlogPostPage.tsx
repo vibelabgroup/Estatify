@@ -81,15 +81,15 @@ export function BlogPostPage() {
               <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                 <div className="space-y-1.5">
                   <label htmlFor="name" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.name')}</label>
-                  <input type="text" id="name" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="John Doe" />
+                  <input type="text" id="name" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('vip.namePlaceholder')} />
                 </div>
                 <div className="space-y-1.5">
                   <label htmlFor="email" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.email')}</label>
-                  <input type="email" id="email" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="john@example.com" />
+                  <input type="email" id="email" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('vip.emailPlaceholder')} />
                 </div>
                 <div className="space-y-1.5">
                   <label htmlFor="phone" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.phone')}</label>
-                  <input type="tel" id="phone" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="+34 600 000 000" />
+                  <input type="tel" id="phone" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('vip.phonePlaceholder')} />
                 </div>
                 <button type="submit" className="w-full py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/25 mt-2">
                   {t('vip.submit')}

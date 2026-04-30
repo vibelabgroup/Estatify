@@ -4,8 +4,11 @@
     "title": "¿Interesado en Propiedades?",
     "subtitle": "Únete a nuestra lista VIP para obtener acceso exclusivo a propiedades fuera del mercado y listados anticipados en Costa del Sol.",
     "name": "Nombre Completo",
+    "namePlaceholder": "Juan Pérez",
     "email": "Dirección de Email",
+    "emailPlaceholder": "juan@ejemplo.com",
     "phone": "Teléfono (Opcional)",
+    "phonePlaceholder": "+34 600 000 000",
     "submit": "Obtener Acceso VIP",
     "privacy": "Respetamos tu privacidad. Sin spam."
   },
