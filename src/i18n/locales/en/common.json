@@ -6,6 +6,19 @@
     "contact": "Contact",
     "bookCall": "Book a Free Call"
   },
+  "bookCallModal": {
+    "title": "Book a Free Call",
+    "subtitle": "Find out how we can scale your agency.",
+    "successTitle": "Request Received!",
+    "successMessage": "We'll be in touch shortly to schedule your demo.",
+    "close": "Close",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Work Email",
+    "phone": "Phone Number (Optional)",
+    "submit": "Request Demo",
+    "privacy": "By submitting, you agree to our Privacy Policy."
+  },
   "footer": {
     "product": "Product",
     "company": "Company",

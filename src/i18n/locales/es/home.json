@@ -297,5 +297,32 @@
       "commitment": "Sin compromiso requerido",
       "onboarding": "Para estar totalmente integrado"
     }
+  },
+  "aiDemo": {
+    "badge": "Motor de Contenido Potenciado por IA",
+    "title": "De datos crudos a",
+    "titleHighlight": "copias irresistibles.",
+    "subtitle": "Crea automáticamente descripciones atractivas y amigables para SEO para tus listados, ahorrándote horas de tiempo y aumentando la visibilidad en línea.",
+    "without": "Sin Estatify",
+    "with": "Con Estatify AI",
+    "originalLabel": "Descripción original de propiedad por el vendedor",
+    "optimizedLabel": "Salida Optimizada",
+    "content": {
+      "p1": "Una oportunidad excepcional para adquirir hasta cuatro espacios de garaje cubiertos y espaciosos en la urbanización Residential Alazan muy solicitada.",
+      "p2": "Ya seas un residente local buscando estacionamiento seguro o un inversor buscando alto potencial de rendimiento alquiler, estos espacios ofrecen conveniencia suprema y tranquilidad.",
+      "feature1": {
+        "label": "Ubicación Premium",
+        "value": "Comunidad cerrada prestigiosa"
+      },
+      "feature2": {
+        "label": "Seguridad Máxima",
+        "value": "Cámaras monitoreadas 24/7 y control de acceso"
+      },
+      "feature3": {
+        "label": "Compra Flexible",
+        "value": "Disponibles individualmente a €9,500 cada uno"
+      },
+      "cta": "Preciado para venta inmediata. Contáctanos hoy para asegurar el tuyo."
+    }
   }
 }

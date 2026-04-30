@@ -297,5 +297,32 @@
       "commitment": "No commitment required",
       "onboarding": "To be fully onboarded"
     }
+  },
+  "aiDemo": {
+    "badge": "AI-Powered Content Engine",
+    "title": "From raw data to",
+    "titleHighlight": "irresistible copy.",
+    "subtitle": "Automatically create engaging, SEO-friendly descriptions for your listings, saving you hours of time and boosting online visibility.",
+    "without": "Without Estatify",
+    "with": "With Estatify AI",
+    "originalLabel": "Original property description by seller",
+    "optimizedLabel": "Optimized Output",
+    "content": {
+      "p1": "An exceptional opportunity to acquire up to four spacious, covered garage spaces in the highly sought-after Residential Alazan urbanization.",
+      "p2": "Whether you are a local resident seeking secure parking or an investor looking for high rental yield potential, these spaces offer supreme convenience and peace of mind.",
+      "feature1": {
+        "label": "Premium Location",
+        "value": "Prestigious, gated community"
+      },
+      "feature2": {
+        "label": "Maximum Security",
+        "value": "24/7 monitored cameras & access control"
+      },
+      "feature3": {
+        "label": "Flexible Purchase",
+        "value": "Available individually at €9,500 each"
+      },
+      "cta": "Priced for an immediate sale. Contact us today to secure yours."
+    }
   }
 }

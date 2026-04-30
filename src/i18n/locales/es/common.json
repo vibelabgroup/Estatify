@@ -6,6 +6,19 @@
     "contact": "Contacto",
     "bookCall": "Reserva una Llamada Gratis"
   },
+  "bookCallModal": {
+    "title": "Reserva una Llamada Gratis",
+    "subtitle": "Descubre cómo podemos escalar tu agencia.",
+    "successTitle": "¡Solicitud Recibida!",
+    "successMessage": "Nos pondremos en contacto contigo pronto para programar tu demo.",
+    "close": "Cerrar",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Email de Trabajo",
+    "phone": "Número de Teléfono (Opcional)",
+    "submit": "Solicitar Demo",
+    "privacy": "Al enviar, aceptas nuestra Política de Privacidad."
+  },
   "footer": {
     "product": "Producto",
     "company": "Empresa",
