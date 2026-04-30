@@ -1,16 +1,13 @@
 # Stage 1: Build the application
-FROM node:20-alpine as builder
+FROM node:20 as builder
 
 WORKDIR /app
-
-# Install build dependencies for native modules
-RUN apk add --no-cache python3 make g++
 
 # Copy package files
 COPY package*.json ./
 
-# Use npm ci for reliable production builds
-RUN npm ci --only=production=false --no-audit --no-fund
+# Install dependencies with legacy peer deps to avoid conflicts
+RUN npm install --legacy-peer-deps --no-audit --no-fund
 
 # Copy the rest of the application files
 COPY . .
