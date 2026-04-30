@@ -5,10 +5,10 @@ export function ResultsSection() {
   const { t } = useTranslation('home');
 
   const stats = [
-    { value: "5-10", unit: "hrs/week", label: t('results.stats.adminWork') },
-    { value: "3x", unit: "more", label: t('results.stats.leadsCaptured') },
-    { value: "20-30%", unit: "more", label: t('results.stats.dealsClosed') },
-    { value: "10x", unit: "faster", label: t('results.stats.listingsWritten') }
+    { value: "5-10", unit: t('results.units.hrsPerWeek'), label: t('results.stats.adminWork') },
+    { value: "3x", unit: t('results.units.more'), label: t('results.stats.leadsCaptured') },
+    { value: "20-30%", unit: t('results.units.more'), label: t('results.stats.dealsClosed') },
+    { value: "10x", unit: t('results.units.faster'), label: t('results.stats.listingsWritten') }
   ];
 
   return (

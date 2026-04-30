@@ -127,6 +127,11 @@
       "leadsCaptured": "Leads captured from website", 
       "dealsClosed": "Deals closed from better follow-up",
       "listingsWritten": "Property listings written"
+    },
+    "units": {
+      "hrsPerWeek": "hrs/week",
+      "more": "more",
+      "faster": "faster"
     }
   },
   "socialProof": {

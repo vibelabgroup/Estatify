@@ -127,6 +127,11 @@
       "leadsCaptured": "Clientes capturados del sitio web", 
       "dealsClosed": "Negocios cerrados por mejor seguimiento",
       "listingsWritten": "Listados de propiedades escritos"
+    },
+    "units": {
+      "hrsPerWeek": "hrs/semana",
+      "more": "más",
+      "faster": "más rápido"
     }
   },
   "socialProof": {
