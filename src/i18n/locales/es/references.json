@@ -9,5 +9,9 @@
     "subtitle": "Descubre cómo nuestros clientes están transformando su negocio inmobiliario con Estatify.ai"
   },
   "landingPageMockup": "Maqueta de Página de Aterrizaje",
-  "propertyReferenceExamples": "Ejemplos de referencias de propiedades"
+  "propertyReferenceExamples": "Ejemplos de referencias de propiedades",
+  "sendMessage": "Enviar mensaje al agente",
+  "getDetails": "Obtener detalles de propiedad",
+  "browserControls": "Controles del navegador",
+  "windowControls": "Controles de ventana"
 }

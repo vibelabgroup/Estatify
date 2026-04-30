@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
 import { AgentInfo } from '../AgentInfo';
@@ -9,6 +10,7 @@ interface Layout2Props {
 }
 
 export const Layout2: React.FC<Layout2Props> = ({ reference }) => {
+  const { t } = useTranslation('references');
   return (
     <BrowserMockup>
       <div className="flex flex-1 overflow-hidden">
@@ -54,7 +56,7 @@ export const Layout2: React.FC<Layout2Props> = ({ reference }) => {
               </div>
               <button 
                 className="h-6 px-3 bg-emerald-600 text-white rounded text-[9px] font-bold shadow-sm whitespace-nowrap hover:bg-emerald-700 transition-colors"
-                aria-label="Send message to agent"
+                aria-label={t('sendMessage')}
               >
                 Send
               </button>

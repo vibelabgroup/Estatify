@@ -98,6 +98,11 @@
       "realEstateAgent": "Real Estate Agent",
       "propertyManager": "Property Manager", 
       "propertySales": "Property Sales"
+    },
+    "testimonials": {
+      "vunThy": "Since integrating Estatify.ai into our operations, we've seen a 30% increase in property sales. The AI-generated descriptions are engaging and have significantly boosted our online visibility.",
+      "marta": "The results speak for themselves: since using Estatify.ai, our sales have increased by 35%, and our properties are selling faster than ever. What really impressed me was how easily it integrated with our existing systems, including ReSales Online.",
+      "julia": "I've been in real estate for over a decade, and Estatify.ai is the most impressive tool I've come across... Since we started using the platform, we've seen a 45% increase in inquiries and significantly faster sales cycles."
     }
   },
   "bento": {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
 import { AgentInfo } from '../AgentInfo';
@@ -9,6 +10,7 @@ interface Layout1Props {
 }
 
 export const Layout1: React.FC<Layout1Props> = ({ reference }) => {
+  const { t } = useTranslation('references');
   return (
     <BrowserMockup>
       {/* Hero Section with Floating Form */}
@@ -73,7 +75,7 @@ export const Layout1: React.FC<Layout1Props> = ({ reference }) => {
           
           <button 
             className="w-full py-1.5 bg-blue-600 text-white rounded text-[10px] font-bold shadow-md shadow-blue-600/20 hover:bg-blue-700 transition-colors"
-            aria-label="Get property details"
+            aria-label={t('getDetails')}
           >
             Get Details
           </button>

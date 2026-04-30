@@ -9,5 +9,9 @@
     "subtitle": "See how our clients are transforming their real estate business with Estatify.ai"
   },
   "landingPageMockup": "Landing Page Mockup",
-  "propertyReferenceExamples": "Property reference examples"
+  "propertyReferenceExamples": "Property reference examples",
+  "sendMessage": "Send message to agent",
+  "getDetails": "Get property details",
+  "browserControls": "Browser controls",
+  "windowControls": "Window controls"
 }

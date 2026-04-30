@@ -2,19 +2,19 @@ import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const testimonials = [
+const getTestimonials = (t: any) => [
   {
-    quote: "Since integrating Estatify.ai into our operations, we've seen a 30% increase in property sales. The AI-generated descriptions are engaging and have significantly boosted our online visibility.",
+    quote: t('socialProof.testimonials.vunThy'),
     author: "Vun Thy",
     roleKey: "realEstateAgent"
   },
   {
-    quote: "The results speak for themselves: since using Estatify.ai, our sales have increased by 35%, and our properties are selling faster than ever. What really impressed me was how easily it integrated with our existing systems, including ReSales Online.",
+    quote: t('socialProof.testimonials.marta'),
     author: "Marta",
     roleKey: "propertyManager"
   },
   {
-    quote: "I've been in real estate for over a decade, and Estatify.ai is the most impressive tool I've come across... Since we started using the platform, we've seen a 45% increase in inquiries and significantly faster sales cycles.",
+    quote: t('socialProof.testimonials.julia'),
     author: "Julia",
     roleKey: "propertySales"
   }
@@ -22,6 +22,7 @@ const testimonials = [
 
 export function SocialProofSlider() {
   const { t } = useTranslation('home');
+  const testimonials = getTestimonials(t);
   
   // Duplicate array significantly for seamless infinite scroll
   const duplicatedTestimonials = [...testimonials, ...testimonials, ...testimonials, ...testimonials];
