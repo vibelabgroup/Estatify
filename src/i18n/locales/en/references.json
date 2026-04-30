@@ -13,5 +13,11 @@
   "sendMessage": "Send message to agent",
   "getDetails": "Get property details",
   "browserControls": "Browser controls",
-  "windowControls": "Window controls"
+  "windowControls": "Window controls",
+  "beds": "Beds",
+  "baths": "Baths",
+  "area": "m²",
+  "areaInline": "Area (m²)",
+  "localAgent": "Local Agent",
+  "listingAgent": "Listing Agent"
 }

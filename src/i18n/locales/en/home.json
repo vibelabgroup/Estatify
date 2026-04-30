@@ -324,5 +324,38 @@
       },
       "cta": "Priced for an immediate sale. Contact us today to secure yours."
     }
+  },
+  "landingComparison": {
+    "title": "Stop Losing Buyers to Bad Design",
+    "subtitle": "A typical portal listing blends in. Our AI-generated landing pages stand out, load instantly, and are engineered to capture leads.",
+    "before": {
+      "title": "Standard Portal Listing",
+      "subtitle": "Boring, cramped, and ignores conversion best practices."
+    },
+    "after": {
+      "title": "Estatify Landing Page",
+      "subtitle": "Beautiful, fast, and engineered for maximum lead capture.",
+      "badge": "Exclusive Selection",
+      "propertyTitle": "Modern Luxury Villa",
+      "location": "Marbella, Costa Del Sol",
+      "stats": {
+        "beds": "Beds",
+        "baths": "Baths",
+        "area": "m²"
+      },
+      "form": {
+        "description": "Speak directly with a local expert. No call centers, just real advice.",
+        "agentName": "Sarah Jenkins",
+        "agentTitle": "Local Agent",
+        "name": "Your Name",
+        "email": "Email Address",
+        "phone": "Phone Number"
+      }
+    },
+    "mockup": {
+      "beds": "3 Beds",
+      "baths": "2 Baths",
+      "submitButton": "Submit Inquiry Form"
+    }
   }
 }

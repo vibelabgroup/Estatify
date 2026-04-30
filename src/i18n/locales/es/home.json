@@ -324,5 +324,38 @@
       },
       "cta": "Preciado para venta inmediata. Contáctanos hoy para asegurar el tuyo."
     }
+  },
+  "landingComparison": {
+    "title": "Deja de Perder Compradores por Mal Diseño",
+    "subtitle": "Un listado típico de portal se mezcla. Nuestras páginas de aterrizaje generadas por IA destacan, cargan instantáneamente y están diseñadas para capturar leads.",
+    "before": {
+      "title": "Listado de Portal Estándar",
+      "subtitle": "Aburrido, estrecho e ignora las mejores prácticas de conversión."
+    },
+    "after": {
+      "title": "Página de Aterrizaje Estatify",
+      "subtitle": "Hermosa, rápida y diseñada para captura máxima de leads.",
+      "badge": "Selección Exclusiva",
+      "propertyTitle": "Villa de Lujo Moderna",
+      "location": "Marbella, Costa del Sol",
+      "stats": {
+        "beds": "Dormitorios",
+        "baths": "Baños",
+        "area": "m²"
+      },
+      "form": {
+        "description": "Habla directamente con un experto local. Sin centros de llamadas, solo consejos reales.",
+        "agentName": "Sarah Jenkins",
+        "agentTitle": "Agente Local",
+        "name": "Tu Nombre",
+        "email": "Dirección de Email",
+        "phone": "Número de Teléfono"
+      }
+    },
+    "mockup": {
+      "beds": "3 Dormitorios",
+      "baths": "2 Baños",
+      "submitButton": "Enviar Formulario de Consulta"
+    }
   }
 }

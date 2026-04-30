@@ -3,8 +3,10 @@ import Markdown from 'react-markdown';
 import { ArrowLeft, Calendar, User, Clock, CheckCircle2 } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 
 export function BlogPostPage() {
+  const { t } = useTranslation('blog');
   const { slug } = useParams<{ slug: string }>();
   const post = blogPosts.find((p) => p.slug === slug);
 
@@ -28,7 +30,7 @@ export function BlogPostPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center">
           <Link to="/blog" className="inline-flex items-center gap-2 text-white/70 hover:text-white mb-8 transition-colors font-medium text-sm">
             <ArrowLeft className="w-4 h-4" />
-            Back to all posts
+            {t('backToPosts')}
           </Link>
           <span className="text-blue-400 font-bold uppercase tracking-wider text-xs mb-4 block">
             {post.category}
@@ -70,43 +72,43 @@ export function BlogPostPage() {
           <div className="lg:sticky lg:top-24 space-y-8">
             <div className="bg-white rounded-3xl p-8 border border-slate-200/60 shadow-xl shadow-slate-200/40 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-[100px] -z-10" />
-              <h3 className="text-2xl font-bold text-slate-900 mb-2">Interested in Properties?</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">{t('vip.title')}</h3>
               <p className="text-slate-500 font-light mb-6 text-sm">
-                Join our VIP list to get exclusive access to off-market properties and early listings on the Costa del Sol.
+                {t('vip.subtitle')}
               </p>
               
               <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                 <div className="space-y-1.5">
-                  <label htmlFor="name" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">Full Name</label>
+                  <label htmlFor="name" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.name')}</label>
                   <input type="text" id="name" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="John Doe" />
                 </div>
                 <div className="space-y-1.5">
-                  <label htmlFor="email" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">Email Address</label>
+                  <label htmlFor="email" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.email')}</label>
                   <input type="email" id="email" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="john@example.com" />
                 </div>
                 <div className="space-y-1.5">
-                  <label htmlFor="phone" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">Phone (Optional)</label>
+                  <label htmlFor="phone" className="text-xs font-semibold text-slate-700 uppercase tracking-wider">{t('vip.phone')}</label>
                   <input type="tel" id="phone" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="+34 600 000 000" />
                 </div>
                 <button type="submit" className="w-full py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all hover:-translate-y-0.5 shadow-lg shadow-blue-500/25 mt-2">
-                  Get VIP Access
+                  {t('vip.submit')}
                 </button>
               </form>
               
               <div className="mt-6 pt-6 border-t border-slate-100 flex items-center justify-center gap-2 text-xs text-slate-500 font-medium">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                We respect your privacy. No spam.
+                {t('vip.privacy')}
               </div>
             </div>
             
             <div className="bg-slate-900 text-white rounded-3xl p-8 shadow-xl relative overflow-hidden">
              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl" />
-              <h3 className="text-xl font-bold mb-4">Want to try Estatify.ai?</h3>
+              <h3 className="text-xl font-bold mb-4">{t('cta.title')}</h3>
               <p className="text-slate-300 font-light mb-6 text-sm">
-                Automate your property listings and capture more leads with our AI-powered platform.
+                {t('cta.subtitle')}
               </p>
               <Link to="/contact" className="block w-full py-3 bg-white text-slate-900 text-center rounded-xl font-bold hover:bg-slate-100 transition-colors">
-                Book a Demo
+                {t('cta.button')}
               </Link>
             </div>
 

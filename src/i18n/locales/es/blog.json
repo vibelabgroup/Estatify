@@ -1,0 +1,17 @@
+{
+  "backToPosts": "Volver a todos los posts",
+  "vip": {
+    "title": "¿Interesado en Propiedades?",
+    "subtitle": "Únete a nuestra lista VIP para obtener acceso exclusivo a propiedades fuera del mercado y listados anticipados en Costa del Sol.",
+    "name": "Nombre Completo",
+    "email": "Dirección de Email",
+    "phone": "Teléfono (Opcional)",
+    "submit": "Obtener Acceso VIP",
+    "privacy": "Respetamos tu privacidad. Sin spam."
+  },
+  "cta": {
+    "title": "¿Quieres probar Estatify.ai?",
+    "subtitle": "Automatiza tus listados de propiedades y captura más leads con nuestra plataforma potenciada por IA.",
+    "button": "Reserva una Demo"
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface AgentInfoProps {
   agent: string;
@@ -13,6 +14,7 @@ export const AgentInfo: React.FC<AgentInfoProps> = ({
   variant = 'default',
   className = '' 
 }) => {
+  const { t } = useTranslation('references');
   const containerClasses = {
     default: "flex items-center gap-2",
     compact: "flex items-center gap-2",
@@ -55,10 +57,10 @@ export const AgentInfo: React.FC<AgentInfoProps> = ({
       <div className={textContainerClasses[variant]}>
         <span className={nameClasses[variant]}>{agent}</span>
         {variant === 'default' && (
-          <span className={titleClasses[variant]}>Local Agent</span>
+          <span className={titleClasses[variant]}>{t('localAgent')}</span>
         )}
         {variant === 'minimal' && (
-          <span className={titleClasses[variant]}>Listing Agent</span>
+          <span className={titleClasses[variant]}>{t('listingAgent')}</span>
         )}
       </div>
     </div>

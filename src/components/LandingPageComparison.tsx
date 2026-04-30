@@ -11,10 +11,10 @@ export function LandingPageComparison() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
-            Stop Losing Buyers to Bad Design
+            {t('landingComparison.title')}
           </h2>
           <p className="text-lg tracking-tight text-slate-500 font-light">
-            A typical portal listing blends in. Our AI-generated landing pages stand out, load instantly, and are engineered to capture leads.
+            {t('landingComparison.subtitle')}
           </p>
         </div>
 
@@ -31,8 +31,8 @@ export function LandingPageComparison() {
                 <X className="w-5 h-5 text-rose-600 font-bold" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-slate-900">Standard Portal Listing</h3>
-                <p className="text-sm text-slate-500 font-medium">Boring, cramped, and ignores conversion best practices.</p>
+                <h3 className="text-xl font-bold text-slate-900">{t('landingComparison.before.title')}</h3>
+                <p className="text-sm text-slate-500 font-medium">{t('landingComparison.before.subtitle')}</p>
               </div>
             </div>
 
@@ -62,8 +62,8 @@ export function LandingPageComparison() {
                    <div className="w-2/3 h-6 bg-slate-300 rounded shrink-0" />
                    
                    <div className="flex gap-4 border-y border-slate-100 py-3 shrink-0">
-                     <div className="text-xs text-slate-500 font-medium">3 Beds</div>
-                     <div className="text-xs text-slate-500 font-medium">2 Baths</div>
+                     <div className="text-xs text-slate-500 font-medium">{t('landingComparison.mockup.beds')}</div>
+                     <div className="text-xs text-slate-500 font-medium">{t('landingComparison.mockup.baths')}</div>
                    </div>
                    
                    <div className="space-y-2 shrink-0">
@@ -75,7 +75,7 @@ export function LandingPageComparison() {
                    
                    <div className="mt-2 pt-4 border-t border-slate-100 shrink-0">
                      <div className="w-full py-3 bg-slate-200 text-slate-500 text-sm font-bold text-center rounded border border-slate-300">
-                       Submit Inquiry Form
+                       {t('landingComparison.mockup.submitButton')}
                      </div>
                    </div>
                  </div>
@@ -98,8 +98,8 @@ export function LandingPageComparison() {
                 <Check className="w-5 h-5 text-blue-600 font-bold" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-slate-900">Estatify Landing Page</h3>
-                <p className="text-sm text-slate-500 font-medium">Beautiful, fast, and engineered for maximum lead capture.</p>
+                <h3 className="text-xl font-bold text-slate-900">{t('landingComparison.after.title')}</h3>
+                <p className="text-sm text-slate-500 font-medium">{t('landingComparison.after.subtitle')}</p>
               </div>
             </div>
 
@@ -128,14 +128,14 @@ export function LandingPageComparison() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent" />
                   
                   <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-white text-[10px] font-bold uppercase tracking-wider backdrop-blur-md border border-white/30">
-                    Exclusive Selection
+                    {t('landingComparison.after.badge')}
                   </div>
 
                   <div className="absolute bottom-5 left-5 right-5">
                      <div className="flex justify-between items-end gap-4">
                         <div className="flex-1">
-                           <h3 className="text-2xl font-bold text-white shadow-sm mb-1 truncate">Modern Luxury Villa</h3>
-                           <p className="text-blue-200 text-xs font-medium">Marbella, Costa Del Sol</p>
+                           <h3 className="text-2xl font-bold text-white shadow-sm mb-1 truncate">{t('landingComparison.after.propertyTitle')}</h3>
+                           <p className="text-blue-200 text-xs font-medium">{t('landingComparison.after.location')}</p>
                         </div>
                         <div className="text-xl font-bold text-white bg-blue-600/90 backdrop-blur-sm px-4 py-1.5 rounded-xl border border-blue-500/50 shadow-lg shrink-0">
                            €2.5M
@@ -150,15 +150,15 @@ export function LandingPageComparison() {
                   <div className="flex-1 pr-4 flex flex-col">
                      <div className="flex gap-2 mb-5">
                         <div className="flex-1 bg-white border border-slate-100 py-2.5 rounded-xl flex border-b-[3px] border-b-slate-100 flex-col items-center justify-center shrink-0">
-                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">Beds</div>
+                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">{t('landingComparison.after.stats.beds')}</div>
                            <div className="text-base font-bold text-slate-800">4</div>
                         </div>
                         <div className="flex-1 bg-white border border-slate-100 py-2.5 rounded-xl flex border-b-[3px] border-b-slate-100 flex-col items-center justify-center shrink-0">
-                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">Baths</div>
+                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">{t('landingComparison.after.stats.baths')}</div>
                            <div className="text-base font-bold text-slate-800">4.5</div>
                         </div>
                         <div className="flex-1 bg-white border border-slate-100 py-2.5 rounded-xl flex border-b-[3px] border-b-slate-100 flex-col items-center justify-center shrink-0">
-                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">m²</div>
+                           <div className="text-[9px] text-slate-400 font-bold tracking-widest uppercase mb-1">{t('landingComparison.after.stats.area')}</div>
                            <div className="text-base font-bold text-slate-800">320</div>
                         </div>
                      </div>
@@ -172,7 +172,7 @@ export function LandingPageComparison() {
                   {/* Floating Lead Capture Form (overlaps hero image slightly) */}
                   <div className="w-[200px] bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex flex-col p-4 border border-slate-100 relative -mt-24 h-max shrink-0 z-20">
                      <p className="text-[10px] text-slate-500 font-medium leading-snug mb-3">
-                       Speak directly with a local expert. No call centers, just real advice.
+                       {t('landingComparison.after.form.description')}
                      </p>
                      
                      <div className="flex items-center gap-3 mb-4">
@@ -180,15 +180,15 @@ export function LandingPageComparison() {
                           <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&backgroundColor=e2e8f0" alt="Agent" className="w-full h-full" />
                         </div>
                         <div className="flex flex-col">
-                           <span className="text-xs font-bold text-slate-800 leading-tight mb-0.5">Sarah Jenkins</span>
-                           <span className="text-[9px] text-blue-600 font-bold uppercase tracking-wider leading-tight">Local Agent</span>
+                           <span className="text-xs font-bold text-slate-800 leading-tight mb-0.5">{t('landingComparison.after.form.agentName')}</span>
+                           <span className="text-[9px] text-blue-600 font-bold uppercase tracking-wider leading-tight">{t('landingComparison.after.form.agentTitle')}</span>
                         </div>
                      </div>
 
                      <div className="space-y-2 mb-4">
-                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">Your Name</div>
-                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">Email Address</div>
-                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">Phone Number</div>
+                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">{t('landingComparison.after.form.name')}</div>
+                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">{t('landingComparison.after.form.email')}</div>
+                        <div className="h-7 w-full bg-slate-50 border border-slate-200 rounded-lg text-[10px] text-slate-400 px-3 flex items-center shrink-0">{t('landingComparison.after.form.phone')}</div>
                      </div>
                      
                      <button className="w-full py-2 bg-blue-600 text-white rounded-lg text-[11px] font-bold shadow-md shadow-blue-600/20 hover:bg-blue-700 transition-colors shrink-0">

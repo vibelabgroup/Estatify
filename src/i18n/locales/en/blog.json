@@ -1,0 +1,17 @@
+{
+  "backToPosts": "Back to all posts",
+  "vip": {
+    "title": "Interested in Properties?",
+    "subtitle": "Join our VIP list to get exclusive access to off-market properties and early listings on the Costa del Sol.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone (Optional)",
+    "submit": "Get VIP Access",
+    "privacy": "We respect your privacy. No spam."
+  },
+  "cta": {
+    "title": "Want to try Estatify.ai?",
+    "subtitle": "Automate your property listings and capture more leads with our AI-powered platform.",
+    "button": "Book a Demo"
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface PropertyStatsProps {
   beds: number;
@@ -15,6 +16,7 @@ export const PropertyStats: React.FC<PropertyStatsProps> = ({
   variant = 'default',
   className = '' 
 }) => {
+  const { t } = useTranslation('references');
   const baseClasses = "flex items-center gap-2";
   
   const statClasses = {
@@ -42,18 +44,18 @@ export const PropertyStats: React.FC<PropertyStatsProps> = ({
     <div className={`${baseClasses} ${className}`}>
       <div className={statClasses[variant]}>
         <div className={valueClasses[variant]}>{beds}</div>
-        <div className={labelClasses[variant]}>Beds</div>
+        <div className={labelClasses[variant]}>{t('beds')}</div>
       </div>
       {variant === 'inline' && <div className="w-px h-6 bg-slate-200" />}
       <div className={statClasses[variant]}>
         <div className={valueClasses[variant]}>{baths}</div>
-        <div className={labelClasses[variant]}>Baths</div>
+        <div className={labelClasses[variant]}>{t('baths')}</div>
       </div>
       {variant === 'inline' && <div className="w-px h-6 bg-slate-200" />}
       <div className={statClasses[variant]}>
         <div className={valueClasses[variant]}>{sqm}</div>
         <div className={labelClasses[variant]}>
-          {variant === 'inline' ? 'Area (m²)' : 'm²'}
+          {variant === 'inline' ? t('areaInline') : t('area')}
         </div>
       </div>
     </div>
