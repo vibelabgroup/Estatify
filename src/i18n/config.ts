@@ -18,6 +18,8 @@ import enFaq from './locales/en/faq.json';
 import esFaq from './locales/es/faq.json';
 import enLegalFull from './locales/en/legal-full.json';
 import esLegalFull from './locales/es/legal-full.json';
+import enBlog from './locales/en/blog.json';
+import esBlog from './locales/es/blog.json';
 
 const resources = {
   en: {
@@ -28,7 +30,8 @@ const resources = {
     features: enFeatures,
     references: enReferences,
     faq: enFaq,
-    'legal-full': enLegalFull
+    'legal-full': enLegalFull,
+    blog: enBlog
   },
   es: {
     common: esCommon,
@@ -38,7 +41,8 @@ const resources = {
     features: esFeatures,
     references: esReferences,
     faq: esFaq,
-    'legal-full': esLegalFull
+    'legal-full': esLegalFull,
+    blog: esBlog
   }
 };
 
@@ -49,7 +53,7 @@ i18n
     resources,
     fallbackLng: 'en',
     defaultNS: 'common',
-    ns: ['common', 'home', 'about', 'contact', 'features', 'references', 'faq', 'legal-full'],
+    ns: ['common', 'home', 'about', 'contact', 'features', 'references', 'faq', 'legal-full', 'blog'],
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage']
