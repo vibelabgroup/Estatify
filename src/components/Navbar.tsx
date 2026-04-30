@@ -11,7 +11,11 @@ export function Navbar() {
   const { openModal } = useModal();
   const { t, i18n } = useTranslation('common');
 
-  const toggleLanguage = () => {
+  const toggleLanguage = (e?: any) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     const newLang = i18n.language === 'en' ? 'es' : 'en';
     i18n.changeLanguage(newLang);
   };
@@ -36,7 +40,7 @@ export function Navbar() {
           </div>
           <div className="flex items-center gap-4 hidden md:flex">
             <button 
-              onClick={toggleLanguage} 
+              onClick={(e) => toggleLanguage(e)} 
               className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 transition-colors cursor-pointer"
               title={i18n.language === 'en' ? t('footer.language.switchToSpanish') : t('footer.language.switchToEnglish')}
             >
@@ -66,8 +70,8 @@ export function Navbar() {
           <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-slate-900">{t('nav.contact')}</Link>
           <div className="flex items-center gap-3 px-3 py-2 mt-4">
             <button 
-              onClick={toggleLanguage} 
-              className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 transition-colors"
+              onClick={(e) => toggleLanguage(e)} 
+              className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 transition-colors cursor-pointer touch-action-manipulation"
               title={i18n.language === 'en' ? t('footer.language.switchToSpanish') : t('footer.language.switchToEnglish')}
             >
               <span className="text-sm font-bold text-slate-600">{i18n.language === 'en' ? 'EN' : 'ES'}</span>
