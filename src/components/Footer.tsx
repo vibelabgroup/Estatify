@@ -17,7 +17,7 @@ export function Footer() {
               <span className="font-bold text-xl tracking-tight text-slate-900">estatify.ai</span>
             </div>
             <p className="text-slate-500 font-light leading-relaxed mb-8 max-w-sm text-sm">
-              The all-in-one platform helping real estate agencies in Costa del Sol turn more website visitors into closed deals through AI, analytics, and intelligent automation.
+              {t('footer.description')}
             </p>
             <div className="flex items-center gap-4 text-slate-400">
               <a href="#" className="w-10 h-10 border border-slate-200 rounded-full flex items-center justify-center hover:bg-slate-50 hover:text-blue-600 hover:border-blue-200 transition-all">

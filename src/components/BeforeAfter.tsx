@@ -1,32 +1,37 @@
 import { motion } from 'motion/react';
 import { Clock, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const before = [
-  "Search through 5 systems to check properties",
-  "Try to remember which leads to call back",
-  "Write property descriptions manually",
-  "Wonder if your marketing is working",
-  "Miss inquiries because you're away"
-];
-
-const after = [
-  "Check one dashboard, see everything instantly",
-  "System tells you who to call & why",
-  "Generate AI descriptions in seconds",
-  "Clear reports show what's actually working",
-  "Chatbot captures leads while you sleep"
-];
+const getBeforeAfterItems = (t: any) => ({
+  before: [
+    t('beforeAfter.before.searchSystems'),
+    t('beforeAfter.before.rememberLeads'),
+    t('beforeAfter.before.writeDescriptions'),
+    t('beforeAfter.before.wonderMarketing'),
+    t('beforeAfter.before.missInquiries')
+  ],
+  after: [
+    t('beforeAfter.after.checkDashboard'),
+    t('beforeAfter.after.systemTells'),
+    t('beforeAfter.after.generateDescriptions'),
+    t('beforeAfter.after.clearReports'),
+    t('beforeAfter.after.chatbotCaptures')
+  ]
+});
 
 export function BeforeAfter() {
+  const { t } = useTranslation('home');
+  const { before, after } = getBeforeAfterItems(t);
+
   return (
     <section className="py-24 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
-            How Your Day Changes
+            {t('beforeAfter.title')}
           </h2>
           <p className="text-lg tracking-tight text-slate-500 font-light">
-            Go from scattered and stressed to organized and efficient.
+            {t('beforeAfter.subtitle')}
           </p>
         </div>
 
@@ -42,7 +47,7 @@ export function BeforeAfter() {
               <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center">
                 <Clock className="w-5 h-5 text-slate-500" />
               </div>
-              <h3 className="text-2xl font-semibold text-slate-900">Before Estatify</h3>
+              <h3 className="text-2xl font-semibold text-slate-900">{t('beforeAfter.beforeTitle')}</h3>
             </div>
             <ul className="space-y-6">
               {before.map((item, i) => (
@@ -67,7 +72,7 @@ export function BeforeAfter() {
                 <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center">
                   <CheckCircle2 className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-2xl font-semibold text-slate-900">With Estatify</h3>
+                <h3 className="text-2xl font-semibold text-slate-900">{t('beforeAfter.afterTitle')}</h3>
               </div>
               <ul className="space-y-6">
                 {after.map((item, i) => (

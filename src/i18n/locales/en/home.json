@@ -99,5 +99,198 @@
       "propertyManager": "Property Manager", 
       "propertySales": "Property Sales"
     }
+  },
+  "bento": {
+    "allProperties": {
+      "title": "All properties in one view",
+      "description": "Your entire portfolio centralized. Update prices, features, and photos instantly across all your channels."
+    },
+    "leadProtection": {
+      "title": "Lead Protection",
+      "description": "We automatically mask original Resales Online reference numbers (e.g., R4793359 -> EFY3859614) so buyers can't bypass you."
+    },
+    "neverLoseLead": {
+      "title": "Never lose a lead",
+      "description": "Integrated CRM with lead scoring. Automatically capture and organize buyers. Know exactly who to call."
+    },
+    "smartAssistant": {
+      "title": "24/7 Smart Assistant",
+      "description": "An AI chatbot that answers questions and qualifies buyers while you're asleep."
+    },
+    "resalesApi": {
+      "title": "ReSales Online API",
+      "description": "Seamless integration with the ReSales Online API for instant, accurate listing sync."
+    },
+    "highConvertingPages": {
+      "title": "High-Converting Pages",
+      "description": "Beautiful property landing pages that keep buyers engaged longer, increasing your conversion rates. We handle the entire setup."
+    },
+    "socialMediaSync": {
+      "title": "Social Media Sync",
+      "description": "Automated social media sharing to expand your reach."
+    },
+    "dataDrivenClosing": {
+      "title": "Data-Driven Closing",
+      "description": "Stop guessing and start closing. Our behavioral analytics track exactly what buyers are looking at, so you can focus on the hottest leads and close deals with ruthless efficiency."
+    },
+    "dominateSearch": {
+      "title": "Dominate Google & AI Search",
+      "description": "Future-proof your business with Built-in SEO and Generative Engine Optimization (GEO). We automatically structure your property data to rank higher on Google, ChatGPT, and AI real estate assistants."
+    }
+  },
+  "beforeAfter": {
+    "title": "How Your Day Changes",
+    "subtitle": "Go from scattered and stressed to organized and efficient.",
+    "beforeTitle": "Before Estatify",
+    "afterTitle": "With Estatify",
+    "before": {
+      "searchSystems": "Search through 5 systems to check properties",
+      "rememberLeads": "Try to remember which leads to call back",
+      "writeDescriptions": "Write property descriptions manually",
+      "wonderMarketing": "Wonder if your marketing is working",
+      "missInquiries": "Miss inquiries because you're away"
+    },
+    "after": {
+      "checkDashboard": "Check one dashboard, see everything instantly",
+      "systemTells": "System tells you who to call & why",
+      "generateDescriptions": "Generate AI descriptions in seconds",
+      "clearReports": "Clear reports show what's actually working",
+      "chatbotCaptures": "Chatbot captures leads while you sleep"
+    }
+  },
+  "comparison": {
+    "title": "What Makes It Different?",
+    "subtitle": "Stop stitching together 5 different tools. Get everything in one place.",
+    "headers": {
+      "whatYouNeed": "What You Need",
+      "otherTools": "Other Tools",
+      "estatify": "Estatify"
+    },
+    "features": {
+      "aiSearch": "AI-Powered Search & Content",
+      "leadProtection": "Lead Protection (Ref Masking)",
+      "importSync": "Import & Sync",
+      "socialMedia": "Social Media",
+      "analytics": "Analytics & KPI",
+      "pricing": "Property Pricing",
+      "support": "Support & Updates"
+    },
+    "others": {
+      "manualCopywriters": "Manual / Hired Copywriters",
+      "buyersBypass": "Buyers bypass you",
+      "manualData": "Manual data entry",
+      "manualPosting": "Manual posting",
+      "differentDashboard": "Different dashboard",
+      "guesswork": "Guesswork",
+      "paidSlow": "Paid / Slow"
+    },
+    "estatify": {
+      "builtInAI": "Built-in AI",
+      "autoMasked": "Auto-Masked References",
+      "apiSync": "ReSales Online API Sync",
+      "automatedSharing": "Automated Sharing",
+      "integratedDashboard": "Integrated Real-time Dashboard",
+      "aiForecasting": "AI Forecasting & Heatmaps",
+      "supportUpdates": "24/7 Support + Monthly Updates"
+    }
+  },
+  "analytics": {
+    "badge": "Your Unfair Advantage",
+    "title": "Stop Guessing.",
+    "titleHighlight": "Start Knowing.",
+    "subtitle": "Estatify Analytics is like having a sales coach who watches every visitor to your website, tells you who's ready to buy, and shows you exactly what to do next to close the deal.",
+    "captureTitle": "What We Capture 24/7",
+    "scenariosTitle": "Real-World Scenarios",
+    "scenariosSubtitle": "How deep behavioral data turns cold leads into closed deals.",
+    "headers": {
+      "without": "Without Analytics",
+      "other": "Other Softwares",
+      "estatify": "With Estatify"
+    },
+    "labels": {
+      "without": "Without Estatify",
+      "with": "With Analytics",
+      "result": "The Result"
+    },
+    "capture": {
+      "visitorSessions": "Complete Visitor Sessions",
+      "visitorSessionsDesc": "Track source, device, time, and complete browsing paths to know exactly where buyers originate.",
+      "propertyBehavior": "Property Viewing Behavior",
+      "propertyBehaviorDesc": "See exactly which properties are viewed, time spent on galleries, and return visits.",
+      "highIntent": "High-Intent Actions",
+      "highIntentDesc": "Instantly capture contact clicks, favorites, shares, and viewing requests.",
+      "engagementScoring": "Engagement Scoring (0-100)",
+      "engagementScoringDesc": "Automatically score every lead so you know exactly who is hot and who is just browsing.",
+      "marketIntelligence": "Live Market Intelligence",
+      "marketIntelligenceDesc": "Monitor avg. price/m², supply vs demand in specific zones, and track competitor price drops.",
+      "journeyMapping": "User Journey Mapping",
+      "journeyMappingDesc": "Discover which ad campaigns bring serious buyers vs window shoppers to optimize your budget."
+    },
+    "scenarios": {
+      "ghostBuyer": {
+        "title": "The 'Ghost' Buyer",
+        "situation": "Someone asks about 'apartments in Marbella' with just an email.",
+        "without": "Send a generic email. No response.",
+        "with": "You see they spent time on 2-bedroom units in Puerto Banús (¬300k-¬400k range) and viewed financing options. You reply with three highly specific, matching properties.",
+        "result": "They respond in 2 hours. You book viewings and close in 10 days."
+      },
+      "comparisonShopper": {
+        "title": "The Comparison Shopper",
+        "situation": "A lead contacts you, but you know they're talking to 5 other agents.",
+        "without": "You drop your commission to try and secure the deal.",
+        "with": "Analytics show they are price-sensitive and frequently check price drops. You focus entirely on the lowest price per m² and ROI.",
+        "result": "You win the deal by being a trusted advisor, not the cheapest agent."
+      },
+      "sleepyListing": {
+        "title": "The Sleepy Listing",
+        "situation": "A property sits for 60 days. The seller is frustrated.",
+        "without": "You blame the slow market and risk losing the listing.",
+        "with": "Data shows 1,200 views but 80% left after seeing the price. Similar homes sold 8% lower.",
+        "result": "You present cold, hard data. Seller agrees to a small price drop. Property sells within 2 weeks."
+      }
+    },
+    "comparisons": {
+      "guessBuy": "Guess who might buy",
+      "basicTracking": "Basic page view tracking",
+      "knowReady": "Know exactly who's ready",
+      "callSame": "Call everyone the same",
+      "emailOpens": "Score by email opens",
+      "prioritize": "Prioritize hot leads first",
+      "followRandom": "Follow up randomly",
+      "dripCampaigns": "Generic drip campaigns",
+      "perfectTiming": "Time your follow-up perfectly",
+      "askWant": "Ask 'what do you want?'",
+      "knowCategories": "Know favored categories",
+      "alreadyKnow": "Already know what they want",
+      "hopePricing": "Hope your pricing is right",
+      "pastData": "View past sold data",
+      "marketData": "Price based on real market data",
+      "wasteMarketing": "Waste money on bad marketing",
+      "trafficReports": "Basic traffic reports",
+      "investWorks": "Invest heavily in what works",
+      "reactChanges": "React to market changes",
+      "spreadsheets": "Provide raw spreadsheets",
+      "predictTrends": "Predict trends before they happen",
+      "missOpportunities": "Miss price drop opportunities",
+      "savedSearches": "Manual saved searches",
+      "instantAlerts": "Get instant alerts on deals"
+    }
+  },
+  "cta": {
+    "title": "Ready to Sell More Properties?",
+    "subtitle": "Estatify turns your website into a 24/7 sales machine. While you're showing properties, sleeping, or spending time with family, we handle the rest.",
+    "button": "Book Your Free Demo",
+    "contact": "Questions? Contact us at support@estatify.ai"
+  },
+  "ctaBanner": {
+    "title": "Ready to see it in action?",
+    "subtitle": "Book a quick, no-pressure discovery call. We'll show you exactly how Estatify can plug into your current setup and start converting more leads instantly.",
+    "button": "Book Your Free Demo",
+    "stats": {
+      "demo": "Quick software demo",
+      "tailored": "Tailored to your needs",
+      "commitment": "No commitment required",
+      "onboarding": "To be fully onboarded"
+    }
   }
 }

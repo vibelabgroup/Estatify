@@ -99,5 +99,198 @@
       "propertyManager": "Gerente de Propiedades", 
       "propertySales": "Ventas de Propiedades"
     }
+  },
+  "bento": {
+    "allProperties": {
+      "title": "Todas las propiedades en una vista",
+      "description": "Tu portafolio completo centralizado. Actualiza precios, características y fotos instantáneamente en todos tus canales."
+    },
+    "leadProtection": {
+      "title": "Protección de Leads",
+      "description": "Enmascaramos automáticamente los números de referencia originales de Resales Online (ej. R4793359 -> EFY3859614) para que los compradores no puedan evitarte."
+    },
+    "neverLoseLead": {
+      "title": "Nunca pierdas un lead",
+      "description": "CRM integrado con calificación de leads. Captura y organiza automáticamente compradores. Sabe exactamente a quién llamar."
+    },
+    "smartAssistant": {
+      "title": "Asistente Inteligente 24/7",
+      "description": "Un chatbot de IA que responde preguntas y califica compradores mientras duermes."
+    },
+    "resalesApi": {
+      "title": "API de ReSales Online",
+      "description": "Integración perfecta con la API de ReSales Online para sincronización instantánea y precisa de listados."
+    },
+    "highConvertingPages": {
+      "title": "Páginas de Alta Conversión",
+      "description": "Páginas de aterrizaje de propiedades hermosas que mantienen a los compradores comprometidos por más tiempo, aumentando tus tasas de conversión. Nos encargamos de toda la configuración."
+    },
+    "socialMediaSync": {
+      "title": "Sincronización de Redes Sociales",
+      "description": "Compartir automatizado en redes sociales para expandir tu alcance."
+    },
+    "dataDrivenClosing": {
+      "title": "Cierre Impulsado por Datos",
+      "description": "Deja de adivinar y empieza a cerrar. Nuestros análisis de comportamiento rastrean exactamente lo que los compradores están mirando, para que puedas concentrarte en los leads más calientes y cerrar negocios con eficiencia implacable."
+    },
+    "dominateSearch": {
+      "title": "Domina Google y la Búsqueda de IA",
+      "description": "Asegura el futuro de tu negocio con SEO incorporado y Optimización de Motores Generativos (GEO). Estructuramos automáticamente tus datos de propiedades para clasificar más alto en Google, ChatGPT y asistentes inmobiliarios de IA."
+    }
+  },
+  "beforeAfter": {
+    "title": "Cómo Cambia Tu Día",
+    "subtitle": "Pasa de disperso y estresado a organizado y eficiente.",
+    "beforeTitle": "Antes de Estatify",
+    "afterTitle": "Con Estatify",
+    "before": {
+      "searchSystems": "Buscar en 5 sistemas para verificar propiedades",
+      "rememberLeads": "Intentar recordar qué leads devolver",
+      "writeDescriptions": "Escribir descripciones de propiedades manualmente",
+      "wonderMarketing": "Preguntarse si tu marketing está funcionando",
+      "missInquiries": "Perder consultas porque estás ausente"
+    },
+    "after": {
+      "checkDashboard": "Revisar un panel, ver todo instantáneamente",
+      "systemTells": "El sistema te dice a quién llamar y por qué",
+      "generateDescriptions": "Generar descripciones de IA en segundos",
+      "clearReports": "Informes claros muestran lo que realmente funciona",
+      "chatbotCaptures": "El chatbot captura leads mientras duermes"
+    }
+  },
+  "comparison": {
+    "title": "¿Qué lo hace diferente?",
+    "subtitle": "Deja de unir 5 herramientas diferentes. Obtén todo en un solo lugar.",
+    "headers": {
+      "whatYouNeed": "Lo que necesitas",
+      "otherTools": "Otras herramientas",
+      "estatify": "Estatify"
+    },
+    "features": {
+      "aiSearch": "Búsqueda y contenido con IA",
+      "leadProtection": "Protección de leads (enmascaramiento de ref)",
+      "importSync": "Importación y sincronización",
+      "socialMedia": "Redes sociales",
+      "analytics": "Análisis y KPI",
+      "pricing": "Precios de propiedades",
+      "support": "Soporte y actualizaciones"
+    },
+    "others": {
+      "manualCopywriters": "Manual / Redactores contratados",
+      "buyersBypass": "Los compradores te evitan",
+      "manualData": "Entrada manual de datos",
+      "manualPosting": "Publicación manual",
+      "differentDashboard": "Panel diferente",
+      "guesswork": "Suposiciones",
+      "paidSlow": "Pago / Lento"
+    },
+    "estatify": {
+      "builtInAI": "IA incorporada",
+      "autoMasked": "Referencias auto-enmascaradas",
+      "apiSync": "Sincronización API de ReSales Online",
+      "automatedSharing": "Compartir automatizado",
+      "integratedDashboard": "Panel integrado en tiempo real",
+      "aiForecasting": "Pronóstico de IA y mapas de calor",
+      "supportUpdates": "Soporte 24/7 + Actualizaciones mensuales"
+    }
+  },
+  "analytics": {
+    "badge": "Tu Ventaja Injusta",
+    "title": "Deja de Adivinar.",
+    "titleHighlight": "Empieza a Saber.",
+    "subtitle": "Estatify Analytics es como tener un coach de ventas que observa cada visitante de tu sitio web, te dice quién está listo para comprar y te muestra exactamente qué hacer a continuación para cerrar el trato.",
+    "captureTitle": "Lo que Capturamos 24/7",
+    "scenariosTitle": "Escenarios del Mundo Real",
+    "scenariosSubtitle": "Cómo los datos de comportamiento profundos convierten leads fríos en negocios cerrados.",
+    "headers": {
+      "without": "Sin Analytics",
+      "other": "Otros Softwares",
+      "estatify": "Con Estatify"
+    },
+    "labels": {
+      "without": "Sin Estatify",
+      "with": "Con Analytics",
+      "result": "El Resultado"
+    },
+    "capture": {
+      "visitorSessions": "Sesiones de Visitantes Completas",
+      "visitorSessionsDesc": "Rastrea fuente, dispositivo, tiempo y rutas de navegación completas para saber exactamente de dónde se originan los compradores.",
+      "propertyBehavior": "Comportamiento de Visualización de Propiedades",
+      "propertyBehaviorDesc": "Ve exactamente qué propiedades se ven, tiempo pasado en galerías y visitas de regreso.",
+      "highIntent": "Acciones de Alta Intención",
+      "highIntentDesc": "Captura instantáneamente clics de contacto, favoritos, compartidos y solicitudes de visualización.",
+      "engagementScoring": "Puntuación de Compromiso (0-100)",
+      "engagementScoringDesc": "Puntúa automáticamente cada lead para que sepas exactamente quién está caliente y quién solo está navegando.",
+      "marketIntelligence": "Inteligencia de Mercado en Vivo",
+      "marketIntelligenceDesc": "Monitorea precio promedio/m², oferta vs demanda en zonas específicas y rastrea caídas de precios de competidores.",
+      "journeyMapping": "Mapeo del Viaje del Usuario",
+      "journeyMappingDesc": "Descubre qué campañas publicitarias traen compradores serios vs compradores de ventana para optimizar tu presupuesto."
+    },
+    "scenarios": {
+      "ghostBuyer": {
+        "title": "El Comprador 'Fantasma'",
+        "situation": "Alguien pregunta sobre 'apartamentos en Marbella' con solo un email.",
+        "without": "Envía un email genérico. Sin respuesta.",
+        "with": "Ves que pasaron tiempo en unidades de 2 habitaciones en Puerto Banús (rango ¬300k-¬400k) y vieron opciones de financiamiento. Respondes con tres propiedades altamente específicas y coincidentes.",
+        "result": "Responden en 2 horas. Reservas visitas y cierras en 10 días."
+      },
+      "comparisonShopper": {
+        "title": "El Comprador Comparador",
+        "situation": "Un lead te contacta, pero sabes que está hablando con 5 otros agentes.",
+        "without": "Bajas tu comisión para intentar asegurar el trato.",
+        "with": "Analytics muestra que son sensibles al precio y frecuentemente verifican caídas de precios. Te enfocas completamente en el precio más bajo por m² y ROI.",
+        "result": "Ganas el trato siendo un asesor de confianza, no el agente más barato."
+      },
+      "sleepyListing": {
+        "title": "El Listado Dormido",
+        "situation": "Una propiedad está 60 días. El vendedor está frustrado.",
+        "without": "Culpas al mercado lento y arriesgas perder el listado.",
+        "with": "Los datos muestran 1,200 vistas pero 80% se fue después de ver el precio. Casas similares vendieron 8% más bajo.",
+        "result": "Presentas datos fríos y duros. El vendedor acepta una pequeña caída de precio. La propiedad se vende en 2 semanas."
+      }
+    },
+    "comparisons": {
+      "guessBuy": "Adivinar quién podría comprar",
+      "basicTracking": "Rastreo básico de vistas de página",
+      "knowReady": "Saber exactamente quién está listo",
+      "callSame": "Llamar a todos igual",
+      "emailOpens": "Puntuar por aperturas de email",
+      "prioritize": "Priorizar leads calientes primero",
+      "followRandom": "Seguimiento aleatorio",
+      "dripCampaigns": "Campañas de goteo genéricas",
+      "perfectTiming": "Sincroniza tu seguimiento perfectamente",
+      "askWant": "Preguntar '¿qué quieres?'",
+      "knowCategories": "Conocer categorías favorecidas",
+      "alreadyKnow": "Ya saber qué quieren",
+      "hopePricing": "Esperar que tu precio sea correcto",
+      "pastData": "Ver datos vendidos pasados",
+      "marketData": "Precio basado en datos de mercado reales",
+      "wasteMarketing": "Malgastar dinero en mal marketing",
+      "trafficReports": "Reportes de tráfico básicos",
+      "investWorks": "Invertir pesadamente en lo que funciona",
+      "reactChanges": "Reaccionar a cambios del mercado",
+      "spreadsheets": "Proporcionar hojas de cálculo crudas",
+      "predictTrends": "Predecir tendencias antes de que sucedan",
+      "missOpportunities": "Perder oportunidades de caída de precios",
+      "savedSearches": "Búsquedas guardadas manuales",
+      "instantAlerts": "Obtener alertas instantáneas sobre tratos"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para vender más propiedades?",
+    "subtitle": "Estatify convierte tu sitio web en una máquina de ventas 24/7. Mientras muestras propiedades, duermes o pasas tiempo con tu familia, nosotros nos encargamos del resto.",
+    "button": "Reserva tu Demo Gratis",
+    "contact": "¿Preguntas? Contáctanos en support@estatify.ai"
+  },
+  "ctaBanner": {
+    "title": "¿Listo para verlo en acción?",
+    "subtitle": "Reserva una llamada de descubrimiento rápida y sin presión. Te mostraremos exactamente cómo Estatify puede conectarse a tu configuración actual y comenzar a convertir más leads instantáneamente.",
+    "button": "Reserva tu Demo Gratis",
+    "stats": {
+      "demo": "Demo rápida de software",
+      "tailored": "Adaptado a tus necesidades",
+      "commitment": "Sin compromiso requerido",
+      "onboarding": "Para estar totalmente integrado"
+    }
   }
 }

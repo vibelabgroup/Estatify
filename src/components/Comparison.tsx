@@ -2,28 +2,29 @@ import { motion } from 'motion/react';
 import { Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const comparisons = [
-  { feature: "AI-Powered Search & Content", others: "Manual / Hired Copywriters", estatify: "Built-in AI" },
-  { feature: "Lead Protection (Ref Masking)", others: "Buyers bypass you", estatify: "Auto-Masked References" },
-  { feature: "Import & Sync", others: "Manual data entry", estatify: "ReSales Online API Sync" },
-  { feature: "Social Media", others: "Manual posting", estatify: "Automated Sharing" },
-  { feature: "Analytics & KPI", others: "Different dashboard", estatify: "Integrated Real-time Dashboard" },
-  { feature: "Property Pricing", others: "Guesswork", estatify: "AI Forecasting & Heatmaps" },
-  { feature: "Support & Updates", others: "Paid / Slow", estatify: "24/7 Support + Monthly Updates" }
+const getComparisons = (t: any) => [
+  { feature: t('comparison.features.aiSearch'), others: t('comparison.others.manualCopywriters'), estatify: t('comparison.estatify.builtInAI') },
+  { feature: t('comparison.features.leadProtection'), others: t('comparison.others.buyersBypass'), estatify: t('comparison.estatify.autoMasked') },
+  { feature: t('comparison.features.importSync'), others: t('comparison.others.manualData'), estatify: t('comparison.estatify.apiSync') },
+  { feature: t('comparison.features.socialMedia'), others: t('comparison.others.manualPosting'), estatify: t('comparison.estatify.automatedSharing') },
+  { feature: t('comparison.features.analytics'), others: t('comparison.others.differentDashboard'), estatify: t('comparison.estatify.integratedDashboard') },
+  { feature: t('comparison.features.pricing'), others: t('comparison.others.guesswork'), estatify: t('comparison.estatify.aiForecasting') },
+  { feature: t('comparison.features.support'), others: t('comparison.others.paidSlow'), estatify: t('comparison.estatify.supportUpdates') }
 ];
 
 export function Comparison() {
   const { t } = useTranslation('home');
+  const comparisons = getComparisons(t);
 
   return (
     <section className="py-24 bg-slate-50 border-t border-slate-100" id="comparison">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
-            What Makes It Different?
+            {t('comparison.title')}
           </h2>
           <p className="text-lg tracking-tight text-slate-500 font-light">
-            Stop stitching together 5 different tools. Get everything in one place.
+            {t('comparison.subtitle')}
           </p>
         </div>
 
@@ -34,11 +35,11 @@ export function Comparison() {
           className="bg-white rounded-3xl border border-slate-200/60 overflow-hidden shadow-sm"
         >
           <div className="grid grid-cols-3 bg-slate-50 border-b border-slate-200 items-center p-4 sm:p-6">
-            <div className="font-semibold text-slate-900 text-sm sm:text-base">What You Need</div>
-            <div className="font-medium text-slate-500 text-sm sm:text-base">Other Tools</div>
+            <div className="font-semibold text-slate-900 text-sm sm:text-base">{t('comparison.headers.whatYouNeed')}</div>
+            <div className="font-medium text-slate-500 text-sm sm:text-base">{t('comparison.headers.otherTools')}</div>
             <div className="font-bold text-blue-600 text-sm sm:text-base flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-blue-600"></span>
-              Estatify
+              {t('comparison.headers.estatify')}
             </div>
           </div>
           <div className="divide-y divide-slate-100">

@@ -2,11 +2,11 @@ import { motion } from 'motion/react';
 import { Home, Users, Bot, DownloadCloud, BarChart3, LayoutTemplate, PenTool, Shield, Share2, TrendingUp, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const features = [
+const getFeatures = (t: any) => [
   {
     icon: Home,
-    title: "All properties in one view",
-    description: "Your entire portfolio centralized. Update prices, features, and photos instantly across all your channels.",
+    title: t('features.bento.allProperties.title'),
+    description: t('features.bento.allProperties.description'),
     span: "col-span-1 md:col-span-2 lg:col-span-2",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -16,8 +16,8 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Lead Protection",
-    description: "We automatically mask original Resales Online reference numbers (e.g., R4793359 → EFY3859614) so buyers can't bypass you.",
+    title: t('features.bento.leadProtection.title'),
+    description: t('features.bento.leadProtection.description'),
     span: "col-span-1 border-emerald-100 bg-emerald-50/50",
     theme: "bg-emerald-50 border-emerald-100",
     textTheme: "text-emerald-950",
@@ -27,8 +27,8 @@ const features = [
   },
   {
     icon: Users,
-    title: "Never lose a lead",
-    description: "Integrated CRM with lead scoring. Automatically capture and organize buyers. Know exactly who to call.",
+    title: t('features.bento.neverLoseLead.title'),
+    description: t('features.bento.neverLoseLead.description'),
     span: "col-span-1 lg:col-span-1",
     theme: "bg-blue-600 border-blue-500 shadow-xl shadow-blue-200/50",
     textTheme: "text-white",
@@ -38,8 +38,8 @@ const features = [
   },
   {
     icon: Bot,
-    title: "24/7 Smart Assistant",
-    description: "An AI chatbot that answers questions and qualifies buyers while you're asleep.",
+    title: t('features.bento.smartAssistant.title'),
+    description: t('features.bento.smartAssistant.description'),
     span: "col-span-1 lg:col-span-1",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -49,8 +49,8 @@ const features = [
   },
   {
     icon: DownloadCloud,
-    title: "ReSales Online API",
-    description: "Seamless integration with the ReSales Online API for instant, accurate listing sync.",
+    title: t('features.bento.resalesApi.title'),
+    description: t('features.bento.resalesApi.description'),
     span: "col-span-1 lg:col-span-1",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -60,8 +60,8 @@ const features = [
   },
   {
     icon: LayoutTemplate,
-    title: "High-Converting Pages",
-    description: "Beautiful property landing pages that keep buyers engaged longer, increasing your conversion rates. We handle the entire setup.",
+    title: t('features.bento.highConvertingPages.title'),
+    description: t('features.bento.highConvertingPages.description'),
     span: "col-span-1 md:col-span-2 lg:col-span-2",
     theme: "bg-slate-900 border-slate-800 shadow-xl shadow-slate-200/50",
     textTheme: "text-white",
@@ -71,8 +71,8 @@ const features = [
   },
   {
     icon: Share2,
-    title: "Social Media Sync",
-    description: "Automated social media sharing to expand your reach.",
+    title: t('features.bento.socialMediaSync.title'),
+    description: t('features.bento.socialMediaSync.description'),
     span: "col-span-1 lg:col-span-1",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -82,8 +82,8 @@ const features = [
   },
   {
     icon: TrendingUp,
-    title: "Data-Driven Closing",
-    description: "Stop guessing and start closing. Our behavioral analytics track exactly what buyers are looking at, so you can focus on the hottest leads and close deals with ruthless efficiency.",
+    title: t('features.bento.dataDrivenClosing.title'),
+    description: t('features.bento.dataDrivenClosing.description'),
     span: "col-span-1 md:col-span-1 lg:col-span-1",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -93,8 +93,8 @@ const features = [
   },
   {
     icon: Globe,
-    title: "Dominate Google & AI Search",
-    description: "Future-proof your business with Built-in SEO and Generative Engine Optimization (GEO). We automatically structure your property data to rank higher on Google, ChatGPT, and AI real estate assistants.",
+    title: t('features.bento.dominateSearch.title'),
+    description: t('features.bento.dominateSearch.description'),
     span: "col-span-1 md:col-span-1 lg:col-span-2",
     theme: "bg-white border-slate-200/60 shadow-sm",
     textTheme: "text-slate-900",
@@ -106,6 +106,7 @@ const features = [
 
 export function FeatureBento() {
   const { t } = useTranslation('home');
+  const features = getFeatures(t);
 
   return (
     <section className="py-24 bg-slate-50 border-t border-slate-100" id="features">
