@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
 import { AgentInfo } from '../AgentInfo';
@@ -9,6 +10,8 @@ interface Layout8Props {
 }
 
 export const Layout8: React.FC<Layout8Props> = ({ reference }) => {
+  const { t } = useTranslation('common');
+  
   return (
     <BrowserMockup>
       <div className="flex-1 bg-white flex flex-col">
@@ -57,9 +60,9 @@ export const Layout8: React.FC<Layout8Props> = ({ reference }) => {
           </p>
           <button 
             className="w-full mt-2 py-2 bg-slate-900 text-white text-[10px] font-bold rounded-lg hover:bg-slate-800 transition-colors shadow-md"
-            aria-label="Request more information about this property"
+            aria-label={t('requestInfo')}
           >
-            Request Info
+            {t('requestInfo')}
           </button>
         </div>
       </div>

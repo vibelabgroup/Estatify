@@ -1,13 +1,16 @@
 import { motion } from 'motion/react';
-
-const stats = [
-  { value: "5-10", unit: "hrs/week", label: "Saved on admin work" },
-  { value: "3x", unit: "more", label: "Leads captured from website" },
-  { value: "20-30%", unit: "more", label: "Deals closed from better follow-up" },
-  { value: "10x", unit: "faster", label: "Property listings written" }
-];
+import { useTranslation } from 'react-i18next';
 
 export function ResultsSection() {
+  const { t } = useTranslation('home');
+
+  const stats = [
+    { value: "5-10", unit: "hrs/week", label: t('results.stats.adminWork') },
+    { value: "3x", unit: "more", label: t('results.stats.leadsCaptured') },
+    { value: "20-30%", unit: "more", label: t('results.stats.dealsClosed') },
+    { value: "10x", unit: "faster", label: t('results.stats.listingsWritten') }
+  ];
+
   return (
     <section className="py-24 bg-slate-900 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-900 to-slate-900" />
@@ -15,10 +18,10 @@ export function ResultsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
-            Real Results You Can Expect
+            {t('results.title')}
           </h2>
           <p className="text-lg tracking-tight text-slate-400 font-light">
-            Estatify is like hiring a virtual assistant, a marketing analyst, and a copywriter—but they work 24/7 and never take a day off.
+            {t('results.subtitle')}
           </p>
         </div>
 

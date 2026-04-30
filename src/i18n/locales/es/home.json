@@ -46,9 +46,9 @@
     "fragmentedToolsDesc": "Pagando múltiples suscripciones de software que no se conectan, aumentando costos y ralentizándote.",
     "ctaTitle": "¿Listo para transformar tu negocio inmobiliario?",
     "ctaSubtitle": "Únete a miles de agentes que han optimizado sus operaciones, cerrado más negocios y recuperado su tiempo con Estatify.",
-    "ctaPrimary": "Comenzar Prueba Gratuita",
-    "ctaSecondary": "Agendar Demo",
-    "ctaDisclaimer": "No se requiere tarjeta de crédito • Prueba gratuita de 14 días • Cancela en cualquier momento"
+    "ctaPrimary": "Reservar Demo",
+    "ctaSecondary": "Agendar Llamada",
+    "ctaDisclaimer": "Sin costos de configuración • Demo personalizada • Listo para comenzar"
   },
   "features": {
     "title": "Todo lo que necesitas. ",
@@ -56,29 +56,48 @@
     "subtitle": "Una plataforma perfectamente integrada diseñada específicamente para convertir tu agencia inmobiliaria en una máquina bien engrasada.",
     "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
     "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más negocios y escalar sus operaciones sin esfuerzo.",
-    "ctaPrimary": "Comienza tu Prueba Gratuita",
-    "ctaSecondary": "Reserva una Demo Personalizada",
-    "ctaDisclaimer": "Sin costos de configuración • Acceso instantáneo • Cancela en cualquier momento"
+    "ctaPrimary": "Reserva tu Demo",
+    "ctaSecondary": "Agendar Llamada",
+    "ctaDisclaimer": "Demo personalizada • Guía experta • Listo para crecer"
   },
   "designCta": {
     "title": "¿Listo para transformar tus listados?",
     "subtitle": "Deja de conformarte con listados genéricos. Crea páginas de aterrizaje impresionantes y de alta conversión que capturen más leads y muestren tus propiedades como nunca antes.",
     "primaryButton": "Crear Mi Primera Página de Aterrizaje",
     "secondaryButton": "Ver Demos en Vivo",
-    "disclaimer": "No se requiere tarjeta de crédito • Prueba gratuita de 14 días • Cancela en cualquier momento"
+    "disclaimer": "Demo personalizada • Guía experta • Listo para crecer"
   },
   "analyticsCta": {
     "title": "¿Listo para superar a tu competencia?",
     "subtitle": "Deja de volar a ciegas. Obtén insights de comportamiento que separan a los agentes de mejor rendimiento del resto. Comienza a cerrar negocios con confianza.",
-    "primaryButton": "Comenzar Prueba Gratuita de Analytics",
+    "primaryButton": "Reservar Demo de Analytics",
     "secondaryButton": "Ver Analytics en Acción",
-    "disclaimer": "Sin configuración requerida • Insights instantáneos • Cancela en cualquier momento"
+    "disclaimer": "Guía experta • Insights accionables • Listo para optimizar"
   },
   "comparisonCta": {
     "title": "¿Listo para reemplazar tu conjunto de herramientas?",
     "subtitle": "Deja de hacer malabares con múltiples plataformas y pagar por características que no funcionan juntas. Obtén todo lo que necesitas en una solución poderosa e integrada.",
-    "primaryButton": "Comenzar Prueba Todo en Uno",
+    "primaryButton": "Reservar Demo Completa",
     "secondaryButton": "Ver Tour de la Plataforma",
-    "disclaimer": "No se requiere tarjeta de crédito • Acceso completo • Cancela en cualquier momento"
+    "disclaimer": "Tour completo • Guía experta • Listo para transformar"
+  },
+  "results": {
+    "title": "Resultados Reales Que Puedes Esperar",
+    "subtitle": "Estatify es como contratar un asistente virtual, un analista de marketing y un redactor, pero trabajan 24/7 y nunca toman un día libre.",
+    "stats": {
+      "adminWork": "Ahorro en trabajo administrativo",
+      "leadsCaptured": "Clientes capturados del sitio web", 
+      "dealsClosed": "Negocios cerrados por mejor seguimiento",
+      "listingsWritten": "Listados de propiedades escritos"
+    }
+  },
+  "socialProof": {
+    "title": "Más de 50+ agencias inmobiliarias están creciendo su negocio con Estatify.",
+    "subtitle": "No nos creas solo a nosotros. Mira lo que dicen los mejores agentes.",
+    "roles": {
+      "realEstateAgent": "Agente Inmobiliario",
+      "propertyManager": "Gerente de Propiedades", 
+      "propertySales": "Ventas de Propiedades"
+    }
   }
 }

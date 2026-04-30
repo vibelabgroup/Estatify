@@ -1,25 +1,28 @@
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const testimonials = [
   {
     quote: "Since integrating Estatify.ai into our operations, we've seen a 30% increase in property sales. The AI-generated descriptions are engaging and have significantly boosted our online visibility.",
     author: "Vun Thy",
-    role: "Real Estate Agent"
+    roleKey: "realEstateAgent"
   },
   {
     quote: "The results speak for themselves: since using Estatify.ai, our sales have increased by 35%, and our properties are selling faster than ever. What really impressed me was how easily it integrated with our existing systems, including ReSales Online.",
     author: "Marta",
-    role: "Property Manager"
+    roleKey: "propertyManager"
   },
   {
     quote: "I've been in real estate for over a decade, and Estatify.ai is the most impressive tool I've come across... Since we started using the platform, we've seen a 45% increase in inquiries and significantly faster sales cycles.",
     author: "Julia",
-    role: "Property Sales"
+    roleKey: "propertySales"
   }
 ];
 
 export function SocialProofSlider() {
+  const { t } = useTranslation('home');
+  
   // Duplicate array significantly for seamless infinite scroll
   const duplicatedTestimonials = [...testimonials, ...testimonials, ...testimonials, ...testimonials];
 
@@ -30,10 +33,10 @@ export function SocialProofSlider() {
       <div className="max-w-[100vw] mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
-            Over 50+ real estate agencies are growing their business with Estatify.
+            {t('socialProof.title')}
           </h2>
           <p className="text-lg tracking-tight text-slate-500 font-light">
-            Don't just take our word for it. See what top agents are saying.
+            {t('socialProof.subtitle')}
           </p>
         </div>
 
@@ -74,7 +77,7 @@ export function SocialProofSlider() {
                   </div>
                   <div>
                     <div className="font-bold text-slate-900">{testimonial.author}</div>
-                    <div className="text-sm text-slate-500 font-medium">{testimonial.role}</div>
+                    <div className="text-sm text-slate-500 font-medium">{t(`socialProof.roles.${testimonial.roleKey}`)}</div>
                   </div>
                 </div>
               </div>

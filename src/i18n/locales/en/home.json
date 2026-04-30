@@ -46,9 +46,9 @@
     "fragmentedToolsDesc": "Paying for multiple software subscriptions that don't connect, driving up costs and slowing you down.",
     "ctaTitle": "Ready to Transform Your Real Estate Business?",
     "ctaSubtitle": "Join thousands of agents who've streamlined their operations, closed more deals, and reclaimed their time with Estatify.",
-    "ctaPrimary": "Start Free Trial",
-    "ctaSecondary": "Schedule Demo",
-    "ctaDisclaimer": "No credit card required • 14-day free trial • Cancel anytime"
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "Schedule a Call",
+    "ctaDisclaimer": "No setup fees • Personalized demo • Ready to start"
   },
   "features": {
     "title": "Everything you need. ",
@@ -56,29 +56,48 @@
     "subtitle": "A beautifully integrated platform designed specifically to turn your real estate agency into a well-oiled machine.",
     "ctaTitle": "Ready to Build Your Real Estate Empire?",
     "ctaSubtitle": "Join thousands of successful agencies using Estatify to dominate their markets, close more deals, and scale their operations effortlessly.",
-    "ctaPrimary": "Start Your Free Trial",
-    "ctaSecondary": "Book a Personalized Demo",
-    "ctaDisclaimer": "No setup fees • Instant access • Cancel anytime"
+    "ctaPrimary": "Book Your Demo",
+    "ctaSecondary": "Schedule a Call",
+    "ctaDisclaimer": "Personalized demo • Expert guidance • Ready to grow"
   },
   "designCta": {
     "title": "Ready to Transform Your Listings?",
     "subtitle": "Stop settling for generic listings. Create stunning, high-converting landing pages that capture more leads and showcase your properties like never before.",
     "primaryButton": "Build My First Landing Page",
     "secondaryButton": "See Live Demos",
-    "disclaimer": "No credit card required • 14-day free trial • Cancel anytime"
+    "disclaimer": "Personalized demo • Expert guidance • Ready to grow"
   },
   "analyticsCta": {
     "title": "Ready to Outsmart Your Competition?",
     "subtitle": "Stop flying blind. Get the behavioral insights that separate top-performing agents from the rest. Start closing deals with confidence.",
-    "primaryButton": "Start Analytics Free Trial",
+    "primaryButton": "Book Analytics Demo",
     "secondaryButton": "See Analytics in Action",
-    "disclaimer": "No setup required • Instant insights • Cancel anytime"
+    "disclaimer": "Expert guidance • Actionable insights • Ready to optimize"
   },
   "comparisonCta": {
     "title": "Ready to Replace Your Tool Stack?",
     "subtitle": "Stop juggling multiple platforms and paying for features that don't work together. Get everything you need in one powerful, integrated solution.",
-    "primaryButton": "Start All-in-One Trial",
+    "primaryButton": "Book Full Platform Demo",
     "secondaryButton": "See Platform Tour",
-    "disclaimer": "No credit card required • Full access • Cancel anytime"
+    "disclaimer": "Complete platform tour • Expert guidance • Ready to transform"
+  },
+  "results": {
+    "title": "Real Results You Can Expect",
+    "subtitle": "Estatify is like hiring a virtual assistant, a marketing analyst, and a copywriter-but they work 24/7 and never take a day off.",
+    "stats": {
+      "adminWork": "Saved on admin work",
+      "leadsCaptured": "Leads captured from website", 
+      "dealsClosed": "Deals closed from better follow-up",
+      "listingsWritten": "Property listings written"
+    }
+  },
+  "socialProof": {
+    "title": "Over 50+ real estate agencies are growing their business with Estatify.",
+    "subtitle": "Don't just take our word for it. See what top agents are saying.",
+    "roles": {
+      "realEstateAgent": "Real Estate Agent",
+      "propertyManager": "Property Manager", 
+      "propertySales": "Property Sales"
+    }
   }
 }

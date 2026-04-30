@@ -9,9 +9,10 @@ import React, { memo, useMemo } from 'react';
 interface ReferenceCardProps {
   reference: typeof references[0];
   index: number;
+  t: (key: string) => string;
 }
 
-const ReferenceCard = memo<ReferenceCardProps>(({ reference, index }) => {
+const ReferenceCard = memo<ReferenceCardProps>(({ reference, index, t }) => {
   return (
     <motion.div
       key={reference.id}
@@ -28,7 +29,7 @@ const ReferenceCard = memo<ReferenceCardProps>(({ reference, index }) => {
           </div>
           <div>
             <h3 className="text-xl font-bold text-slate-900">{reference.title}</h3>
-            <p className="text-sm text-slate-500 font-medium">Landing Page Mockup</p>
+            <p className="text-sm text-slate-500 font-medium">{t('landingPageMockup')}</p>
           </div>
         </div>
       </div>
@@ -70,13 +71,14 @@ export function ReferencesPage() {
 
           <section 
             className="grid lg:grid-cols-2 gap-12 lg:gap-16"
-            aria-label="Property reference examples"
+            aria-label={t('propertyReferenceExamples')}
           >
             {memoizedReferences.map((reference, index) => (
               <ReferenceCard 
-                key={reference.id} 
-                reference={reference} 
+                key={reference.id}
+                reference={reference}
                 index={index}
+                t={t} 
               />
             ))}
           </section>

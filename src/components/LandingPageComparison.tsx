@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 export function LandingPageComparison() {
   const { t } = useTranslation('home');
+  const { t: tCommon } = useTranslation('common');
 
   return (
     <section className="py-24 bg-white border-t border-slate-100 overflow-hidden relative">
@@ -191,7 +192,7 @@ export function LandingPageComparison() {
                      </div>
                      
                      <button className="w-full py-2 bg-blue-600 text-white rounded-lg text-[11px] font-bold shadow-md shadow-blue-600/20 hover:bg-blue-700 transition-colors shrink-0">
-                        Request Information
+                        {tCommon('requestInformation')}
                      </button>
                   </div>
                </div>

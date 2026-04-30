@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
+import { AgentInfo } from '../AgentInfo';
 import { Reference } from '../../../data/references';
 
 interface Layout3Props {
@@ -8,6 +10,8 @@ interface Layout3Props {
 }
 
 export const Layout3: React.FC<Layout3Props> = ({ reference }) => {
+  const { t } = useTranslation('common');
+  
   return (
     <BrowserMockup>
       <div className="relative h-[260px] shrink-0">
@@ -47,15 +51,15 @@ export const Layout3: React.FC<Layout3Props> = ({ reference }) => {
         <div className="w-full max-w-[260px] bg-white border border-slate-200 rounded-lg p-2.5 shadow-sm flex items-center gap-2">
           <input 
             type="email" 
-            placeholder="Enter email for more details" 
+            placeholder={t('enterEmailForDetails')} 
             className="flex-1 bg-transparent border-none focus:outline-none text-[10px] px-1"
-            aria-label="Email address for property details"
+            aria-label={t('emailForPropertyDetails')}
           />
           <button 
             className="bg-slate-900 text-white rounded text-[9px] font-bold px-3 py-1.5 hover:bg-slate-800 transition-colors"
-            aria-label="Submit email for details"
+            aria-label={t('submitEmailForDetails')}
           >
-            Submit
+            {t('submit')}
           </button>
         </div>
       </div>

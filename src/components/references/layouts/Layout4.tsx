@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
+import { AgentInfo } from '../AgentInfo';
 import { Reference } from '../../../data/references';
 
 interface Layout4Props {
@@ -8,6 +10,8 @@ interface Layout4Props {
 }
 
 export const Layout4: React.FC<Layout4Props> = ({ reference }) => {
+  const { t } = useTranslation('common');
+  
   return (
     <BrowserMockup>
       <div className="flex flex-1 overflow-hidden bg-slate-900 text-white">
@@ -34,9 +38,9 @@ export const Layout4: React.FC<Layout4Props> = ({ reference }) => {
           </div>
           <button 
             className="w-full py-2 bg-amber-500 text-slate-900 font-bold text-[10px] rounded hover:bg-amber-400 transition-colors"
-            aria-label="Inquire about this property"
+            aria-label={t('requestInfo')}
           >
-            Inquire Now
+            {t('requestInfo')}
           </button>
         </div>
         <div className="w-[45%] relative">

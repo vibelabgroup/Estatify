@@ -9,12 +9,24 @@ interface LocalBusinessProps {
     addressRegion: string;
     addressLocality: string;
     postalCode: string;
+    streetAddress?: string;
   };
   geo: {
     latitude: number;
     longitude: number;
   };
   areaServed: string[];
+  url?: string;
+  telephone?: string;
+  email?: string;
+  openingHours?: string;
+  sameAs?: string;
+  priceRange?: string;
+  aggregateRating?: {
+    "@type": string;
+    ratingValue: string;
+    reviewCount: string;
+  };
 }
 
 export const LocalBusinessSchema = ({ 
@@ -22,7 +34,18 @@ export const LocalBusinessSchema = ({
   description, 
   address, 
   geo, 
-  areaServed 
+  areaServed,
+  url = "https://estatify.ai",
+  telephone = "+34 951 234 567",
+  email = "support@estatify.ai",
+  openingHours = "Mo-Fr 09:00-18:00",
+  sameAs = "https://www.linkedin.com/company/estatify-ai",
+  priceRange = "$$",
+  aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127"
+  }
 }: LocalBusinessProps) => {
   const { t } = useTranslation('common');
 
@@ -36,7 +59,8 @@ export const LocalBusinessSchema = ({
       "addressCountry": address.addressCountry,
       "addressRegion": address.addressRegion,
       "addressLocality": address.addressLocality,
-      "postalCode": address.postalCode
+      "postalCode": address.postalCode,
+      ...(address.streetAddress && { "streetAddress": address.streetAddress })
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -44,16 +68,12 @@ export const LocalBusinessSchema = ({
       "longitude": geo.longitude
     },
     "areaServed": areaServed,
-    "url": "https://estatify.ai",
-    "telephone": "+34 951 234 567",
-    "email": "support@estatify.ai",
-    "openingHours": "Mo-Fr 09:00-18:00",
-    "sameAs": "https://www.linkedin.com/company/estatify-ai",
-    "priceRange": "$$",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127"
-    }
+    "url": url,
+    "telephone": telephone,
+    "email": email,
+    "openingHours": openingHours,
+    "sameAs": sameAs,
+    "priceRange": priceRange,
+    "aggregateRating": aggregateRating
   };
 };

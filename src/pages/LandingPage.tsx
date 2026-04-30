@@ -33,8 +33,8 @@ export function LandingPage() {
         "offers": {
           "@type": "Offer",
           "price": "0",
-          "priceCurrency": "USD",
-          "description": "Free trial available"
+          "priceCurrency": "EUR",
+          "description": t('common.freeTrialAvailable')
         }
       }
     },

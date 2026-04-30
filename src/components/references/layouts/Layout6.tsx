@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { BrowserMockup } from '../BrowserMockup';
 import { PropertyStats } from '../PropertyStats';
 import { Reference } from '../../../data/references';
@@ -8,6 +9,8 @@ interface Layout6Props {
 }
 
 export const Layout6: React.FC<Layout6Props> = ({ reference }) => {
+  const { t } = useTranslation('common');
+  
   return (
     <BrowserMockup>
       <div className="flex-1 relative overflow-hidden">
@@ -42,9 +45,9 @@ export const Layout6: React.FC<Layout6Props> = ({ reference }) => {
             />
             <button 
               className="bg-white text-slate-900 px-3 py-1 text-[9px] font-bold rounded-full hover:bg-slate-100 transition-colors"
-              aria-label="Book a tour for this property"
+              aria-label={t('bookTour')}
             >
-              Book Tour
+              {t('bookTour')}
             </button>
           </div>
         </div>

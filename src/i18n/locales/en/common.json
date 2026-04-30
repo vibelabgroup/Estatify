@@ -25,5 +25,15 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "cookiePolicy": "Cookie Policy"
-  }
+  },
+  "lastUpdated": "Last updated: ",
+  "requestInfo": "Request Info",
+  "requestInformation": "Request Information", 
+  "bookTour": "Book Tour",
+  "freeTrialAvailable": "Book a demo to get started",
+  "teamMeeting": "Team meeting",
+  "enterEmailForDetails": "Enter email for more details",
+  "emailForPropertyDetails": "Email address for property details",
+  "submitEmailForDetails": "Submit email for details",
+  "submit": "Submit"
 }

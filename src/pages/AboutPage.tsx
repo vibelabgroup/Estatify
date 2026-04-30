@@ -13,6 +13,7 @@ interface Address {
 
 export function AboutPage() {
   const { t } = useTranslation('about');
+  const { t: tCommon } = useTranslation('common');
   const structuredData = [
     {
       "@context": "https://schema.org",
@@ -40,7 +41,7 @@ export function AboutPage() {
         email: "support@estatify.ai",
         openingHours: "Mo-Fr 09:00-18:00",
         sameAs: "https://www.linkedin.com/company/estatify-ai",
-        priceRange: "$",
+        priceRange: "¬",
         aggregateRating: {
           "@type": "AggregateRating",
           "ratingValue": "4.8",
@@ -75,7 +76,7 @@ export function AboutPage() {
 
         <div className="grid md:grid-cols-2 gap-12 mb-24">
           <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50">
-            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1000" alt="Team meeting" className="w-full h-full object-cover" />
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1000" alt={tCommon('teamMeeting')} className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col justify-center">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">{t('storyTitle')}</h2>
