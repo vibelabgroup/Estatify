@@ -1,9 +1,10 @@
 import { motion } from 'motion/react';
 import { ArrowRight, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { blogPosts } from '../data/blogPosts';
+import { useBlogPosts } from '../data/blogPosts';
 
 export function BlogArchive() {
+  const blogPosts = useBlogPosts();
   return (
     <div className="pt-32 pb-24 border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">

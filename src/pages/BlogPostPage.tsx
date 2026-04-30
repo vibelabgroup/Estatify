@@ -1,12 +1,13 @@
 import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import { ArrowLeft, Calendar, User, Clock, CheckCircle2 } from 'lucide-react';
-import { blogPosts } from '../data/blogPosts';
+import { useBlogPosts } from '../data/blogPosts';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 
 export function BlogPostPage() {
   const { t } = useTranslation('blog');
+  const blogPosts = useBlogPosts();
   const { slug } = useParams<{ slug: string }>();
   const post = blogPosts.find((p) => p.slug === slug);
 

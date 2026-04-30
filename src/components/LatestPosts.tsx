@@ -1,11 +1,12 @@
 import { motion } from 'motion/react';
 import {ArrowRight, Clock, User} from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { blogPosts } from '../data/blogPosts';
+import { useBlogPosts } from '../data/blogPosts';
 import { useTranslation } from 'react-i18next';
 
 export function LatestPosts() {
   const { t } = useTranslation('home');
+  const blogPosts = useBlogPosts();
   const latestPosts = blogPosts.slice(0, 3);
 
   return (
