@@ -17,7 +17,9 @@ export function FAQ() {
         </div>
 
         <div className="space-y-4">
-          {t('questions').map((faq, index) => (
+          {(() => {
+            const questions = t('questions', { returnObjects: true }) as Array<{ q: string; a: string }>;
+            return Array.isArray(questions) && questions.map((faq, index) => (
             <motion.div 
               key={index}
               initial={false}
@@ -44,7 +46,8 @@ export function FAQ() {
                 )}
               </AnimatePresence>
             </motion.div>
-          ))}
+          ));
+          })()}
         </div>
       </div>
     </section>
