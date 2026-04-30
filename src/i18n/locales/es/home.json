@@ -130,17 +130,22 @@
     }
   },
   "socialProof": {
-    "title": "Más de 50+ agencias inmobiliarias están creciendo su negocio con Estatify.",
-    "subtitle": "No nos creas solo a nosotros. Mira lo que dicen los mejores agentes.",
-    "roles": {
-      "realEstateAgent": "Agente Inmobiliario",
-      "propertyManager": "Gerente de Propiedades", 
-      "propertySales": "Ventas de Propiedades"
-    },
+    "title": "Confianza de las Principales Agencias",
+    "subtitle": "Ve cómo las agencias inmobiliarias líderes en Costa del Sol están transformando sus operaciones con Estatify.",
     "testimonials": {
       "vunThy": "Desde que integramos Estatify.ai en nuestras operaciones, hemos visto un aumento del 30% en ventas de propiedades. Las descripciones generadas por IA son atractivas y han aumentado significativamente nuestra visibilidad en línea.",
       "marta": "Los resultados hablan por sí mismos: desde que usamos Estatify.ai, nuestras ventas han aumentado un 35%, y nuestras propiedades se venden más rápido que nunca. Lo que realmente me impresionó fue lo fácil que se integró con nuestros sistemas existentes, incluyendo ReSales Online.",
       "julia": "He estado en bienes raíces por más de una década, y Estatify.ai es la herramienta más impresionante que he encontrado... Desde que comenzamos a usar la plataforma, hemos visto un aumento del 45% en consultas y ciclos de ventas significativamente más rápidos."
+    },
+    "roles": {
+      "realEstateAgent": "Agente Inmobiliario",
+      "propertyManager": "Gestor de Propiedades",
+      "propertySales": "Ventas de Propiedades"
+    },
+    "authors": {
+      "vunThy": "Vun Thy",
+      "marta": "Marta",
+      "julia": "Julia"
     }
   },
   "bento": {

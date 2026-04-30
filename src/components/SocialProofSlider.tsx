@@ -5,17 +5,17 @@ import { useTranslation } from 'react-i18next';
 const getTestimonials = (t: any) => [
   {
     quote: t('socialProof.testimonials.vunThy'),
-    author: "Vun Thy",
+    author: t('socialProof.authors.vunThy'),
     roleKey: "realEstateAgent"
   },
   {
     quote: t('socialProof.testimonials.marta'),
-    author: "Marta",
+    author: t('socialProof.authors.marta'),
     roleKey: "propertyManager"
   },
   {
     quote: t('socialProof.testimonials.julia'),
-    author: "Julia",
+    author: t('socialProof.authors.julia'),
     roleKey: "propertySales"
   }
 ];
