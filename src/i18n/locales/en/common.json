@@ -7,17 +7,21 @@
     "bookCall": "Book a Free Call"
   },
   "bookCallModal": {
-    "title": "Book a Free Call",
-    "subtitle": "Find out how we can scale your agency.",
-    "successTitle": "Request Received!",
-    "successMessage": "We'll be in touch shortly to schedule your demo.",
-    "close": "Close",
+    "title": "Book a Demo Call",
+    "subtitle": "Schedule a personalized demo with our team",
     "firstName": "First Name",
+    "firstNamePlaceholder": "Jane",
     "lastName": "Last Name",
-    "email": "Work Email",
-    "phone": "Phone Number (Optional)",
-    "submit": "Request Demo",
-    "privacy": "By submitting, you agree to our Privacy Policy."
+    "lastNamePlaceholder": "Doe",
+    "email": "Email Address",
+    "emailPlaceholder": "jane@agency.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+34 600 000 000",
+    "submit": "Book My Demo",
+    "privacy": "We respect your privacy. No spam.",
+    "successTitle": "Thank You!",
+    "successMessage": "We've received your request and will contact you shortly.",
+    "close": "Close"
   },
   "footer": {
     "product": "Product",

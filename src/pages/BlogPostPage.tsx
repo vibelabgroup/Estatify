@@ -14,8 +14,8 @@ export function BlogPostPage() {
   if (!post) {
     return (
       <div className="min-h-screen pt-32 px-4 text-center">
-        <h1 className="text-3xl font-bold mb-4">Post not found</h1>
-        <Link to="/blog" className="text-blue-600 hover:text-blue-700">← Back to Blog</Link>
+        <h1 className="text-3xl font-bold mb-4">{t('postNotFound')}</h1>
+        <Link to="/blog" className="text-blue-600 hover:text-blue-700">← {t('backToPosts')}</Link>
       </div>
     );
   }

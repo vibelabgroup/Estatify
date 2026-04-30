@@ -71,22 +71,22 @@ export function BookCallModal({ isOpen, onClose }: { isOpen: boolean; onClose: (
                     <div className="grid grid-cols-2 gap-4">
                       <div className="space-y-1.5">
                         <label htmlFor="modal-firstName" className="text-sm font-semibold text-slate-700">{t('bookCallModal.firstName')}</label>
-                        <input type="text" id="modal-firstName" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="Jane" />
+                        <input type="text" id="modal-firstName" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('bookCallModal.firstNamePlaceholder')} />
                       </div>
                       <div className="space-y-1.5">
                         <label htmlFor="modal-lastName" className="text-sm font-semibold text-slate-700">{t('bookCallModal.lastName')}</label>
-                        <input type="text" id="modal-lastName" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="Doe" />
+                        <input type="text" id="modal-lastName" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('bookCallModal.lastNamePlaceholder')} />
                       </div>
                     </div>
                     
                     <div className="space-y-1.5">
                       <label htmlFor="modal-email" className="text-sm font-semibold text-slate-700">{t('bookCallModal.email')}</label>
-                      <input type="email" id="modal-email" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="jane@agency.com" />
+                      <input type="email" id="modal-email" required className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('bookCallModal.emailPlaceholder')} />
                     </div>
 
                     <div className="space-y-1.5">
                       <label htmlFor="modal-phone" className="text-sm font-semibold text-slate-700">{t('bookCallModal.phone')}</label>
-                      <input type="tel" id="modal-phone" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder="+34 600 000 000" />
+                      <input type="tel" id="modal-phone" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-light bg-slate-50 focus:bg-white" placeholder={t('bookCallModal.phonePlaceholder')} />
                     </div>
 
                     <div className="space-y-1.5 pt-2">

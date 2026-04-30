@@ -7,17 +7,21 @@
     "bookCall": "Reserva una Llamada Gratis"
   },
   "bookCallModal": {
-    "title": "Reserva una Llamada Gratis",
-    "subtitle": "Descubre cómo podemos escalar tu agencia.",
-    "successTitle": "¡Solicitud Recibida!",
-    "successMessage": "Nos pondremos en contacto contigo pronto para programar tu demo.",
-    "close": "Cerrar",
+    "title": "Reservar una Demo",
+    "subtitle": "Programa una demo personalizada con nuestro equipo",
     "firstName": "Nombre",
+    "firstNamePlaceholder": "María",
     "lastName": "Apellido",
-    "email": "Email de Trabajo",
-    "phone": "Número de Teléfono (Opcional)",
-    "submit": "Solicitar Demo",
-    "privacy": "Al enviar, aceptas nuestra Política de Privacidad."
+    "lastNamePlaceholder": "García",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "maria@agencia.com",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "+34 600 000 000",
+    "submit": "Reservar Mi Demo",
+    "privacy": "Respetamos tu privacidad. Sin spam.",
+    "successTitle": "¡Gracias!",
+    "successMessage": "Hemos recibido tu solicitud y te contactaremos pronto.",
+    "close": "Cerrar"
   },
   "footer": {
     "product": "Producto",
