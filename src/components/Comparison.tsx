@@ -1,0 +1,97 @@
+import { motion } from 'motion/react';
+import { Check } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
+const comparisons = [
+  { feature: "AI-Powered Search & Content", others: "Manual / Hired Copywriters", estatify: "Built-in AI" },
+  { feature: "Lead Protection (Ref Masking)", others: "Buyers bypass you", estatify: "Auto-Masked References" },
+  { feature: "Import & Sync", others: "Manual data entry", estatify: "ReSales Online API Sync" },
+  { feature: "Social Media", others: "Manual posting", estatify: "Automated Sharing" },
+  { feature: "Analytics & KPI", others: "Different dashboard", estatify: "Integrated Real-time Dashboard" },
+  { feature: "Property Pricing", others: "Guesswork", estatify: "AI Forecasting & Heatmaps" },
+  { feature: "Support & Updates", others: "Paid / Slow", estatify: "24/7 Support + Monthly Updates" }
+];
+
+export function Comparison() {
+  const { t } = useTranslation('home');
+
+  return (
+    <section className="py-24 bg-slate-50 border-t border-slate-100" id="comparison">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+            What Makes It Different?
+          </h2>
+          <p className="text-lg tracking-tight text-slate-500 font-light">
+            Stop stitching together 5 different tools. Get everything in one place.
+          </p>
+        </div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="bg-white rounded-3xl border border-slate-200/60 overflow-hidden shadow-sm"
+        >
+          <div className="grid grid-cols-3 bg-slate-50 border-b border-slate-200 items-center p-4 sm:p-6">
+            <div className="font-semibold text-slate-900 text-sm sm:text-base">What You Need</div>
+            <div className="font-medium text-slate-500 text-sm sm:text-base">Other Tools</div>
+            <div className="font-bold text-blue-600 text-sm sm:text-base flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-blue-600"></span>
+              Estatify
+            </div>
+          </div>
+          <div className="divide-y divide-slate-100">
+            {comparisons.map((item, i) => (
+              <div key={i} className="grid grid-cols-3 p-4 sm:p-6 items-center hover:bg-slate-50/50 transition-colors">
+                <div className="text-slate-900 font-medium text-sm sm:text-base">{item.feature}</div>
+                <div className="text-slate-500 text-sm sm:text-base">{item.others}</div>
+                <div className="text-slate-900 font-medium text-sm sm:text-base flex items-center gap-2">
+                  <Check className="w-4 h-4 text-green-500" />
+                  {item.estatify}
+                </div>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-20 text-center"
+        >
+          <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-12 shadow-2xl">
+            <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              {t('comparisonCta.title')}
+            </h3>
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+              {t('comparisonCta.subtitle')}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg"
+              >
+                {t('comparisonCta.primaryButton')}
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200"
+              >
+                {t('comparisonCta.secondaryButton')}
+              </motion.button>
+            </div>
+            <p className="text-blue-200 text-sm mt-6">
+              {t('comparisonCta.disclaimer')}
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

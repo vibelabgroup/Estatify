@@ -1,0 +1,58 @@
+{
+  "terms": {
+    "title": "Términos y Condiciones",
+    "introduction": "Bienvenido a Estatify.ai. Estos Términos y Condiciones rigen el uso de nuestro sitio web y servicios.",
+    "acceptance": "1. Aceptación de Términos",
+    "acceptanceText": "Al acceder o usar nuestros servicios, aceptas estar sujeto a estos Términos. Si no estás de acuerdo, por favor no uses nuestros servicios.",
+    "useOfServices": "2. Uso de Servicios",
+    "useOfServicesText": "Nuestra plataforma proporciona herramientas impulsadas por IA y análisis del comportamiento adaptados para agencias inmobiliarias. Aceptas usar estos servicios solo para fines lícitos y de acuerdo con estos Términos.",
+    "responsibility": {
+      "credentials": "Eres responsable de mantener la confidencialidad de tus credenciales de cuenta.",
+      "misuse": "No debes malusar nuestros servicios para transmitir código malicioso o spam."
+    },
+    "intellectualProperty": "3. Propiedad Intelectual",
+    "intellectualPropertyText": "El nombre, logo, software y contenido de Estatify.ai son propiedad intelectual de Estatify.ai y están protegidos por las leyes aplicables. No puedes copiar, modificar o distribuir nuestra propiedad intelectual sin consentimiento previo por escrito.",
+    "dataPrivacy": "4. Datos y Privacidad",
+    "dataPrivacyText": "El uso de nuestros servicios también se rige por nuestra Política de Privacidad, que detalla cómo recopilamos y procesamos datos. Al usar nuestros servicios, consientes nuestras prácticas de datos.",
+    "limitationLiability": "5. Limitación de Responsabilidad",
+    "limitationLiabilityText": "Estatify.ai no será responsable por ningún daño indirecto, incidental o consecuente que resulte del uso o incapacidad de usar nuestros servicios. No garantizamos resultados específicos del uso de nuestras herramientas de análisis o IA.",
+    "changes": "6. Cambios en los Términos",
+    "changesText": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Proporcionaremos aviso de cambios significativos en nuestra plataforma. Tu uso continuo de los servicios constituye aceptación de los Términos actualizados."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "introduction": "Estatify.ai está comprometido con proteger tu privacidad y manejar tus datos responsablemente. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tu información.",
+    "informationCollection": "Información que Recopilamos",
+    "informationCollectionText": "Recopilamos información que proporcionas directamente, como nombre, correo electrónico y detalles de propiedades cuando usas nuestros servicios. También recopilamos datos de uso e información de análisis para mejorar nuestros servicios.",
+    "dataUsage": "Cómo Usamos tu Información",
+    "dataUsageText": "Usamos tu información para proporcionar nuestros servicios, personalizar tu experiencia y comunicarnos contigo. Podemos usar datos agregados para análisis y mejora de servicios.",
+    "dataSecurity": "Seguridad de Datos",
+    "dataSecurityText": "Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción.",
+    "userRights": "Tus Derechos",
+    "userRightsText": "Tienes derecho a acceder, actualizar o eliminar tu información personal. También puedes optar por no participar en ciertas prácticas de recopilación de datos.",
+    "changes": "Cambios en esta Política",
+    "changesText": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio material e indicaremos cuándo se vuelven efectivos."
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "introduction": "Esta Política de Cookies explica cómo Estatify.ai usa cookies y tecnologías similares para mejorar tu experiencia en nuestro sitio web.",
+    "whatAreCookies": "Qué son las Cookies",
+    "whatAreCookiesText": "Las cookies son pequeños archivos de texto almacenados en tu dispositivo que nos ayudan a reconocerte y recordar tus preferencias.",
+    "howWeUse": "Cómo Usamos las Cookies",
+    "howWeUseText": "Usamos cookies para funcionalidad esencial, análisis y personalización. Las cookies esenciales son requeridas para que nuestros servicios funcionen correctamente.",
+    "categories": {
+      "essential": "Esenciales",
+      "essentialText": "Requeridas para funcionalidad básica del sitio",
+      "analytics": "Análisis",
+      "analyticsText": "Nos ayudan a entender cómo usas nuestro sitio",
+      "marketing": "Marketing",
+      "marketingText": "Usadas para personalizar tu experiencia"
+    },
+    "managing": "Gestionar Cookies",
+    "managingText": "Puedes controlar y gestionar las cookies a través de la configuración de tu navegador. Sin embargo, deshabilitar ciertas cookies puede afectar la funcionalidad del sitio.",
+    "thirdParty": "Cookies de Terceros",
+    "thirdPartyText": "Podemos usar servicios de terceros que establecen cookies en nuestro nombre para fines de análisis y marketing.",
+    "updates": "Actualizaciones de esta Política",
+    "updatesText": "Podemos actualizar esta Política de Cookies de vez en cuando. Los cambios se publicarán en esta página con una fecha de vigencia actualizada."
+  }
+}

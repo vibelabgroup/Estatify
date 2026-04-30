@@ -1,0 +1,68 @@
+{
+  "seo": {
+    "title": "Estatify.ai - Plataforma Avanzada de Bienes Raíces MLS",
+    "description": "Transforma tu negocio inmobiliario con Estatify.ai - la plataforma MLS más avanzada. Análisis de propiedades con IA, generación de leads automatizada y herramientas completas de gestión de propiedades para profesionales inmobiliarios.",
+    "keywords": "bienes raíces MLS, gestión de propiedades, análisis con IA, CRM inmobiliario, listado de propiedades, generación de leads, software inmobiliario, base de datos de propiedades, automatización inmobiliaria, plataforma MLS, tecnología inmobiliaria"
+  },
+  "hero": {
+    "badge": "Desarrollado con las mejores agencias inmobiliarias españolas",
+    "title": "Vende propiedades con",
+    "titleHighlight": "menos trabajo.",
+    "subtitle": "Estatify pone tus listados, leads y marketing en un solo lugar. Automatización con IA que funciona 24/7 para que puedas concentrarte en cerrar negocios.",
+    "cta": "Comenzar Gratis",
+    "conversionRate": "3x Más Leads",
+    "conversionSubtext": "Aumento promedio de conversión"
+  },
+  "problem": {
+    "title": "La forma antigua de vender bienes raíces está rota.",
+    "subtitle": "Estás lidiando con herramientas dispersas, mensajes perdidos y administración sin fin. No debería ser tan difícil.",
+    "scatteredListings": "Listados dispersos",
+    "scatteredListingsDesc": "Propiedades dispersas en infinitas hojas de cálculo, haciendo que las actualizaciones sean tediosas y lentas.",
+    "losingLeads": "Perdiendo clientes potenciales",
+    "losingLeadsDesc": "Compradores potenciales que se escapan por las grietas de tu bandeja de entrada abarrotada y mensajes de WhatsApp.",
+    "endlessAdmin": "Administración sin fin",
+    "endlessAdminDesc": "Horas desperdiciadas cada semana en papeleo repetitivo, entrada manual de datos y seguimientos.",
+    "alwaysOnCall": "Siempre disponible",
+    "alwaysOnCallDesc": "Respondiendo las mismas preguntas de compradores a todas horas del día y de la noche.",
+    "blindMarketing": "Marketing a ciegas",
+    "blindMarketingDesc": "Adivinando qué portales y anuncios funcionan en lugar de conocer el ROI real.",
+    "fragmentedTools": "Herramientas fragmentadas",
+    "fragmentedToolsDesc": "Pagando múltiples suscripciones de software que no se conectan, aumentando costos y ralentizándote.",
+    "ctaTitle": "¿Listo para transformar tu negocio inmobiliario?",
+    "ctaSubtitle": "Únete a miles de agentes que han optimizado sus operaciones, cerrado más negocios y recuperado su tiempo con Estatify.",
+    "ctaPrimary": "Comenzar Prueba Gratuita",
+    "ctaSecondary": "Agendar Demo",
+    "ctaDisclaimer": "No se requiere tarjeta de crédito • Prueba gratuita de 14 días • Cancela en cualquier momento"
+  },
+  "features": {
+    "title": "Todo lo que necesitas. ",
+    "titleHighlight": "Nada que no.",
+    "subtitle": "Una plataforma perfectamente integrada diseñada específicamente para convertir tu agencia inmobiliaria en una máquina bien engrasada.",
+    "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
+    "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más negocios y escalar sus operaciones sin esfuerzo.",
+    "ctaPrimary": "Comienza tu Prueba Gratuita",
+    "ctaSecondary": "Reserva una Demo Personalizada",
+    "ctaDisclaimer": "Sin costos de configuración • Acceso instantáneo • Cancela en cualquier momento"
+  },
+  "designCta": {
+    "title": "¿Listo para transformar tus listados?",
+    "subtitle": "Deja de conformarte con listados genéricos. Crea páginas de aterrizaje impresionantes y de alta conversión que capturen más leads y muestren tus propiedades como nunca antes.",
+    "primaryButton": "Crear Mi Primera Página de Aterrizaje",
+    "secondaryButton": "Ver Demos en Vivo",
+    "disclaimer": "No se requiere tarjeta de crédito • Prueba gratuita de 14 días • Cancela en cualquier momento"
+  },
+  "analyticsCta": {
+    "title": "¿Listo para superar a tu competencia?",
+    "subtitle": "Deja de volar a ciegas. Obtén insights de comportamiento que separan a los agentes de mejor rendimiento del resto. Comienza a cerrar negocios con confianza.",
+    "primaryButton": "Comenzar Prueba Gratuita de Analytics",
+    "secondaryButton": "Ver Analytics en Acción",
+    "disclaimer": "Sin configuración requerida • Insights instantáneos • Cancela en cualquier momento"
+  },
+  "comparisonCta": {
+    "title": "¿Listo para reemplazar tu conjunto de herramientas?",
+    "subtitle": "Deja de hacer malabares con múltiples plataformas y pagar por características que no funcionan juntas. Obtén todo lo que necesitas en una solución poderosa e integrada.",
+    "primaryButton": "Comenzar Prueba Todo en Uno",
+    "secondaryButton": "Ver Tour de la Plataforma",
+    "disclaimer": "No se requiere tarjeta de crédito • Acceso completo • Cancela en cualquier momento"
+  }
+}

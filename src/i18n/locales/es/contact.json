@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Contáctanos - Contacta Estatify.ai",
+    "description": "¿Listo para transformar tu agencia inmobiliaria? Estamos aquí para ayudarte a comenzar con Estatify.ai.",
+    "keywords": "contacto estatify, soporte estatify, contacto software inmobiliario, servicio al cliente estatify"
+  },
+  "title": "Contáctanos",
+  "subtitle": "¿Listo para transformar tu agencia inmobiliaria? Estamos aquí para ayudarte a comenzar con Estatify.ai.",
+  "email": {
+    "title": "Envíanos un Correo",
+    "description": "Nuestro equipo amigable está aquí para ayudarte.",
+    "email": "support@estatify.ai"
+  },
+  "liveChat": {
+    "title": "Chat en Vivo",
+    "description": "Próximamente en Q3 2026.",
+    "unavailable": "Actualmente no disponible"
+  },
+  "office": {
+    "title": "Oficina",
+    "description": "Ven a saludarnos a nuestra oficina en Costa del Sol.",
+    "location": "Málaga, España"
+  },
+  "form": {
+    "title": "Envíanos un mensaje",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "placeholder": {
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "email": "juan@ejemplo.com",
+      "message": "¿Cómo podemos ayudarte?"
+    },
+    "submit": "Enviar Mensaje"
+  }
+}

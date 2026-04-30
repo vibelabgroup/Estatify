@@ -1,0 +1,68 @@
+{
+  "seo": {
+    "title": "Estatify.ai - Advanced Real Estate MLS Platform",
+    "description": "Transform your real estate business with Estatify.ai - the most advanced MLS platform. AI-powered property analytics, automated lead generation, and comprehensive property management tools for real estate professionals.",
+    "keywords": "real estate MLS, property management, AI analytics, real estate CRM, property listing, lead generation, real estate software, property database, real estate automation, MLS platform, real estate technology"
+  },
+  "hero": {
+    "badge": "Developed with top Spanish real estate agencies",
+    "title": "Sell properties with",
+    "titleHighlight": "less work.",
+    "subtitle": "Estatify puts your listings, leads, and marketing in one place. AI-powered automation that works 24/7 so you can focus on closing deals.",
+    "cta": "Start for Free",
+    "conversionRate": "3x More Leads",
+    "conversionSubtext": "Average conversion increase"
+  },
+  "problem": {
+    "title": "The old way of selling real estate is broken.",
+    "subtitle": "You're juggling scattered tools, lost messages, and endless admin. It shouldn't be this hard.",
+    "scatteredListings": "Scattered Listings",
+    "scatteredListingsDesc": "Properties scattered across endless spreadsheets, making updates pain-staking and slow.",
+    "losingLeads": "Losing Hot Leads",
+    "losingLeadsDesc": "Potential buyers falling through the cracks of your crowded inbox and WhatsApp messages.",
+    "endlessAdmin": "Endless Admin",
+    "endlessAdminDesc": "Hours wasted every single week on repetitive paperwork, manual data-entry, and follow-ups.",
+    "alwaysOnCall": "Always On Call",
+    "alwaysOnCallDesc": "Answering the exact same questions from buyers at all hours of the day and night.",
+    "blindMarketing": "Blind Marketing",
+    "blindMarketingDesc": "Guessing which portals and ads are working instead of knowing the actual ROI.",
+    "fragmentedTools": "Fragmented Tools",
+    "fragmentedToolsDesc": "Paying for multiple software subscriptions that don't connect, driving up costs and slowing you down.",
+    "ctaTitle": "Ready to Transform Your Real Estate Business?",
+    "ctaSubtitle": "Join thousands of agents who've streamlined their operations, closed more deals, and reclaimed their time with Estatify.",
+    "ctaPrimary": "Start Free Trial",
+    "ctaSecondary": "Schedule Demo",
+    "ctaDisclaimer": "No credit card required • 14-day free trial • Cancel anytime"
+  },
+  "features": {
+    "title": "Everything you need. ",
+    "titleHighlight": "Nothing you don't.",
+    "subtitle": "A beautifully integrated platform designed specifically to turn your real estate agency into a well-oiled machine.",
+    "ctaTitle": "Ready to Build Your Real Estate Empire?",
+    "ctaSubtitle": "Join thousands of successful agencies using Estatify to dominate their markets, close more deals, and scale their operations effortlessly.",
+    "ctaPrimary": "Start Your Free Trial",
+    "ctaSecondary": "Book a Personalized Demo",
+    "ctaDisclaimer": "No setup fees • Instant access • Cancel anytime"
+  },
+  "designCta": {
+    "title": "Ready to Transform Your Listings?",
+    "subtitle": "Stop settling for generic listings. Create stunning, high-converting landing pages that capture more leads and showcase your properties like never before.",
+    "primaryButton": "Build My First Landing Page",
+    "secondaryButton": "See Live Demos",
+    "disclaimer": "No credit card required • 14-day free trial • Cancel anytime"
+  },
+  "analyticsCta": {
+    "title": "Ready to Outsmart Your Competition?",
+    "subtitle": "Stop flying blind. Get the behavioral insights that separate top-performing agents from the rest. Start closing deals with confidence.",
+    "primaryButton": "Start Analytics Free Trial",
+    "secondaryButton": "See Analytics in Action",
+    "disclaimer": "No setup required • Instant insights • Cancel anytime"
+  },
+  "comparisonCta": {
+    "title": "Ready to Replace Your Tool Stack?",
+    "subtitle": "Stop juggling multiple platforms and paying for features that don't work together. Get everything you need in one powerful, integrated solution.",
+    "primaryButton": "Start All-in-One Trial",
+    "secondaryButton": "See Platform Tour",
+    "disclaimer": "No credit card required • Full access • Cancel anytime"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "features": "Features",
+    "references": "References",
+    "articles": "Articles",
+    "contact": "Contact",
+    "bookCall": "Book a Free Call"
+  },
+  "footer": {
+    "product": "Product",
+    "company": "Company",
+    "contact": "Contact",
+    "aiDescriptions": "AI Property Descriptions",
+    "smartLanding": "Smart Landing Pages",
+    "behavioralAnalytics": "Behavioral Analytics",
+    "resalesSync": "Resales Online Sync",
+    "leadProtection": "Lead Protection",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "bookDemo": "Book a Demo",
+    "contactUs": "Contact",
+    "liveChat": "Live Chat",
+    "liveChatComingSoon": "Coming soon in Q3 2026. For now, please email us directly.",
+    "copyright": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  }
+}

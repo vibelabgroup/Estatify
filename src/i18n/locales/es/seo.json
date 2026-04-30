@@ -1,0 +1,30 @@
+{
+  "localBusiness": {
+    "name": "Estatify.ai",
+    "description": "Plataforma avanzada de bienes raíces MLS con análisis impulsados por IA, gestión de propiedades y herramientas de generación de leads para profesionales inmobiliarios en Costa del Sol, España.",
+    "address": {
+      "addressCountry": "España",
+      "addressRegion": "Andalucía",
+      "addressLocality": "Málaga",
+      "postalCode": "29001",
+      "streetAddress": "Calle Marqués de Lema 12"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.7202,
+      "longitude": -4.4200
+    },
+    "areaServed": ["Costa del Sol", "Málaga", "Marbella", "Estepona", "Fuengirola", "Torremolinos", "Mijas"],
+    "url": "https://estatify.ai",
+    "telephone": "+34 951 234 567",
+    "email": "support@estatify.ai",
+    "openingHours": "Lu-Vie 09:00-18:00",
+    "sameAs": "https://www.linkedin.com/company/estatify-ai",
+    "priceRange": "$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  }
+}

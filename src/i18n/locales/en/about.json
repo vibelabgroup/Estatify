@@ -1,0 +1,31 @@
+{
+  "seo": {
+    "title": "About Estatify.ai - Our Mission & Story",
+    "description": "Learn about Estatify.ai's mission to bring modern AI and behavioral analytics to real estate agencies. Founded in 2024 to help real estate professionals work smarter and close more deals.",
+    "keywords": "about estatify, estatify mission, real estate software company, AI for real estate, property management software, real estate technology"
+  },
+  "title": "About Estatify.ai",
+  "subtitle": "We're on a mission to bring modern AI and behavioral analytics to real estate agencies, helping them work smarter and close more deals.",
+  "storyTitle": "Our Story",
+  "story": [
+    "Founded in 2024, Estatify.ai was born out of a simple observation: real estate agencies in Costa del Sol were spending too much time on manual admin work and relying too heavily on generic property portals.",
+    "We noticed that the most successful global tech companies use behavioral data to personalize experiences and predict buying intent, yet the real estate industry was left behind.",
+    "So, we built Estatify.ai to bridge that gap. We combine deep integrations with local MLS systems like Resales Online with cutting-edge AI and advanced behavioral analytics to give our clients an \"unfair advantage\" in a highly competitive market."
+  ],
+  "mission": {
+    "title": "Our Mission",
+    "description": "To make advanced AI and analytics accessible and actionable for every real estate professional."
+  },
+  "localFocus": {
+    "title": "Local Focus",
+    "description": "While our tech is global, our hearts are in Costa del Sol. We build specific tools for this unique market."
+  },
+  "clientFirst": {
+    "title": "Client First",
+    "description": "We succeed only when our clients succeed. Your deal flow is our most important metric."
+  },
+  "innovation": {
+    "title": "Innovation",
+    "description": "We are constantly shipping new features and improving our AI models to keep you ahead."
+  }
+}

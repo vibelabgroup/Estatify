@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Get in Touch - Contact Estatify.ai",
+    "description": "Ready to transform your real estate agency? We're here to help you get started with Estatify.ai.",
+    "keywords": "contact estatify, estatify support, real estate software contact, estatify customer service"
+  },
+  "title": "Get in Touch",
+  "subtitle": "Ready to transform your real estate agency? We're here to help you get started with Estatify.ai.",
+  "email": {
+    "title": "Email Us",
+    "description": "Our friendly team is here to help.",
+    "email": "support@estatify.ai"
+  },
+  "liveChat": {
+    "title": "Live Chat",
+    "description": "Coming soon in Q3 2026.",
+    "unavailable": "Currently unavailable"
+  },
+  "office": {
+    "title": "Office",
+    "description": "Come say hello at our Costa del Sol office.",
+    "location": "Málaga, Spain"
+  },
+  "form": {
+    "title": "Send us a message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "placeholder": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "message": "How can we help you?"
+    },
+    "submit": "Send Message"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "localBusiness": {
+    "name": "Estatify.ai",
+    "description": "Advanced real estate MLS platform with AI-powered analytics, property management, and lead generation tools for real estate professionals in Costa del Sol, Spain.",
+    "address": {
+      "addressCountry": "Spain",
+      "addressRegion": "Andalusia",
+      "addressLocality": "Málaga",
+      "postalCode": "29001",
+      "streetAddress": "Calle Marqués de Lema 12"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.7202,
+      "longitude": -4.4200
+    },
+    "areaServed": ["Costa del Sol", "Málaga", "Marbella", "Estepona", "Fuengirola", "Torremolinos", "Mijas"],
+    "url": "https://estatify.ai",
+    "telephone": "+34 951 234 567",
+    "email": "support@estatify.ai",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": "https://www.linkedin.com/company/estatify-ai",
+    "priceRange": "$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  },
+  "propertyLandingExample": {
+    "name": "Modern Luxury Villa in Marbella",
+    "description": "Stunning beachfront property with panoramic Mediterranean views and private infinity pool",
+    "image": "https://estatify.ai/property-1.jpg",
+    "address": {
+      "addressCountry": "Spain",
+      "addressRegion": "Andalusia",
+      "addressLocality": "Marbella",
+      "postalCode": "29601"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.5101,
+      "longitude": -4.8892
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "2500000",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

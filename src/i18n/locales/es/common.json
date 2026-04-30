@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "features": "Características",
+    "references": "Referencias",
+    "articles": "Artículos",
+    "contact": "Contacto",
+    "bookCall": "Reserva una Llamada Gratis"
+  },
+  "footer": {
+    "product": "Producto",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "aiDescriptions": "Descripciones de Propiedades con IA",
+    "smartLanding": "Páginas de Aterrizaje Inteligentes",
+    "behavioralAnalytics": "Análisis del Comportamiento",
+    "resalesSync": "Sincronización con Resales Online",
+    "leadProtection": "Protección de Leads",
+    "aboutUs": "Sobre Nosotros",
+    "blog": "Blog",
+    "bookDemo": "Reserva una Demo",
+    "contactUs": "Contacto",
+    "liveChat": "Chat en Vivo",
+    "liveChatComingSoon": "Próximamente en Q3 2026. Por ahora, envíanos un correo directamente.",
+    "copyright": "Todos los derechos reservados",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies"
+  }
+}

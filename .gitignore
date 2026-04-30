@@ -1,0 +1,24 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Archives
+*.tar.gz
+*.zip
+
+# Backup folders
+Estatify-main/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db

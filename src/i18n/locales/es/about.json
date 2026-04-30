@@ -1,0 +1,31 @@
+{
+  "seo": {
+    "title": "Acerca de Estatify.ai - Nuestra Misión e Historia",
+    "description": "Conoce la misión de Estatify.ai de llevar IA moderna y análisis del comportamiento a las agencias inmobiliarias. Fundada en 2024 para ayudar a los profesionales inmobiliarios a trabajar de manera más inteligente y cerrar más negocios.",
+    "keywords": "acerca de estatify, misión de estatify, empresa de software inmobiliario, IA para bienes raíces, software de gestión de propiedades, tecnología inmobiliaria"
+  },
+  "title": "Acerca de Estatify.ai",
+  "subtitle": "Estamos en una misión de llevar IA moderna y análisis del comportamiento a las agencias inmobiliarias, ayudándolas a trabajar de manera más inteligente y cerrar más negocios.",
+  "storyTitle": "Nuestra Historia",
+  "story": [
+    "Fundada en 2024, Estatify.ai nació de una simple observación: las agencias inmobiliarias en Costa del Sol estaban dedicando demasiado tiempo al trabajo administrativo manual y dependiendo demasiado de portales de propiedades genéricos.",
+    "Notamos que las empresas tecnológicas globales más exitosas usan datos del comportamiento para personalizar experiencias y predecir la intención de compra, pero la industria inmobiliaria se quedó atrás.",
+    "Así que construimos Estatify.ai para cerrar esa brecha. Combinamos integraciones profundas con sistemas MLS locales como Resales Online con IA de vanguardia y análisis avanzados del comportamiento para dar a nuestros clientes una \"ventaja injusta\" en un mercado altamente competitivo."
+  ],
+  "mission": {
+    "title": "Nuestra Misión",
+    "description": "Hacer que la IA y los análisis avanzados sean accesibles y accionables para cada profesional inmobiliario."
+  },
+  "localFocus": {
+    "title": "Enfoque Local",
+    "description": "Aunque nuestra tecnología es global, nuestros corazones están en Costa del Sol. Construimos herramientas específicas para este mercado único."
+  },
+  "clientFirst": {
+    "title": "Cliente Primero",
+    "description": "Tenemos éxito solo cuando nuestros clientes tienen éxito. Tu flujo de negocios es nuestra métrica más importante."
+  },
+  "innovation": {
+    "title": "Innovación",
+    "description": "Estamos constantemente lanzando nuevas características y mejorando nuestros modelos de IA para mantenerte adelante."
+  }
+}

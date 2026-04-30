@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "FAQ - Soporte de Estatify.ai",
+    "description": "Preguntas frecuentes sobre la plataforma de bienes raíces Estatify.ai. Obtén respuestas a preguntas comunes sobre características, precios e implementación.",
+    "keywords": "faq de estatify, preguntas frecuentes, soporte de estatify, preguntas sobre software inmobiliario"
+  },
+  "title": "Preguntas Frecuentes Respondidas",
+  "questions": [
+    {
+      "q": "¿Cómo funciona realmente la integración con Resales Online?",
+      "a": "Estatify se sincroniza perfectamente con tu cuenta de Resales Online. Extraemos todo tu portafolio de propiedades, incluyendo imágenes, características y precios, directamente a nuestra plataforma. ¿La mejor parte? Cualquier actualización que hagas en Resales Online se refleja automáticamente en tus páginas de aterrizaje de Estatify, asegurando que tus datos siempre estén perfectamente actualizados sin ninguna entrada manual duplicada."
+    },
+    {
+      "q": "¿Qué significa exactamente 'Protección de Leads' para listados compartidos?",
+      "a": "En el mercado de Costa del Sol, muchas agencias comparten los mismos listados. Nuestra Protección de Leads enmascara automáticamente los números de referencia originales de Resales Online (por ejemplo, transformando 'R4793359' en tu propia referencia interna). Esto asegura que los compradores no puedan simplemente copiar el número de referencia, buscarlo en Google y eludir tu agencia para ir directamente al agente del listado. Tus leads permanecen tuyos."
+    },
+    {
+      "q": "¿Puede la IA realmente escribir mejores descripciones que mis agentes?",
+      "a": "Sí. Nuestra IA no es solo un generador de texto genérico. Está entrenada en miles de listados inmobiliarios exitosos y de alta conversión específicos del mercado español. Toma notas básicas de vendedores, a menudo secas, y las transforma en copia convincente y optimizada para SEO, destacando el estilo de vida, potencial de inversión y características clave que los compradores extranjeros realmente buscan."
+    },
+    {
+      "q": "¿Realizan tus páginas de aterrizaje individuales mejor que los listados estándar de portales?",
+      "a": "Absolutamente. Los portales estándar están diseñados para mantener a los usuarios en su sitio, rodeados de las propiedades de tus competidores. Nuestras páginas de aterrizaje independientes eliminan distracciones, presentan imágenes inmersivas, muestran información claramente y colocan formularios de captura de leads estratégicos justo donde los compradores esperan encontrarlos. Capturas el lead en lugar de perderlo con una propiedad similar al final de la página."
+    },
+    {
+      "q": "¿Cómo maneja la IA las traducciones multiidioma para compradores del norte de Europa?",
+      "a": "Vender en España significa tratar con una clientela internacional. La IA de Estatify traduce instantáneamente tus descripciones de propiedades optimizadas a alemán, sueco, noruego, francés, inglés y más. Entiende la terminología inmobiliaria local, así que no solo traduce palabra por palabra; localiza el tono para atraer a cada nacionalidad específica."
+    },
+    {
+      "q": "¿Se integrará suavemente con el sitio web existente de nuestra agencia?",
+      "a": "¡Sí! Estatify está construido para complementar tu configuración actual. Puedes incrustar o enlazar fácilmente a nuestras páginas de aterrizaje de alta conversión perfectamente dentro de tu arquitectura de dominio existente. No hay necesidad de reconstruir todo tu sitio web, migrar tu CMS o contratar desarrolladores costosos; puedes comenzar a capturar más leads junto con tu sitio actual."
+    },
+    {
+      "q": "¿Es difícil entrenar a mis agentes para usar Estatify?",
+      "a": "Para nada. Diseñamos Estatify específicamente para eliminar el trabajo administrativo complejo. La interfaz es altamente intuitiva y visualmente limpia. Si tus agentes saben navegar herramientas estandarizadas, pueden dominar nuestra plataforma. La mayoría de las agencias tienen a su equipo completamente integrado y generando listados con IA en sus primeros 15 minutos."
+    },
+    {
+      "q": "¿Qué sucede exactamente cuando un comprador envía una solicitud en una página de aterrizaje?",
+      "a": "El momento en que un comprador envía sus detalles, suceden tres cosas instantáneamente: El lead se asegura en tu dashboard de Estatify, el agente asignado recibe una notificación inmediata (vía correo electrónico o alerta SMS), y el comprador recibe una respuesta automatizada bellamente marcada confirmando su solicitud. La velocidad es crítica en bienes raíces, y nos aseguramos de que respondas primero."
+    },
+    {
+      "q": "¿Tus plantillas soportan formato europeo y sistema métrico?",
+      "a": "Sí, 100%. Entendemos que el mercado inmobiliario español opera estrictamente con el sistema métrico. Todas nuestras plantillas, formularios y generaciones de IA están bloqueadas para usar metros cuadrados (m²) y formatos de precios y fechas localizados europeos. Aseguramos que nunca alejes a tus compradores europeos con mediciones imperiales confusas."
+    },
+    {
+      "q": "¿Cuánto tiempo toma típicamente ver un retorno de inversión (ROI)?",
+      "a": "La mayoría de las agencias españolas ven un ROI positivo dentro de sus primeros 30 días. Ahorrando 5-10 horas por semana en entrada de datos manual y traducciones, y capturando hasta 3x más leads utilizando nuestras páginas de aterrizaje optimizadas y enmascaramiento de Protección de Leads, el software esencialmente se paga por sí mismo rápidamente con una sola transacción cerrada."
+    }
+  ]
+}

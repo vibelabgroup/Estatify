@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "FAQ - Estatify.ai Support",
+    "description": "Frequently asked questions about Estatify.ai real estate platform. Get answers to common questions about features, pricing, and implementation.",
+    "keywords": "estatify faq, frequently asked questions, estatify support, real estate software questions"
+  },
+  "title": "Quick Questions Answered",
+  "questions": [
+    {
+      "q": "How does the Resales Online integration actually work?",
+      "a": "Estatify seamlessly syncs with your Resales Online account. We pull your entire property portfolio—including images, features, and pricing—directly into our platform. The best part? Any updates you make on Resales Online are automatically reflected on your Estatify landing pages, ensuring your data is always perfectly up-to-date without any manual double entry."
+    },
+    {
+      "q": "What exactly does 'Lead Protection' mean for shared listings?",
+      "a": "In the Costa Del Sol market, many agencies share the same listings. Our Lead Protection automatically masks the original Resales Online reference numbers (e.g., transforming 'R4793359' into your own internal reference). This ensures buyers can't simply copy the reference number, search it on Google, and bypass your agency to go directly to the listing agent. Your leads stay yours."
+    },
+    {
+      "q": "Can the AI really write better descriptions than my agents?",
+      "a": "Yes. Our AI isn't just a generic text generator. It's trained on thousands of successful, high-converting real estate listings specific to the Spanish market. It takes basic, often dry seller notes and transforms them into compelling, SEO-optimized copy highlighting the lifestyle, investment potential, and key features that foreign buyers are actually looking for."
+    },
+    {
+      "q": "Do your individual landing pages perform better than standard portal listings?",
+      "a": "Absolutely. Standard portals are designed to keep users on their site, surrounded by your competitors' properties. Our standalone landing pages remove distractions, feature immersive imagery, present information clearly, and place strategic lead capture forms right where buyers expect them. You capture the lead instead of losing them to a similar property at the bottom of the page."
+    },
+    {
+      "q": "How does the AI handle multi-language translations for Northern European buyers?",
+      "a": "Selling in Spain means dealing with an international clientele. Estatify's AI instantly translates your optimized property descriptions into flawless German, Swedish, Norwegian, French, English, and more. It understands local real estate terminology, so it doesn't just translate word-for-word; it localizes the tone to appeal to each specific nationality."
+    },
+    {
+      "q": "Will this integrate smoothly with our agency's existing website?",
+      "a": "Yes! Estatify is built to complement your current setup. You can easily embed or link to our high-converting landing pages perfectly within your existing domain architecture. There's no need to overhaul your entire website, migrate your CMS, or hire expensive developers; you can start capturing more leads alongside your current site."
+    },
+    {
+      "q": "Is it difficult to train my agents to use Estatify?",
+      "a": "Not at all. We designed Estatify specifically to eliminate complex administrative work. The interface is highly intuitive and visually clean. If your agents know how to navigate standardized tools, they can master our platform. Most agencies have their team fully onboarded and generating AI listings within their first 15 minutes."
+    },
+    {
+      "q": "What happens exactly when a buyer submits an inquiry on a landing page?",
+      "a": "The moment a buyer submits their details, three things happen instantly: The lead is secured in your Estatify dashboard, the assigned agent receives an immediate notification (via email or SMS alert), and the buyer receives a beautifully branded, automated response confirming their inquiry. Speed is critical in real estate, and we make sure you respond first."
+    },
+    {
+      "q": "Do your templates support European formatting and the metric system?",
+      "a": "Yes, 100%. We understand that the Spanish real estate market operates strictly on the metric system. All our templates, forms, and AI generations are locked into using square meters (m²) and localized European pricing and date formats. We ensure you never alienate your European buyers with confusing imperial measurements."
+    },
+    {
+      "q": "How long does it typically take to see a return on investment (ROI)?",
+      "a": "Most Spanish agencies see a positive ROI within their first 30 days. By saving 5-10 hours per week on manual data entry and translations, and by capturing up to 3x more leads utilizing our optimized landing pages and Lead Protection masking, the software essentially pays for itself rapidly with a single closed transaction."
+    }
+  ]
+}
