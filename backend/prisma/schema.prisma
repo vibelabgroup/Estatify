@@ -1,0 +1,221 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Users table for admin authentication
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      String   @default("admin")
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+// Leads table
+model Lead {
+  id            String   @id @default(uuid())
+  email         String   @unique
+  firstName     String?
+  lastName      String?
+  phone         String?
+  company       String?
+  source        String?  @default("import")
+  status        String   @default("new") // new, contacted, responded, converted, lost, bounced
+  customFields  String? // JSON as string for SQLite
+  tags          String? // JSON array as string for SQLite
+  score         Int      @default(0)
+  lastContactAt DateTime?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  emailLogs     EmailLog[]
+  sequences     LeadSequence[]
+
+  @@index([status])
+  @@index([email])
+  @@index([createdAt])
+  @@map("leads")
+}
+
+// Email campaigns
+model EmailCampaign {
+  id           String   @id @default(uuid())
+  name         String
+  subject      String
+  body         String
+  templateId   String?
+  status       String   @default("draft") // draft, scheduled, sending, sent, paused
+  scheduledFor DateTime?
+  sentAt       DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  emailLogs    EmailLog[]
+
+  @@index([status])
+  @@index([scheduledFor])
+  @@map("email_campaigns")
+}
+
+// Email logs
+model EmailLog {
+  id           String   @id @default(uuid())
+  leadId       String
+  campaignId   String?
+  toEmail      String
+  subject      String
+  messageId    String?
+  status       String   @default("pending") // pending, queued, sent, delivered, opened, clicked, bounced, failed
+  sentAt       DateTime?
+  deliveredAt  DateTime?
+  openedAt     DateTime?
+  clickedAt    DateTime?
+  bouncedAt    DateTime?
+  bounceReason String?
+  metadata     String? // JSON as string for SQLite
+  smtpAccount  String?  // Which SMTP account was used
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  lead         Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  campaign     EmailCampaign? @relation(fields: [campaignId], references: [id], onDelete: SetNull)
+  events       TrackingEvent[]
+
+  @@index([leadId])
+  @@index([campaignId])
+  @@index([status])
+  @@index([sentAt])
+  @@map("email_logs")
+}
+
+// Automated followup sequences
+model FollowupSequence {
+  id              String   @id @default(uuid())
+  name            String
+  description     String?
+  triggerEvent    String   // no_response, opened, clicked, submitted_form
+  triggerDelay    Int      @default(72) // hours
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  steps           FollowupStep[]
+  leadSequences   LeadSequence[]
+
+  @@index([isActive])
+  @@map("followup_sequences")
+}
+
+// Followup steps
+model FollowupStep {
+  id          String   @id @default(uuid())
+  sequenceId  String
+  stepOrder   Int
+  subject     String
+  body        String
+  delayHours  Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  sequence    FollowupSequence @relation(fields: [sequenceId], references: [id], onDelete: Cascade)
+
+  @@index([sequenceId])
+  @@unique([sequenceId, stepOrder])
+  @@map("followup_steps")
+}
+
+// Lead sequence assignments
+model LeadSequence {
+  id           String   @id @default(uuid())
+  leadId       String
+  sequenceId   String
+  currentStep  Int      @default(0)
+  startedAt    DateTime @default(now())
+  completedAt DateTime?
+  status       String   @default("active") // active, paused, completed, cancelled
+  metadata     String? // JSON as string for SQLite
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  lead         Lead              @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  sequence     FollowupSequence  @relation(fields: [sequenceId], references: [id], onDelete: Cascade)
+
+  @@index([leadId])
+  @@index([sequenceId])
+  @@index([status])
+  @@map("lead_sequences")
+}
+
+// Tracking events
+model TrackingEvent {
+  id         String   @id @default(uuid())
+  emailLogId String
+  eventType  String   // open, click, bounce, complaint, unsubscribe
+  eventData  String? // JSON as string for SQLite
+  ipAddress  String?
+  userAgent  String?
+  timestamp  DateTime @default(now())
+
+  emailLog   EmailLog @relation(fields: [emailLogId], references: [id], onDelete: Cascade)
+
+  @@index([emailLogId])
+  @@index([eventType])
+  @@index([timestamp])
+  @@map("tracking_events")
+}
+
+// Email templates
+model EmailTemplate {
+  id          String   @id @default(uuid())
+  name        String
+  subject     String
+  body        String
+  variables   String? // JSON array as string for SQLite
+  category    String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([isActive])
+  @@map("email_templates")
+}
+
+// Daily email limits tracking
+model DailyEmailLimit {
+  id          String   @id @default(uuid())
+  account     String   // dan@estatify.ai or nico@estatify.ai
+  date        DateTime
+  sentCount   Int      @default(0)
+  limit       Int      @default(100)
+  resetAt     DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([account, date])
+  @@index([date])
+  @@map("daily_email_limits")
+}
+
+// System settings
+model SystemSetting {
+  id         String   @id @default(uuid())
+  key        String   @unique
+  value      String
+  type       String   @default("string") // string, number, boolean, json
+  category   String?
+  updatedAt  DateTime @updatedAt
+
+  @@index([category])
+  @@map("system_settings")
+}
