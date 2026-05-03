@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useModal } from '../contexts/ModalContext';
 
 const getComparisons = (t: any) => [
   { feature: t('comparison.features.aiSearch'), others: t('comparison.others.manualCopywriters'), estatify: t('comparison.estatify.builtInAI') },
@@ -14,6 +15,7 @@ const getComparisons = (t: any) => [
 
 export function Comparison() {
   const { t } = useTranslation('home');
+  const { openModal } = useModal();
   const comparisons = getComparisons(t);
 
   return (
@@ -75,14 +77,16 @@ export function Comparison() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg"
+                onClick={openModal}
+                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('comparisonCta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200"
+                onClick={openModal}
+                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200 cursor-pointer"
               >
                 {t('comparisonCta.secondaryButton')}
               </motion.button>

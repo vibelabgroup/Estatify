@@ -6,6 +6,7 @@ import { config } from '../config';
 import { AppError } from '../middleware/errorHandler';
 import { validateRequest } from '../middleware/validation';
 import Joi from 'joi';
+import { AuthRequest } from '../middleware/auth';
 
 const router = Router();
 const prisma = new PrismaClient();
@@ -147,6 +148,27 @@ router.get('/verify', async (req, res, next) => {
     }
 
     res.json({ user });
+  } catch (error) {
+    next(error);
+  }
+});
+
+// Get all users (admin only)
+router.get('/users', async (_req: AuthRequest, res, next) => {
+  try {
+    const users = await prisma.user.findMany({
+      select: {
+        id: true,
+        email: true,
+        name: true,
+        role: true,
+        isActive: true,
+        createdAt: true,
+      },
+      orderBy: { createdAt: 'desc' },
+    });
+
+    res.json(users);
   } catch (error) {
     next(error);
   }

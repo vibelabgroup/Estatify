@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Home, Users, Bot, DownloadCloud, BarChart3, LayoutTemplate, PenTool, Shield, Share2, TrendingUp, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useModal } from '../contexts/ModalContext';
 
 const getFeatures = (t: any) => [
   {
@@ -106,6 +107,7 @@ const getFeatures = (t: any) => [
 
 export function FeatureBento() {
   const { t } = useTranslation('home');
+  const { openModal } = useModal();
   const features = getFeatures(t);
 
   return (
@@ -162,14 +164,16 @@ export function FeatureBento() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg"
+                onClick={openModal}
+                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('features.ctaPrimary')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-slate-900 transition-all duration-200"
+                onClick={openModal}
+                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-slate-900 transition-all duration-200 cursor-pointer"
               >
                 {t('features.ctaSecondary')}
               </motion.button>

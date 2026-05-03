@@ -42,7 +42,19 @@ app.use(cors({
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
+
+// Serve static files for backend UI
+app.use(express.static('public'));
+
+// Backend UI route - serve the admin panel
+app.get('/backend', (_req, res) => {
+  res.sendFile('index.html', { root: 'public' });
+});
+
+app.get('/backend/', (_req, res) => {
+  res.sendFile('index.html', { root: 'public' });
+});
 
 // Compression
 app.use(compression());

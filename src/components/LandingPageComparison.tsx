@@ -1,10 +1,12 @@
 import { motion } from 'motion/react';
 import { X, Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useModal } from '../contexts/ModalContext';
 
 export function LandingPageComparison() {
   const { t } = useTranslation('home');
   const { t: tCommon } = useTranslation('common');
+  const { openModal } = useModal();
 
   return (
     <section className="py-24 bg-white border-t border-slate-100 overflow-hidden relative">
@@ -219,14 +221,16 @@ export function LandingPageComparison() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg"
+                onClick={openModal}
+                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('designCta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200"
+                onClick={openModal}
+                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200 cursor-pointer"
               >
                 {t('designCta.secondaryButton')}
               </motion.button>

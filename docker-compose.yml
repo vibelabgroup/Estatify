@@ -1,9 +1,11 @@
 services:
+  # Frontend (existing)
   app:
     build: .
     container_name: estatify-app
     networks:
       - traefik-proxy
+      - estatify-internal
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
@@ -39,6 +41,151 @@ services:
       # Compression
       - "traefik.http.middlewares.estatify-compress.compress=true"
 
+  # Mail redirect to Hostinger Webmail
+  mail:
+    image: nginx:alpine
+    container_name: estatify-mail
+    restart: unless-stopped
+    networks:
+      - traefik-proxy
+    labels:
+      - "traefik.enable=true"
+      
+      # HTTP Router - redirects to HTTPS
+      - "traefik.http.routers.estatify-mail-http.rule=Host(`mail.estatify.ai`)"
+      - "traefik.http.routers.estatify-mail-http.entrypoints=web"
+      - "traefik.http.routers.estatify-mail-http.middlewares=redirect-to-https"
+      
+      # HTTPS Router - mail subdomain
+      - "traefik.http.routers.estatify-mail.rule=Host(`mail.estatify.ai`)"
+      - "traefik.http.routers.estatify-mail.entrypoints=websecure"
+      - "traefik.http.routers.estatify-mail.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.estatify-mail.tls=true"
+      - "traefik.http.services.estatify-mail.loadbalancer.server.port=80"
+      
+      # Redirect to Hostinger Webmail
+      - "traefik.http.routers.estatify-mail.middlewares=mail-redirect"
+      - "traefik.http.middlewares.mail-redirect.redirectregex.regex=^(.*)$$"
+      - "traefik.http.middlewares.mail-redirect.redirectregex.replacement=https://webmail.hostinger.com/"
+      - "traefik.http.middlewares.mail-redirect.redirectregex.permanent=true"
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: estatify_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: estatify_leads
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/prisma/init:/docker-entrypoint-initdb.d
+    networks:
+      - estatify-internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d estatify_leads"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for Queue
+  redis:
+    image: redis:7-alpine
+    container_name: estatify_redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    networks:
+      - estatify-internal
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: estatify_backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATABASE_URL: postgresql://${DB_USER}:${DB_PASSWORD}@postgres:5432/estatify_leads
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRES_IN: 7d
+      FRONTEND_URL: https://estatify.ai
+      SMTP_HOST: smtp.hostinger.com
+      SMTP_PORT: 465
+      SMTP_SECURE: true
+      SMTP_ACCOUNT_1: ${SMTP_ACCOUNT_1}
+      SMTP_PASSWORD_1: ${SMTP_PASSWORD_1}
+      SMTP_ACCOUNT_2: ${SMTP_ACCOUNT_2}
+      SMTP_PASSWORD_2: ${SMTP_PASSWORD_2}
+      EMAIL_RATE_LIMIT: 50
+      DAILY_EMAIL_LIMIT: 100
+      LOG_LEVEL: info
+    volumes:
+      - ./backend/logs:/app/logs
+      - ./backend/uploads:/app/uploads
+    networks:
+      - traefik-proxy
+      - estatify-internal
+    labels:
+      - "traefik.enable=true"
+      
+      # Backend API Router - /api/* routes
+      - "traefik.http.routers.estatify-api.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.estatify-api.entrypoints=websecure"
+      - "traefik.http.routers.estatify-api.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.estatify-api.tls=true"
+      - "traefik.http.services.estatify-api.loadbalancer.server.port=3000"
+      
+      # Backend UI Router - /backend route
+      - "traefik.http.routers.estatify-backend.rule=Host(`estatify.ai`) && Path(`/backend`)"
+      - "traefik.http.routers.estatify-backend.entrypoints=websecure"
+      - "traefik.http.routers.estatify-backend.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.estatify-backend.tls=true"
+      - "traefik.http.services.estatify-backend.loadbalancer.server.port=3000"
+      
+      # Backend UI with trailing slash
+      - "traefik.http.routers.estatify-backend-slash.rule=Host(`estatify.ai`) && Path(`/backend/`)"
+      - "traefik.http.routers.estatify-backend-slash.entrypoints=websecure"
+      - "traefik.http.routers.estatify-backend-slash.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.estatify-backend-slash.tls=true"
+      - "traefik.http.services.estatify-backend-slash.loadbalancer.server.port=3000"
+      
+      # Health check router
+      - "traefik.http.routers.estatify-health.rule=Host(`estatify.ai`) && Path(`/health`)"
+      - "traefik.http.routers.estatify-health.entrypoints=websecure"
+      - "traefik.http.routers.estatify-health.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.estatify-health.tls=true"
+      - "traefik.http.services.estatify-health.loadbalancer.server.port=3000"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
 networks:
   traefik-proxy:
     external: true
+  estatify-internal:
+    driver: bridge
