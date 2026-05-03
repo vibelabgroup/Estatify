@@ -12,6 +12,9 @@ RUN npm ci && npm cache clean --force
 # Copy source code
 COPY . .
 
+# Generate Prisma client
+RUN npm run prisma:generate
+
 # Build TypeScript
 RUN npm run build
 
