@@ -37,9 +37,6 @@ COPY --from=builder --chown=nodejs:nodejs /app/package.json ./
 COPY --from=builder --chown=nodejs:nodejs /app/start.sh ./
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
-# Install production dependencies only
-RUN npm ci --only=production && npm cache clean --force
-
 # Create necessary directories
 RUN mkdir -p logs uploads && \
     chown -R nodejs:nodejs logs uploads
