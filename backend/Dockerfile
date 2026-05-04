@@ -9,6 +9,9 @@ COPY tsconfig.json ./
 # Install all dependencies (including dev dependencies for build)
 RUN npm ci && npm cache clean --force
 
+# Install ts-node globally for seed script execution
+RUN npm install -g ts-node
+
 # Copy source code
 COPY . .
 
@@ -23,8 +26,8 @@ FROM node:20-alpine AS production
 
 WORKDIR /app
 
-# Install dumb-init and netcat for proper signal handling and connection testing
-RUN apk add --no-cache dumb-init wget netcat-openbsd
+# Install dumb-init, netcat, and OpenSSL for Prisma
+RUN apk add --no-cache dumb-init wget netcat-openbsd openssl
 
 # Create non-root user
 RUN addgroup -g 1001 -S nodejs && \

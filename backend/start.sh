@@ -1,11 +1,8 @@
 #!/bin/sh
 
-# Wait for database to be ready
-echo "Waiting for database to be ready..."
-while ! nc -z postgres 5432; do
-  sleep 1
-done
-echo "Database is ready!"
+# Create database directory if it doesn't exist
+echo "Setting up SQLite database..."
+mkdir -p /app/prisma
 
 # Run database migrations
 echo "Running database migrations..."

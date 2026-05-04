@@ -114,14 +114,12 @@ services:
     container_name: estatify_backend
     restart: unless-stopped
     depends_on:
-      postgres:
-        condition: service_healthy
       redis:
         condition: service_healthy
     environment:
       NODE_ENV: production
       PORT: 3000
-      DATABASE_URL: postgresql://${DB_USER}:${DB_PASSWORD}@postgres:5432/estatify_leads
+      DATABASE_URL: file:./dev.db
       REDIS_URL: redis://redis:6379
       JWT_SECRET: ${JWT_SECRET}
       JWT_EXPIRES_IN: 7d
