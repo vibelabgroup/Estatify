@@ -6,12 +6,12 @@
   },
   "hero": {
     "badge": "Desarrollado con las mejores agencias inmobiliarias españolas",
-    "title": "Vende propiedades con",
-    "titleHighlight": "menos trabajo.",
-    "subtitle": "Estatify pone tus listados, leads y marketing en un solo lugar. Automatización con IA que funciona 24/7 para que puedas concentrarte en cerrar negocios.",
+    "title": "Más propiedades vendidas.",
+    "titleHighlight": "Menos trabajo para tu equipo.",
+    "subtitle": "Haz que tus agentes se centren en cerrar ventas. Listados, leads y marketing, automatizados con IA.",
     "cta": "Comenzar Gratis",
-    "conversionRate": "3x Más Leads",
-    "conversionSubtext": "Aumento promedio de conversión",
+    "conversionRate": "3×Más leads captados",
+    "conversionSubtext": "+40%Tasa de conversión    24/7IA activa siempre",
     "dashboardTitle": "PANEL DE AGENCIA",
     "notifications": {
       "villaTitle": "Villa en Marbella, Málaga",
@@ -21,39 +21,38 @@
       "aiDescriptionText": "\"Retiro exclusivo frente a la playa con vistas panorámicas al Mediterráneo y piscina infinita privada...\"",
       "newLeadCaptured": "Nuevo Cliente Capturado",
       "hotBadge": "Caliente",
-      "newLeadDescription": "Chatbot respondió: \"Permíteme reservar una llamada de seguimiento con uno de nuestros agentes para ti.\"",
+      "newLeadDescription": "Agente: Permíteme reservar una llamada con unos de nuestros agentes disponibles en este momento.",
       "smartMatchingAlert": "Alerta de Coincidencia Inteligente",
-      "highIntentBadge": "Alta Intención",
-      "smartMatchingDescription": "John vio 7 propiedades de 3 habitaciones en Marbella (<€500k). Enviadas 3 coincidencias relevantes.",
+      "highIntentBadge": "Prioridad Alta",
+      "smartMatchingDescription": "John ha visto 7 propiedades de 3 habitaciones en Marbella (<€500.000). Se le han enviado 3 coincidencias relevantes de su búsqueda.",
       "translationComplete": "Traducción Completa",
       "translationDescription": "Listado \"Apartamento Moderno en Mijas\" traducido a alemán, sueco y francés."
     }
   },
   "problem": {
-    "title": "La forma antigua de vender bienes raíces está rota.",
-    "subtitle": "Estás lidiando con herramientas dispersas, mensajes perdidos y administración sin fin. No debería ser tan difícil.",
-    "scatteredListings": "Listados dispersos",
-    "scatteredListingsDesc": "Propiedades dispersas en infinitas hojas de cálculo, haciendo que las actualizaciones sean tediosas y lentas.",
-    "losingLeads": "Perdiendo clientes potenciales",
-    "losingLeadsDesc": "Compradores potenciales que se escapan por las grietas de tu bandeja de entrada abarrotada y mensajes de WhatsApp.",
-    "endlessAdmin": "Administración sin fin",
-    "endlessAdminDesc": "Horas desperdiciadas cada semana en papeleo repetitivo, entrada manual de datos y seguimientos.",
-    "alwaysOnCall": "Siempre disponible",
-    "alwaysOnCallDesc": "Respondiendo las mismas preguntas de compradores a todas horas del día y de la noche.",
-    "blindMarketing": "Marketing a ciegas",
-    "blindMarketingDesc": "Adivinando qué portales y anuncios funcionan en lugar de conocer el ROI real.",
-    "fragmentedTools": "Herramientas fragmentadas",
-    "fragmentedToolsDesc": "Pagando múltiples suscripciones de software que no se conectan, aumentando costos y ralentizándote.",
-    "ctaTitle": "¿Listo para transformar tu negocio inmobiliario?",
-    "ctaSubtitle": "Únete a miles de agentes que han optimizado sus operaciones, cerrado más negocios y recuperado su tiempo con Estatify.",
-    "ctaPrimary": "Reservar Demo",
+    "title": "Automatiza tu gestión y vende más propiedades.",
+    "subtitle": "Así gestiona hoy la mayoría de las agencias inmobiliarias.Propiedades dispersas, clientes sin respuesta y seguimientos que nadie hace. Tu agencia merece trabajar mejor.",
+    "scatteredListings": "Propiedades sin orden",
+    "scatteredListingsDesc": "Cada propiedad en un sitio distinto. Actualizar un precio o una foto consume más tiempo del que debería.",
+    "losingLeads": "Clientes sin atender",
+    "losingLeadsDesc": "Un comprador escribe por WhatsApp, otro por email y otro por el portal. Alguno siempre queda sin respuesta.",
+    "endlessAdmin": "Horas perdidas en papeleo",
+    "endlessAdminDesc": "Seguimientos manuales, datos a mano y tareas repetitivas que quitan tiempo a lo que realmente importa: vender.",
+    "alwaysOnCall": "Consultas sin respuesta fuera de horario",
+    "alwaysOnCallDesc": "Un comprador interesado pregunta a las 22h. Sin respuesta inmediata, al día siguiente ya está hablando con otra agencia.",
+    "blindMarketingDesc": "Publicaciones en Idealista, Fotocasa y Rightmove sin saber cuál tiene mejores compradores ni cuánto te cuesta cada venta.",
+    "fragmentedTools": "Demasiados sistemas sin conexión",
+    "fragmentedToolsDesc": "CRM por un lado, portales por otro y WhatsApp en medio. Ninguna herramienta habla con las demás.",
+    "ctaTitle": "¿Quieres automatizar tu gestión y vender más propiedades?",
+    "ctaSubtitle": "Únete a las agencias inmobiliarias españolas que ya dedican menos tiempo a la gestión y más tiempo a vender.",
+    "ctaPrimary": "Reservar mi demo gratuita",
     "ctaSecondary": "Agendar Llamada",
-    "ctaDisclaimer": "Sin costos de configuración • Demo personalizada • Listo para comenzar"
+    "ctaDisclaimer": "Demo personalizada • Listo para comenzar"
   },
   "features": {
-    "title": "Todo lo que necesitas. ",
+    "title": "Descripciones que enamoran al comprador, generadas en segundos. ",
     "titleHighlight": "Nada que no.",
-    "subtitle": "Una plataforma perfectamente integrada diseñada específicamente para convertir tu agencia inmobiliaria en una máquina bien engrasada.",
+    "subtitle": "Genera descripciones atractivas y optimizadas para buscadores en segundos. Tu equipo dedica ese tiempo a vender, no a redactar.",
     "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
     "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más tratos y escalar sus operaciones sin esfuerzo.",
     "ctaPrimary": "Reserva tu Demo",
@@ -113,15 +112,15 @@
     "disclaimer": "Guía experta • Insights accionables • Listo para optimizar"
   },
   "comparisonCta": {
-    "title": "¿Listo para reemplazar tu conjunto de herramientas?",
-    "subtitle": "Deja de hacer malabares con múltiples plataformas y pagar por características que no funcionan juntas. Obtén todo lo que necesitas en una solución poderosa e integrada.",
+    "title": "¿Tu agencia sigue pagando por herramientas que no se conectan entre sí?",
+    "subtitle": "Todo lo que necesita tu agencia para vender más, en una sola plataforma. Sin suscripciones dispersas, sin procesos duplicados.",
     "primaryButton": "Reservar Demo Completa",
-    "secondaryButton": "Ver Tour de la Plataforma",
-    "disclaimer": "Tour completo • Guía experta • Listo para transformar"
+    "secondaryButton": "Ver cómo funciona",
+    "disclaimer": "Demo personalizada · Sin compromisos · Sin spam"
   },
   "results": {
-    "title": "Resultados Reales Que Puedes Esperar",
-    "subtitle": "Estatify es como contratar un asistente virtual, un analista de marketing y un redactor, pero trabajan 24/7 y nunca toman un día libre.",
+    "title": "Los resultados que otras agencias ya están viendo.",
+    "subtitle": "Estatify trabaja para tu agencia las 24 horas: capta clientes, gestiona listados y hace el seguimiento mientras tu equipo se centra en vender.",
     "stats": {
       "adminWork": "Ahorro en trabajo administrativo",
       "leadsCaptured": "Clientes capturados del sitio web", 
@@ -135,8 +134,8 @@
     }
   },
   "socialProof": {
-    "title": "Confianza de las Principales Agencias",
-    "subtitle": "Ve cómo las agencias inmobiliarias líderes en Costa del Sol están transformando sus operaciones con Estatify.",
+    "title": "Las agencias inmobiliarias líderes en España confían en nosotros",
+    "subtitle": "Esto es lo que consiguen las agencias inmobiliarias españolas: vender más propiedades, atender más clientes y dedicar menos tiempo a la gestión con Estatify.",
     "testimonials": {
       "vunThy": "Desde que integramos Estatify.ai en nuestras operaciones, hemos visto un aumento del 30% en ventas de propiedades. Las descripciones generadas por IA son atractivas y han aumentado significativamente nuestra visibilidad en línea.",
       "marta": "Los resultados hablan por sí mismos: desde que usamos Estatify.ai, nuestras ventas han aumentado un 35%, y nuestras propiedades se venden más rápido que nunca. Lo que realmente me impresionó fue lo fácil que se integró con nuestros sistemas existentes, incluyendo ReSales Online.",
@@ -192,28 +191,28 @@
     }
   },
   "beforeAfter": {
-    "title": "Cómo Cambia Tu Día",
-    "subtitle": "Pasa de disperso y estresado a organizado y eficiente.",
+    "title": "Así cambia el día a día de tu agencia.",
+    "subtitle": "De la dispersión a la organización. De la gestión a la venta.",
     "beforeTitle": "Antes de Estatify",
     "afterTitle": "Con Estatify",
     "before": {
-      "searchSystems": "Buscar en 5 sistemas para verificar propiedades",
-      "rememberLeads": "Intentar recordar qué leads devolver",
-      "writeDescriptions": "Escribir descripciones de propiedades manualmente",
-      "wonderMarketing": "Preguntarse si tu marketing está funcionando",
-      "missInquiries": "Perder consultas porque estás ausente"
+      "searchSystems": "Consultar 5 sistemas distintos para revisar tus propiedades",
+      "rememberLeads": "Intentar recordar a qué clientes tienes que llamar",
+      "writeDescriptions": "Redactar descripciones de propiedades a mano",
+      "wonderMarketing": "Sin saber si tu marketing está funcionando",
+      "missInquiries": "Perder consultas de compradores fuera de horario"
     },
     "after": {
-      "checkDashboard": "Revisar un panel, ver todo instantáneamente",
-      "systemTells": "El sistema te dice a quién llamar y por qué",
-      "generateDescriptions": "Generar descripciones de IA en segundos",
-      "clearReports": "Informes claros muestran lo que realmente funciona",
-      "chatbotCaptures": "El chatbot captura leads mientras duermes"
+      "checkDashboard": "Un solo panel con todo lo que necesitas ver",
+      "systemTells": "El sistema identifica a quién llamar y cuándo",
+      "generateDescriptions": "Descripciones generadas con IA en segundos",
+      "clearReports": "Informes claros sobre qué funciona y qué no",
+      "chatbotCaptures": "Los clientes son atendidos aunque no estés disponible"
     }
   },
   "comparison": {
-    "title": "¿Qué lo hace diferente?",
-    "subtitle": "Deja de unir 5 herramientas diferentes. Obtén todo en un solo lugar.",
+    "title": "¿Qué hace diferente a Estatify?",
+    "subtitle": "Deja de pagar por cinco herramientas que no hablan entre sí. Con Estatify, tu agencia trabaja desde un único sistema conectado.",
     "headers": {
       "whatYouNeed": "Lo que necesitas",
       "otherTools": "Otras herramientas",
@@ -249,10 +248,10 @@
   },
   "analytics": {
     "badge": "Tu Ventaja Injusta",
-    "title": "Deja de Adivinar.",
-    "titleHighlight": "Empieza a Saber.",
-    "subtitle": "Estatify Analytics es como tener un coach de ventas que observa cada visitante de tu sitio web, te dice quién está listo para comprar y te muestra exactamente qué hacer a continuación para cerrar el trato.",
-    "captureTitle": "Lo que Capturamos 24/7",
+    "title": "Deja de adivinar. Empieza a vender con datos.",
+    "titleHighlight": "Estatify analiza el comportamiento de cada comprador en tu web, identifica quién tiene más intención de compra y le dice a tu equipo a quién contactar primero y por qué.",
+    "subtitle": "",
+    "captureTitle": "Lo que Estatify registra las 24 horas",
     "scenariosTitle": "Escenarios del Mundo Real",
     "scenariosSubtitle": "Cómo los datos de comportamiento profundos convierten leads fríos en negocios cerrados.",
     "headers": {
@@ -266,72 +265,72 @@
       "result": "El Resultado"
     },
     "capture": {
-      "visitorSessions": "Sesiones de Visitantes Completas",
-      "visitorSessionsDesc": "Rastrea fuente, dispositivo, tiempo y rutas de navegación completas para saber exactamente de dónde se originan los compradores.",
-      "propertyBehavior": "Comportamiento de Visualización de Propiedades",
-      "propertyBehaviorDesc": "Ve exactamente qué propiedades se ven, tiempo pasado en galerías y visitas de regreso.",
-      "highIntent": "Acciones de Alta Intención",
-      "highIntentDesc": "Captura instantáneamente clics de contacto, favoritos, compartidos y solicitudes de visualización.",
-      "engagementScoring": "Puntuación de Compromiso (0-100)",
-      "engagementScoringDesc": "Puntúa automáticamente cada lead para que sepas exactamente quién está caliente y quién solo está navegando.",
-      "marketIntelligence": "Inteligencia de Mercado en Vivo",
-      "marketIntelligenceDesc": "Monitorea precio promedio/m², oferta vs demanda en zonas específicas y rastrea caídas de precios de competidores.",
-      "journeyMapping": "Mapeo del Viaje del Usuario",
-      "journeyMappingDesc": "Descubre qué campañas publicitarias traen compradores serios vs compradores de ventana para optimizar tu presupuesto."
+      "visitorSessions": "Actividad completa de cada visitante",
+      "visitorSessionsDesc": "Origen, dispositivo, tiempo en la web y el recorrido completo hasta saber de dónde vienen tus compradores.",
+      "propertyBehavior": "Qué propiedades despiertan más interés",
+      "propertyBehaviorDesc": "Qué inmuebles se visitan más, cuánto tiempo pasan en las fotos y cuántas veces vuelven a verlas.",
+      "highIntent": "Señales de compra detectadas",
+      "highIntentDesc": "Clics en contacto, propiedades guardadas, compartidas y solicitudes de visita registradas al instante.",
+      "engagementScoring": "Nivel de interés de cada lead",
+      "engagementScoringDesc": "Estatify puntúa automáticamente cada contacto para que tu equipo sepa a quién llamar primero y quién solo está explorando.",
+      "marketIntelligence": "Datos del mercado en tiempo real",
+      "marketIntelligenceDesc": "Precio medio por m², oferta y demanda por zona y evolución de precios de la competencia, todo actualizado.",
+      "journeyMapping": "De dónde vienen tus compradores",
+      "journeyMappingDesc": "Identifica qué campañas traen compradores con intención real de compra y cuáles solo generan visitas sin resultado."
     },
     "scenarios": {
       "ghostBuyer": {
-        "title": "El Comprador 'Fantasma'",
-        "situation": "Alguien pregunta sobre 'apartamentos en Marbella' con solo un email.",
-        "without": "Envía un email genérico. Sin respuesta.",
-        "with": "Ves que pasaron tiempo en unidades de 2 habitaciones en Puerto Banús (rango ¬300k-¬400k) y vieron opciones de financiamiento. Respondes con tres propiedades altamente específicas y coincidentes.",
-        "result": "Responden en 2 horas. Reservas visitas y cierras en 10 días."
+        "title": "El comprador que no da señales",
+        "situation": "Alguien pregunta por apartamentos en Marbella con solo un email.",
+        "without": "Envías un email genérico. Sin respuesta.",
+        "with": "Ves que visitó 8 veces propiedades de 2 habitaciones en Puerto Banús entre 300.000 € y 400.000 €. Le escribes con tres propiedades que encajan exactamente con su búsqueda.",
+        "result": "Responde en 2 horas. Reserva una visita y firma en 10 días."
       },
       "comparisonShopper": {
-        "title": "El Comprador Comparador",
-        "situation": "Un lead te contacta, pero sabes que está hablando con 5 otros agentes.",
-        "without": "Bajas tu comisión para intentar asegurar el trato.",
-        "with": "Analytics muestra que son sensibles al precio y frecuentemente verifican caídas de precios. Te enfocas completamente en el precio más bajo por m² y ROI.",
-        "result": "Ganas el trato siendo un asesor de confianza, no el agente más barato."
+        "title": "El comprador que habla con todos",
+        "situation": "Un contacto llega interesado, pero está comparando con otras agencias.",
+        "without": "Bajas tu honorario para intentar quedarte con la venta.",
+        "with": "Ves que busca el mejor precio por m² y consulta rentabilidades de alquiler. Le presentamos los datos del mercado y te posicionas como el agente que mejor conoce la zona.",
+        "result": "Ganas la venta sin bajar tus honorarios."
       },
       "sleepyListing": {
-        "title": "El Listado Dormido",
-        "situation": "Una propiedad está 60 días. El vendedor está frustrado.",
-        "without": "Culpas al mercado lento y arriesgas perder el listado.",
-        "with": "Los datos muestran 1,200 vistas pero 80% se fue después de ver el precio. Casas similares vendieron 8% más bajo.",
-        "result": "Presentas datos fríos y duros. El vendedor acepta una pequeña caída de precio. La propiedad se vende en 2 semanas."
+        "title": "La propiedad que no se mueve",
+        "situation": "Un inmueble lleva 60 días publicado. El propietario empieza a perder la confianza.",
+        "without": "Culpas al mercado y arriesgas perder el encargo.",
+        "with": "Ves que tuvo 1.200 visitas pero el 80% salió al ver el precio. Propiedades similares en la zona se vendieron un 8% más baratas.",
+        "result": "Presentas los datos al propietario, ajustan el precio y la propiedad se vende en 2 semanas."
       }
     },
     "comparisons": {
-      "guessBuy": "Adivinar quién podría comprar",
-      "basicTracking": "Rastreo básico de vistas de página",
-      "knowReady": "Saber exactamente quién está listo",
-      "callSame": "Llamar a todos igual",
-      "emailOpens": "Puntuar por aperturas de email",
-      "prioritize": "Priorizar leads calientes primero",
-      "followRandom": "Seguimiento aleatorio",
-      "dripCampaigns": "Campañas de goteo genéricas",
-      "perfectTiming": "Sincroniza tu seguimiento perfectamente",
-      "askWant": "Preguntar '¿qué quieres?'",
-      "knowCategories": "Conocer categorías favorecidas",
-      "alreadyKnow": "Ya saber qué quieren",
-      "hopePricing": "Esperar que tu precio sea correcto",
-      "pastData": "Ver datos vendidos pasados",
-      "marketData": "Precio basado en datos de mercado reales",
-      "wasteMarketing": "Malgastar dinero en mal marketing",
-      "trafficReports": "Reportes de tráfico básicos",
-      "investWorks": "Invertir pesadamente en lo que funciona",
-      "reactChanges": "Reaccionar a cambios del mercado",
-      "spreadsheets": "Proporcionar hojas de cálculo crudas",
-      "predictTrends": "Predecir tendencias antes de que sucedan",
-      "missOpportunities": "Perder oportunidades de caída de precios",
-      "savedSearches": "Búsquedas guardadas manuales",
-      "instantAlerts": "Obtener alertas instantáneas sobre tratos"
+      "guessBuy": "Sin saber quién tiene intención de compra",
+      "basicTracking": "Sin analíticas",
+      "knowReady": "Identifica qué compradores están listos para actuar",
+      "callSame": "Llamas a todos por igual",
+      "emailOpens": "Seguimiento sin criterio",
+      "prioritize": "Sabes a quién llamar primero y por qué",
+      "followRandom": "Seguimiento automático en el momento adecuado",
+      "dripCampaigns": "Ya sabes qué tipo de propiedad le interesa antes de llamar",
+      "perfectTiming": "Precio ajustado a los datos reales del mercado actual",
+      "askWant": "Solo inviertes en lo que trae compradores reales",
+      "knowCategories": "Publicas y esperas a que el precio funcione",
+      "alreadyKnow": "Inviertes en marketing sin saber qué funciona",
+      "hopePricing": "Otros CRM inmobiliarios",
+      "pastData": "Solo registra visitas a la página",
+      "marketData": "Con Estatify",
+      "wasteMarketing": "Puntúa por aperturas de email",
+      "trafficReports": "Envíos masivos sin personalización",
+      "investWorks": "Conoce las categorías visitadas",
+      "reactChanges": "Muestra transacciones pasadas",
+      "spreadsheets": "Informes básicos de tráfico",
+      "predictTrends": "Llamas a todos por igual",
+      "missOpportunities": "Seguimiento sin criterio",
+      "savedSearches": "Preguntas al cliente qué busca",
+      "instantAlerts": "Publicas y esperas a que el precio funcione"
     }
   },
   "cta": {
-    "title": "¿Listo para vender más propiedades?",
-    "subtitle": "Estatify convierte tu sitio web en una máquina de ventas 24/7. Mientras muestras propiedades, duermes o pasas tiempo con tu familia, nosotros nos encargamos del resto.",
+    "title": "¿Listo para vender más propiedades que tu competencia?",
+    "subtitle": "Deja de trabajar a ciegas. Estatify muestra a tu equipo qué compradores tienen intención real de compra y cuándo es el momento de contactarlos.",
     "button": "Reserva tu Demo Gratis",
     "contact": "¿Preguntas? Contáctanos en support@estatify.ai"
   },
@@ -343,7 +342,7 @@
       "demo": "Demo rápida de software",
       "tailored": "Adaptado a tus necesidades",
       "commitment": "Sin compromiso requerido",
-      "onboarding": "Para estar totalmente integrado"
+      "onboarding": "Días para estar totalmente integrado"
     },
     "units": {
       "min": "min",
@@ -380,8 +379,8 @@
     }
   },
   "landingComparison": {
-    "title": "Antes vs Después",
-    "subtitle": "Ve la diferencia entre un listado genérico de portal de propiedades y una página de aterrizaje de alta conversión de Estatify.",
+    "title": "Antes VS después",
+    "subtitle": "Conoce la diferencia entre publicar en un portal y tener tu propia página desde Estatify, que convierte visitas en compradores.",
     "before": {
       "title": "Portal de Propiedades",
       "subtitle": "Diseño genérico basado en plantillas"
