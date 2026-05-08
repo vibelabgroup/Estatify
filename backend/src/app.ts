@@ -47,17 +47,8 @@ app.use(express.urlencoded({ extended: true }));
 // Serve static files for backend UI
 app.use(express.static('public'));
 
-// Backend UI route - serve the admin panel at root for subdomain
+// Backend UI route - serve the admin panel at root for subdomain only
 app.get('/', (_req, res) => {
-  res.sendFile('index.html', { root: 'public' });
-});
-
-// Keep legacy /backend route for backward compatibility
-app.get('/backend', (_req, res) => {
-  res.sendFile('index.html', { root: 'public' });
-});
-
-app.get('/backend/', (_req, res) => {
   res.sendFile('index.html', { root: 'public' });
 });
 
