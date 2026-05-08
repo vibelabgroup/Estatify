@@ -35,9 +35,7 @@ services:
       - "traefik.http.middlewares.estatify-security.headers.browserXssFilter=true"
       - "traefik.http.middlewares.estatify-security.headers.referrerPolicy=same-origin"
       - "traefik.http.middlewares.estatify-security.headers.permissionsPolicy=camera=(), microphone=(), geolocation=()"
-      - "traefik.http.middlewares.estatify-security.headers.stsSeconds=31536000"
-      - "traefik.http.middlewares.estatify-security.headers.stsPreload=true"
-      
+            
       # Compression
       - "traefik.http.middlewares.estatify-compress.compress=true"
 
