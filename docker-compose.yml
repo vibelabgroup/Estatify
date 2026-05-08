@@ -15,11 +15,12 @@ services:
       - "traefik.http.routers.estatify-http.entrypoints=web"
       - "traefik.http.routers.estatify-http.middlewares=redirect-to-https"
       
-      # HTTPS Router - main application
+      # HTTPS Router - main application (exclude backend subdomain)
       - "traefik.http.routers.estatify.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
       - "traefik.http.routers.estatify.entrypoints=websecure"
       - "traefik.http.routers.estatify.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify.tls=true"
+      - "traefik.http.routers.estatify.priority=10"
       # The internal Nginx port exposed by the Dockerfile is 80
       - "traefik.http.services.estatify.loadbalancer.server.port=80"
       
@@ -155,6 +156,7 @@ services:
       - "traefik.http.routers.estatify-backend.entrypoints=websecure"
       - "traefik.http.routers.estatify-backend.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-backend.tls=true"
+      - "traefik.http.routers.estatify-backend.priority=100"
       - "traefik.http.services.estatify-backend.loadbalancer.server.port=3000"
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
