@@ -11,6 +11,7 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.estatify.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
       - "traefik.http.routers.estatify.entrypoints=websecure"
+      - "traefik.http.routers.estatify.tls=true"
       - "traefik.http.routers.estatify.tls.certresolver=letsencrypt"
       - "traefik.http.services.estatify.loadbalancer.server.port=80"
 
