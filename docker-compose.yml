@@ -143,29 +143,22 @@ services:
     labels:
       - "traefik.enable=true"
       
-      # Backend API Router - /api/* routes
+      # Backend API Router - serves both main domain and backend subdomain
       - "traefik.http.routers.estatify-api.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
       - "traefik.http.routers.estatify-api.entrypoints=websecure"
       - "traefik.http.routers.estatify-api.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-api.tls=true"
       - "traefik.http.services.estatify-api.loadbalancer.server.port=3000"
       
-      # Backend UI Router - /backend route
-      - "traefik.http.routers.estatify-backend.rule=Host(`estatify.ai`) && Path(`/backend`)"
+      # Backend UI Router - main backend domain
+      - "traefik.http.routers.estatify-backend.rule=Host(`backend.estatify.ai`)"
       - "traefik.http.routers.estatify-backend.entrypoints=websecure"
       - "traefik.http.routers.estatify-backend.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-backend.tls=true"
       - "traefik.http.services.estatify-backend.loadbalancer.server.port=3000"
       
-      # Backend UI with trailing slash
-      - "traefik.http.routers.estatify-backend-slash.rule=Host(`estatify.ai`) && Path(`/backend/`)"
-      - "traefik.http.routers.estatify-backend-slash.entrypoints=websecure"
-      - "traefik.http.routers.estatify-backend-slash.tls.certresolver=letsencrypt"
-      - "traefik.http.routers.estatify-backend-slash.tls=true"
-      - "traefik.http.services.estatify-backend-slash.loadbalancer.server.port=3000"
-      
       # Health check router
-      - "traefik.http.routers.estatify-health.rule=Host(`estatify.ai`) && Path(`/health`)"
+      - "traefik.http.routers.estatify-health.rule=Host(`backend.estatify.ai`) && Path(`/health`)"
       - "traefik.http.routers.estatify-health.entrypoints=websecure"
       - "traefik.http.routers.estatify-health.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-health.tls=true"
