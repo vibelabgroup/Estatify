@@ -9,35 +9,10 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
-      
-      # HTTP Router - redirects to HTTPS
-      - "traefik.http.routers.estatify-http.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
-      - "traefik.http.routers.estatify-http.entrypoints=web"
-      - "traefik.http.routers.estatify-http.middlewares=redirect-to-https"
-      
-      # HTTPS Router - main application (exclude backend subdomain)
       - "traefik.http.routers.estatify.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
       - "traefik.http.routers.estatify.entrypoints=websecure"
       - "traefik.http.routers.estatify.tls.certresolver=letsencrypt"
-      - "traefik.http.routers.estatify.tls=true"
-      - "traefik.http.routers.estatify.priority=10"
-      # The internal Nginx port exposed by the Dockerfile is 80
       - "traefik.http.services.estatify.loadbalancer.server.port=80"
-      
-      # Redirect middleware (HTTP to HTTPS)
-      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.redirect-to-https.redirectscheme.permanent=true"
-      
-      # Security headers middleware
-      - "traefik.http.routers.estatify.middlewares=estatify-security"
-      - "traefik.http.middlewares.estatify-security.headers.customFrameOptionsValue=SAMEORIGIN"
-      - "traefik.http.middlewares.estatify-security.headers.contentTypeNosniff=true"
-      - "traefik.http.middlewares.estatify-security.headers.browserXssFilter=true"
-      - "traefik.http.middlewares.estatify-security.headers.referrerPolicy=same-origin"
-      - "traefik.http.middlewares.estatify-security.headers.permissionsPolicy=camera=(), microphone=(), geolocation=()"
-            
-      # Compression
-      - "traefik.http.middlewares.estatify-compress.compress=true"
 
   # Mail redirect to Hostinger Webmail
   mail:
