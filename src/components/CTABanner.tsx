@@ -55,7 +55,7 @@ export function CTABanner() {
           </div>
           <div className="flex flex-col items-center">
             <div className="flex items-baseline gap-1 text-5xl sm:text-6xl font-bold text-white mb-3 tracking-tight">
-              1<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.day')}</span>
+              7-10<span className="text-2xl sm:text-3xl text-blue-500 font-bold">{t('ctaBanner.units.day')}</span>
             </div>
             <div className="text-sm text-slate-300 font-medium">{t('ctaBanner.stats.onboarding')}</div>
           </div>

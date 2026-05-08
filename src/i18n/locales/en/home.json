@@ -48,7 +48,7 @@
     "ctaSubtitle": "Join thousands of agents who've streamlined their operations, closed more deals, and reclaimed their time with Estatify.",
     "ctaPrimary": "Book a Demo",
     "ctaSecondary": "Schedule a Call",
-    "ctaDisclaimer": "No setup fees • Personalized demo • Ready to start"
+    "ctaDisclaimer": "Personalized demo • Ready to start"
   },
   "features": {
     "title": "Everything you need. ",
@@ -343,7 +343,7 @@
       "demo": "Quick software demo",
       "tailored": "Tailored to your needs",
       "commitment": "No commitment required",
-      "onboarding": "To be fully onboarded"
+      "onboarding": "Days to be fully onboarded"
     },
     "units": {
       "min": "min",
