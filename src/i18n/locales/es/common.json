@@ -4,10 +4,10 @@
     "references": "Referencias",
     "articles": "Artículos",
     "contact": "Contacto",
-    "bookCall": "Reserva una Llamada Gratis"
+    "bookCall": "Reservar un demo"
   },
   "bookCallModal": {
-    "title": "Reserva una Llamada Gratis",
+    "title": "Reservar mi demo",
     "subtitle": "Programa una demo personalizada con nuestro equipo",
     "firstName": "Nombre",
     "firstNamePlaceholder": "María",

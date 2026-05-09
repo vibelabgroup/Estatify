@@ -1,9 +1,11 @@
 import { motion } from 'motion/react';
 import { AlertCircle, FileText, Frown, MessageSquare, Search, Blocks } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useModal } from '../contexts/ModalContext';
 
 export function ProblemSection() {
   const { t } = useTranslation('home');
+  const { openModal } = useModal();
 
   const problems = [
     {
@@ -100,7 +102,8 @@ export function ProblemSection() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg"
+                onClick={openModal}
+                className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('problem.ctaPrimary')}
               </motion.button>
