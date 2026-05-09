@@ -52,8 +52,8 @@
     "title": "Descripciones que enamoran al comprador, generadas en segundos. ",
     "titleHighlight": "Nada que no.",
     "subtitle": "Genera descripciones atractivas y optimizadas para buscadores en segundos. Tu equipo dedica ese tiempo a vender, no a redactar.",
-    "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
-    "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más tratos y escalar sus operaciones sin esfuerzo.",
+    "ctaTitle": "Tu equipo, listo para vender más propiedades.",
+    "ctaSubtitle": "Las agencias inmobiliarias que trabajan con Estatify venden más propiedades, atienden mejor a sus clientes y dedican menos tiempo a la gestión.",
     "ctaPrimary": "Reserva tu Demo",
     "ctaDisclaimer": "Demo personalizada • Guía experta • Listo para crecer",
     "bento": {
@@ -86,12 +86,12 @@
         "description": "Publica automáticamente tus listados en redes sociales con descripciones y hashtags optimizados."
       },
       "dataDrivenClosing": {
-        "title": "Cierre Basado en Datos",
-        "description": "Las analíticas te dicen exactamente qué leads están calientes y cuándo llamar. Cierra tratos más rápido con inteligencia procesable."
+        "title": "Vende con datos, no con intuición.",
+        "description": "Las analíticas identifican qué compradores tienen más intención de compra y cuándo es el momento de contactarlos. Tu equipo actúa en el momento justo."
       },
       "dominateSearch": {
         "title": "Domina los Rankings de Búsqueda",
-        "description": "Contenido optimizado para SEO y datos estructurados ayudan a tus propiedades a clasificar más alto en los resultados de búsqueda."
+        "description": "Cada listado se publica con contenido optimizado para buscadores. Tus propiedades aparecen antes, tanto en Google como en las búsquedas generadas por inteligencia artificial."
       }
     }
   },
@@ -348,13 +348,12 @@
   },
   "aiDemo": {
     "badge": "Motor de Contenido Potenciado por IA",
-    "title": "De datos crudos a",
-    "titleHighlight": "copias irresistibles.",
-    "subtitle": "Crea automáticamente descripciones atractivas y amigables para SEO para tus listados, ahorrándote horas de tiempo y aumentando la visibilidad en línea.",
+    "title": "Descripciones que enamoran al comprador, generadas en segundos.",
+    "subtitle": "Genera descripciones atractivas y optimizadas para buscadores en segundos. Tu equipo dedica ese tiempo a vender, no a redactar.",
     "without": "Sin Estatify",
     "with": "Con Estatify AI",
     "originalLabel": "Descripción original de propiedad por el vendedor",
-    "optimizedLabel": "Salida Optimizada",
+    "optimizedLabel": "Descripción generada por IA",
     "content": {
       "p1": "Una oportunidad excepcional para adquirir hasta cuatro espacios de garaje cubiertos y espaciosos en la urbanización Residential Alazan muy solicitada.",
       "p2": "Ya seas un residente local buscando estacionamiento seguro o un inversor buscando alto potencial de rendimiento alquiler, estos espacios ofrecen conveniencia suprema y tranquilidad.",
