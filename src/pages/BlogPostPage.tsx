@@ -4,9 +4,11 @@ import { ArrowLeft, Calendar, User, Clock, CheckCircle2 } from 'lucide-react';
 import { useBlogPosts } from '../data/blogPosts';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
+import { useModal } from '../contexts/ModalContext';
 
 export function BlogPostPage() {
   const { t } = useTranslation('blog');
+  const { openModal } = useModal();
   const blogPosts = useBlogPosts();
   const { slug } = useParams<{ slug: string }>();
   const post = blogPosts.find((p) => p.slug === slug);
@@ -108,9 +110,9 @@ export function BlogPostPage() {
               <p className="text-slate-300 font-light mb-6 text-sm">
                 {t('cta.subtitle')}
               </p>
-              <Link to="/contact" className="block w-full py-3 bg-white text-slate-900 text-center rounded-xl font-bold hover:bg-slate-100 transition-colors">
+              <button onClick={openModal} className="block w-full py-3 bg-white text-slate-900 text-center rounded-xl font-bold hover:bg-slate-100 transition-colors">
                 {t('cta.button')}
-              </Link>
+              </button>
             </div>
 
           </div>

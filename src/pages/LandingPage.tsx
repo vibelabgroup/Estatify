@@ -93,7 +93,7 @@ export function LandingPage() {
         jsonLd={structuredData}
       />
       <Hero />
-      <SocialProofSlider />
+      {/* <SocialProofSlider /> */}
       <ProblemSection />
       <ResultsSection />
       <FeatureBento />

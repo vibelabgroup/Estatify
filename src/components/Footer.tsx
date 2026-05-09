@@ -1,9 +1,11 @@
 import { Building2, Twitter, Linkedin, Instagram, Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useModal } from '../contexts/ModalContext';
 import { useTranslation } from 'react-i18next';
 
 export function Footer() {
   const { t } = useTranslation('common');
+  const { openModal } = useModal();
   return (
     <footer className="bg-white pt-20 pb-10 border-t border-slate-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
@@ -48,7 +50,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-slate-500 font-light">
               <li><Link to="/about" className="hover:text-blue-600 transition-colors">{t('footer.aboutUs')}</Link></li>
               <li><Link to="/blog" className="hover:text-blue-600 transition-colors">{t('footer.blog')}</Link></li>
-              <li><Link to="/contact" className="hover:text-blue-600 transition-colors">{t('footer.bookDemo')}</Link></li>
+              <li><button onClick={openModal} className="hover:text-blue-600 transition-colors text-left">{t('footer.bookDemo')}</button></li>
               <li><Link to="/contact" className="hover:text-blue-600 transition-colors">{t('footer.contactUs')}</Link></li>
             </ul>
           </div>

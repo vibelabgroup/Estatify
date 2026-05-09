@@ -47,7 +47,6 @@
     "ctaTitle": "Ready to Transform Your Real Estate Business?",
     "ctaSubtitle": "Join thousands of agents who've streamlined their operations, closed more deals, and reclaimed their time with Estatify.",
     "ctaPrimary": "Book a Demo",
-    "ctaSecondary": "Schedule a Call",
     "ctaDisclaimer": "Personalized demo • Ready to start"
   },
   "features": {
@@ -57,7 +56,6 @@
     "ctaTitle": "Ready to Build Your Real Estate Empire?",
     "ctaSubtitle": "Join thousands of successful agencies using Estatify to dominate their markets, close more deals, and scale their operations effortlessly.",
     "ctaPrimary": "Book Your Demo",
-    "ctaSecondary": "Schedule a Call",
     "ctaDisclaimer": "Personalized demo • Expert guidance • Ready to grow",
     "bento": {
       "allProperties": {
@@ -102,21 +100,18 @@
     "title": "Ready to Transform Your Listings?",
     "subtitle": "Stop settling for generic listings. Create stunning, high-converting landing pages that capture more leads and showcase your properties like never before.",
     "primaryButton": "Build My First Landing Page",
-    "secondaryButton": "See Live Demos",
     "disclaimer": "Personalized demo • Expert guidance • Ready to grow"
   },
   "analyticsCta": {
     "title": "Ready to Outsmart Your Competition?",
     "subtitle": "Stop flying blind. Get the behavioral insights that separate top-performing agents from the rest. Start closing deals with confidence.",
     "primaryButton": "Book Analytics Demo",
-    "secondaryButton": "See Analytics in Action",
     "disclaimer": "Expert guidance • Actionable insights • Ready to optimize"
   },
   "comparisonCta": {
     "title": "Ready to Replace Your Tool Stack?",
     "subtitle": "Stop juggling multiple platforms and paying for features that don't work together. Get everything you need in one powerful, integrated solution.",
     "primaryButton": "Book Full Platform Demo",
-    "secondaryButton": "See Platform Tour",
     "disclaimer": "Complete platform tour • Expert guidance • Ready to transform"
   },
   "results": {

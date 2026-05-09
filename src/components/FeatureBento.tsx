@@ -160,7 +160,7 @@ export function FeatureBento() {
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
               {t('features.ctaSubtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex justify-center items-center">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -168,14 +168,6 @@ export function FeatureBento() {
                 className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('features.ctaPrimary')}
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={openModal}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-slate-900 transition-all duration-200 cursor-pointer"
-              >
-                {t('features.ctaSecondary')}
               </motion.button>
             </div>
             <p className="text-slate-400 text-sm mt-6">

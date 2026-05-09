@@ -202,45 +202,7 @@ export function AnalyticsSection() {
           </div>
         </div>
 
-        {/* CTA Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.6 }}
-          className="mt-20 text-center"
-        >
-          <div className="max-w-4xl mx-auto bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-12 shadow-2xl border border-slate-700">
-            <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              {t('analyticsCta.title')}
-            </h3>
-            <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-              {t('analyticsCta.subtitle')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={openModal}
-                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg cursor-pointer"
-              >
-                {t('analyticsCta.primaryButton')}
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={openModal}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-slate-900 transition-all duration-200 cursor-pointer"
-              >
-                {t('analyticsCta.secondaryButton')}
-              </motion.button>
-            </div>
-            <p className="text-slate-400 text-sm mt-6">
-              {t('analyticsCta.disclaimer')}
-            </p>
-          </div>
-        </motion.div>
-
+        
       </div>
     </section>
   );

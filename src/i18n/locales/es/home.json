@@ -46,7 +46,6 @@
     "ctaTitle": "¿Quieres automatizar tu gestión y vender más propiedades?",
     "ctaSubtitle": "Únete a las agencias inmobiliarias españolas que ya dedican menos tiempo a la gestión y más tiempo a vender.",
     "ctaPrimary": "Reservar mi demo gratuita",
-    "ctaSecondary": "Agendar Llamada",
     "ctaDisclaimer": "Demo personalizada • Listo para comenzar"
   },
   "features": {
@@ -56,7 +55,6 @@
     "ctaTitle": "¿Listo para construir tu imperio inmobiliario?",
     "ctaSubtitle": "Únete a miles de agencias exitosas que usan Estatify para dominar sus mercados, cerrar más tratos y escalar sus operaciones sin esfuerzo.",
     "ctaPrimary": "Reserva tu Demo",
-    "ctaSecondary": "Programa una Llamada",
     "ctaDisclaimer": "Demo personalizada • Guía experta • Listo para crecer",
     "bento": {
       "allProperties": {
@@ -98,24 +96,21 @@
     }
   },
   "designCta": {
-    "title": "¿Listo para transformar tus listados?",
-    "subtitle": "Deja de conformarte con listados genéricos. Crea páginas de aterrizaje impresionantes y de alta conversión que capturen más leads y muestren tus propiedades como nunca antes.",
-    "primaryButton": "Crear Mi Primera Página de Aterrizaje",
-    "secondaryButton": "Ver Demos en Vivo",
-    "disclaimer": "Demo personalizada • Guía experta • Listo para crecer"
+    "title": "Tus propiedades, listas para vender.",
+    "subtitle": "Deja de publicar en portales genéricos. Crea páginas propias para cada propiedad que captan más compradores y muestran lo mejor de cada inmueble.",
+    "primaryButton": "Ver demo en vivo",
+    "disclaimer": "Demo personalizada · Sin compromisos · Sin spam"
   },
   "analyticsCta": {
-    "title": "¿Listo para superar a tu competencia?",
-    "subtitle": "Deja de volar a ciegas. Obtén insights de comportamiento que separan a los agentes de mejor rendimiento del resto. Comienza a cerrar negocios con confianza.",
+    "title": "¿Listo para vender más propiedades que tu competencia?",
+    "subtitle": "Deja de trabajar a ciegas. Estatify muestra a tu equipo qué compradores tienen intención real de compra y cuándo es el momento de contactarlos.",
     "primaryButton": "Reservar Demo de Analytics",
-    "secondaryButton": "Ver Analytics en Acción",
     "disclaimer": "Guía experta • Insights accionables • Listo para optimizar"
   },
   "comparisonCta": {
     "title": "¿Tu agencia sigue pagando por herramientas que no se conectan entre sí?",
     "subtitle": "Todo lo que necesita tu agencia para vender más, en una sola plataforma. Sin suscripciones dispersas, sin procesos duplicados.",
     "primaryButton": "Reservar Demo Completa",
-    "secondaryButton": "Ver cómo funciona",
     "disclaimer": "Demo personalizada · Sin compromisos · Sin spam"
   },
   "results": {
@@ -248,12 +243,12 @@
   },
   "analytics": {
     "badge": "Tu Ventaja Injusta",
-    "title": "Deja de adivinar. Empieza a vender con datos.",
-    "titleHighlight": "Estatify analiza el comportamiento de cada comprador en tu web, identifica quién tiene más intención de compra y le dice a tu equipo a quién contactar primero y por qué.",
-    "subtitle": "",
+    "title": "Deja de adivinar.",
+    "titleHighlight": "Empieza a vender con datos.",
+    "subtitle": "Estatify analiza el comportamiento de cada comprador en tu web, identifica quién tiene más intención de compra y le dice a tu equipo a quién contactar primero y por qué.",
     "captureTitle": "Lo que Estatify registra las 24 horas",
-    "scenariosTitle": "Escenarios del Mundo Real",
-    "scenariosSubtitle": "Cómo los datos de comportamiento profundos convierten leads fríos en negocios cerrados.",
+    "scenariosTitle": "Casos reales de agencias que venden más.",
+    "scenariosSubtitle": "Cómo Estatify identifica qué compradores están listos para comprar y cuándo es el momento de contactarlos.",
     "headers": {
       "without": "Sin Analytics",
       "other": "Otros Softwares",
@@ -303,25 +298,25 @@
     },
     "comparisons": {
       "guessBuy": "Sin saber quién tiene intención de compra",
-      "basicTracking": "Sin analíticas",
-      "knowReady": "Identifica qué compradores están listos para actuar",
-      "callSame": "Llamas a todos por igual",
-      "emailOpens": "Seguimiento sin criterio",
-      "prioritize": "Sabes a quién llamar primero y por qué",
-      "followRandom": "Seguimiento automático en el momento adecuado",
-      "dripCampaigns": "Ya sabes qué tipo de propiedad le interesa antes de llamar",
-      "perfectTiming": "Precio ajustado a los datos reales del mercado actual",
-      "askWant": "Solo inviertes en lo que trae compradores reales",
-      "knowCategories": "Publicas y esperas a que el precio funcione",
-      "alreadyKnow": "Inviertes en marketing sin saber qué funciona",
-      "hopePricing": "Otros CRM inmobiliarios",
-      "pastData": "Solo registra visitas a la página",
-      "marketData": "Con Estatify",
-      "wasteMarketing": "Puntúa por aperturas de email",
-      "trafficReports": "Envíos masivos sin personalización",
-      "investWorks": "Conoce las categorías visitadas",
-      "reactChanges": "Muestra transacciones pasadas",
-      "spreadsheets": "Informes básicos de tráfico",
+      "basicTracking": "Otros CRM inmobiliarios",
+      "knowReady": "Con Estatify",
+      "callSame": "Sin saber quién tiene intención de compra",
+      "emailOpens": "Solo registra visitas a la página",
+      "prioritize": "Identifica qué compradores están listos para actuar",
+      "followRandom": "Llamas a todos por igual",
+      "dripCampaigns": "Puntúa por aperturas de email",
+      "perfectTiming": "Seguimiento sin criterio",
+      "askWant": "Envíos masivos sin personalización",
+      "knowCategories": "Seguimiento automático en el momento adecuado",
+      "alreadyKnow": "Preguntas al cliente qué busca",
+      "hopePricing": "Conoce las categorías visitadas",
+      "pastData": "Ya sabes qué tipo de propiedad le interesa antes de llamar",
+      "marketData": "Publicas y esperas a que el precio funcione",
+      "wasteMarketing": "Muestra transacciones pasadas",
+      "trafficReports": "Precio ajustado a los datos reales del mercado actual",
+      "investWorks": "Inviertes en marketing sin saber qué funciona",
+      "reactChanges": "Informes básicos de tráfico",
+      "spreadsheets": "Solo inviertes en lo que trae compradores reales",
       "predictTrends": "Llamas a todos por igual",
       "missOpportunities": "Seguimiento sin criterio",
       "savedSearches": "Preguntas al cliente qué busca",
@@ -382,11 +377,11 @@
     "title": "Antes VS después",
     "subtitle": "Conoce la diferencia entre publicar en un portal y tener tu propia página desde Estatify, que convierte visitas en compradores.",
     "before": {
-      "title": "Portal de Propiedades",
+      "title": "Página de Aterrizaje",
       "subtitle": "Diseño genérico basado en plantillas"
     },
     "after": {
-      "title": "Página de Aterrizaje Estatify",
+      "title": "Página con Estatify",
       "subtitle": "Diseño personalizado y optimizado para conversión",
       "badge": "Selección Exclusiva",
       "propertyTitle": "Villa de Lujo Moderna",
@@ -397,9 +392,9 @@
         "area": "m²"
       },
       "form": {
-        "description": "Habla directamente con un experto local que conoce esta propiedad por dentro y por fuera.",
+        "description": "Contacta con el agente especialista en esta propiedad.",
         "agentName": "Agente Local",
-        "agentTitle": "Agente de Listado",
+        "agentTitle": "Agente en línea",
         "name": "Tu Nombre",
         "email": "Dirección de Email",
         "phone": "Número de Teléfono"

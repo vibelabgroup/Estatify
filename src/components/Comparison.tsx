@@ -73,7 +73,7 @@ export function Comparison() {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               {t('comparisonCta.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex justify-center items-center">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -81,14 +81,6 @@ export function Comparison() {
                 className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-200 shadow-lg cursor-pointer"
               >
                 {t('comparisonCta.primaryButton')}
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={openModal}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200 cursor-pointer"
-              >
-                {t('comparisonCta.secondaryButton')}
               </motion.button>
             </div>
             <p className="text-blue-200 text-sm mt-6">
