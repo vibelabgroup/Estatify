@@ -9,6 +9,10 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.network=traefik-proxy"
+      - "traefik.http.routers.estatify-http.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
+      - "traefik.http.routers.estatify-http.entrypoints=web"
+      - "traefik.http.routers.estatify-http.middlewares=redirect-to-https"
       - "traefik.http.routers.estatify.rule=Host(`estatify.ai`) || Host(`www.estatify.ai`)"
       - "traefik.http.routers.estatify.entrypoints=websecure"
       - "traefik.http.routers.estatify.tls=true"
@@ -24,6 +28,7 @@ services:
       - traefik-proxy
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.network=traefik-proxy"
       
       # HTTP Router - redirects to HTTPS
       - "traefik.http.routers.estatify-mail-http.rule=Host(`mail.estatify.ai`)"
@@ -116,8 +121,12 @@ services:
       - estatify-internal
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.network=traefik-proxy"
       
       # Backend API Router - serves both main domain and backend subdomain
+      - "traefik.http.routers.estatify-api-http.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.estatify-api-http.entrypoints=web"
+      - "traefik.http.routers.estatify-api-http.middlewares=redirect-to-https"
       - "traefik.http.routers.estatify-api.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
       - "traefik.http.routers.estatify-api.entrypoints=websecure"
       - "traefik.http.routers.estatify-api.tls.certresolver=letsencrypt"
@@ -125,6 +134,9 @@ services:
       - "traefik.http.services.estatify-api.loadbalancer.server.port=3000"
       
       # Backend UI Router - main backend domain (catch all for backend.estatify.ai)
+      - "traefik.http.routers.estatify-backend-http.rule=Host(`backend.estatify.ai`)"
+      - "traefik.http.routers.estatify-backend-http.entrypoints=web"
+      - "traefik.http.routers.estatify-backend-http.middlewares=redirect-to-https"
       - "traefik.http.routers.estatify-backend.rule=Host(`backend.estatify.ai`)"
       - "traefik.http.routers.estatify-backend.entrypoints=websecure"
       - "traefik.http.routers.estatify-backend.tls.certresolver=letsencrypt"
