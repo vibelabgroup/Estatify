@@ -127,20 +127,24 @@ services:
       - "traefik.http.routers.estatify-api-http.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
       - "traefik.http.routers.estatify-api-http.entrypoints=web"
       - "traefik.http.routers.estatify-api-http.middlewares=redirect-to-https"
+      - "traefik.http.routers.estatify-api-http.service=estatify-api"
       - "traefik.http.routers.estatify-api.rule=Host(`estatify.ai`) && PathPrefix(`/api`)"
       - "traefik.http.routers.estatify-api.entrypoints=websecure"
       - "traefik.http.routers.estatify-api.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-api.tls=true"
+      - "traefik.http.routers.estatify-api.service=estatify-api"
       - "traefik.http.services.estatify-api.loadbalancer.server.port=3000"
       
       # Backend UI Router - main backend domain (catch all for backend.estatify.ai)
       - "traefik.http.routers.estatify-backend-http.rule=Host(`backend.estatify.ai`)"
       - "traefik.http.routers.estatify-backend-http.entrypoints=web"
       - "traefik.http.routers.estatify-backend-http.middlewares=redirect-to-https"
+      - "traefik.http.routers.estatify-backend-http.service=estatify-backend"
       - "traefik.http.routers.estatify-backend.rule=Host(`backend.estatify.ai`)"
       - "traefik.http.routers.estatify-backend.entrypoints=websecure"
       - "traefik.http.routers.estatify-backend.tls.certresolver=letsencrypt"
       - "traefik.http.routers.estatify-backend.tls=true"
+      - "traefik.http.routers.estatify-backend.service=estatify-backend"
       - "traefik.http.services.estatify-backend.loadbalancer.server.port=3000"
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
